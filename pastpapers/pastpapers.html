@@ -85,7 +85,18 @@
 </div>
 
 <script>
-  let data = [];
+  const data = [
+    { name: "Math", value: "math", faculty: "science", class: "first" },
+    { name: "Physics", value: "physics", faculty: "science", class: "first" },
+    { name: "Chemistry", value: "chemistry", faculty: "science", class: "second" },
+    { name: "Biology", value: "biology", faculty: "science", class: "second" },
+    { name: "English", value: "english", faculty: "arts", class: "first" },
+    { name: "Urdu", value: "urdu", faculty: "arts", class: "second" },
+    { name: "Islamiat", value: "islamiat", faculty: "arts", class: "first" },
+    { name: "Pak Studies", value: "pakstudies", faculty: "arts", class: "second" },
+    { name: "Economics", value: "economics", faculty: "commerce", class: "second" },
+    { name: "History", value: "history", faculty: "arts", class: "first" }
+  ];
 
   const classFilter = document.getElementById('classFilter');
   const facultyFilter = document.getElementById('facultyFilter');
@@ -117,47 +128,61 @@
   }
 
   function renderCards() {
-  const selectedClass = classFilter.value;
-  const selectedFaculty = facultyFilter.value;
-  const selectedSubject = subjectFilter.value;
+    const selectedClass = classFilter.value;
+    const selectedFaculty = facultyFilter.value;
+    const selectedSubject = subjectFilter.value;
 
-  const filteredSubjects = data.filter(sub =>
-    (selectedClass === 'all' || sub.class === selectedClass) &&
-    (selectedFaculty === 'all' || sub.faculty === selectedFaculty) &&
-    (selectedSubject === 'all' || sub.value === selectedSubject)
-  );
+    const filteredSubjects = data.filter(sub => 
+      (selectedClass === 'all' || sub.class === selectedClass) &&
+      (selectedFaculty === 'all' || sub.faculty === selectedFaculty) &&
+      (selectedSubject === 'all' || sub.value === selectedSubject)
+    );
 
-  papersContainer.innerHTML = '';
+    papersContainer.innerHTML = '';
 
-  filteredSubjects.forEach(sub => {
-    const title = `<h3 class="subject-title">${sub.name} (${sub.class.charAt(0).toUpperCase() + sub.class.slice(1)} Year)</h3>`;
-    const cardHTML = `
-      <div class="row mb-4">
-        <div class="col-md-6">
-          <div class="card custom-card">
-            <div class="card-header">${sub.name} - 2023</div>
-            <div class="card-body">
-              <p class="card-text"><span class="badge bg-primary">Faculty: ${sub.faculty}</span></p>
-              <a href="${sub.papers['2023']}" download class="btn btn-primary">📥 Download Paper</a>
+    filteredSubjects.forEach(sub => {
+      const title = `<h3 class="subject-title">${sub.name} (${sub.class.charAt(0).toUpperCase() + sub.class.slice(1)} Year)</h3>`;
+      const cardHTML = `
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <div class="card custom-card">
+              <div class="card-header">${sub.name} - 2023</div>
+              <div class="card-body">
+                <p class="card-text"><span class="badge bg-primary">Faculty: ${sub.faculty}</span></p>
+                <a href="downloads/${sub.value}_2023.pdf" download class="btn btn-primary">📥 Download Paper</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card custom-card">
+              <div class="card-header">${sub.name} - 2022</div>
+              <div class="card-body">
+                <p class="card-text"><span class="badge bg-primary">Faculty: ${sub.faculty}</span></p>
+                <a href="downloads/${sub.value}_2022.pdf" download class="btn btn-primary">📥 Download Paper</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card custom-card">
-            <div class="card-header">${sub.name} - 2022</div>
-            <div class="card-body">
-              <p class="card-text"><span class="badge bg-primary">Faculty: ${sub.faculty}</span></p>
-              <a href="${sub.papers['2022']}" download class="btn btn-primary">📥 Download Paper</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-    papersContainer.innerHTML += title + cardHTML;
+      `;
+      papersContainer.innerHTML += title + cardHTML;
+    });
+  }
+
+  // Event Listeners
+  classFilter.addEventListener('change', () => {
+    updateSubjectDropdown();
+    renderCards();
   });
-}
+  facultyFilter.addEventListener('change', () => {
+    updateSubjectDropdown();
+    renderCards();
+  });
 
+  subjectFilter.addEventListener('change', renderCards);
+
+  // Initial Load
+  updateSubjectDropdown();
+  renderCards();
 </script>
-
 </body>
 </html>

@@ -15,8 +15,10 @@
     "faculty": "arts",
     "class": "first",
     "papers": {
-      "2023": "downloads/English_Inter_2023.pdf",
-      "2022": "downloads/Eng2022.pdf"
+      "2023": "downloads/Math_First_2023.pdf",
+      "2022": "downloads/Math_First_2022.pdf"
     }
+    
   }
+  
 ]
