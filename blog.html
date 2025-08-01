@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lecture Library (FSc Sindh Board)</title>
+<!-- bootstrap5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    body {
+      background: #001a33;
+      color: #fff;
+      font-family: 'Segoe UI';
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.4);
+    }
+
+    /* .overlay{background:rgba(0,0,50,0.6);position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;} */
+    .container {
+      padding: 50px;
+      max-width: 800px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #00bfff;
+      padding-bottom: 10px;
+    }
+
+    select {
+      background: #003355;
+      color: #fff;
+      border: 1px solid #00bfff;
+      border-radius: 5px;
+      padding: 5px;
+      margin-right: 10px;
+    }
+
+    .card {
+      background: #003a5c;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .card h5 {
+      color: #00d4ff;
+    }
+
+    .card iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="scrolling-line text-center">
+    <div class="scrolling-text">
+      🎓 Get Past Papers, Coding Help, Assignments & Notes – Free for Sindh Board Students!
+    </div>
+  </div>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top px-4">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">
+          <i class="fas fa-graduation-cap me-2"></i>StudentHelp
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="/index.html"><i class="fas fa-home d-block text-center"></i>Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                <i class="fas fa-book-open d-block text-center"></i>Notes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Pre-Medical</a></li>
+                <li><a class="dropdown-item" href="#">Pre-Engineering</a></li>
+                <li><a class="dropdown-item" href="#">Commerce</a></li>
+                <li><a class="dropdown-item" href="#">Arts</a></li>
+                <li><a class="dropdown-item" href="#">Computer Science</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-file-alt d-block text-center"></i>Past Papers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/assignment.html"><i
+                  class="fas fa-tasks d-block text-center"></i>Assignments</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/codinghelp.html"><i class="fas fa-code d-block text-center"></i>Coding Help</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html"><i class="fas fa-envelope d-block text-center"></i>Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html"><i class="fas fa-blog d-block text-center"></i>Blog</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <video autoplay muted loop class="video-bg">
+    <source src="/assests/contact.mp4" type="video/mp4">
+  </video>
+  <div class="overlay"></div>
+
+  <div class="container">
+    <h2 class="text-center heading-animated mb-4 ">FSc Lecture Library (Sindh Board)</h2>
+    <div class="mb-4">
+      <select id="yearSel">
+        <option value="">Select Year</option>
+        <option value="1">1st Year</option>
+        <option value="2">2nd Year</option>
+      </select>
+      <select id="subSel">
+        <option value="">Select Subject</option>
+      </select>
+      <select id="chapSel">
+        <option value="">Select Chapter</option>
+      </select>
+    </div>
+    <div id="lectureList"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- jquery -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    const syllabus = {
+      1: { "Physics": 10, "Chemistry": 8, "Mathematics": 12, "Biology": 14, "English": 4, "Urdu": 14, "Islamiat": 5, "Computer Science": 8 },
+      2: { "Physics": 10, "Chemistry": 8, "Mathematics": 12, "Biology (Zoology)": 13, "English": 4, "Urdu": 14, "Islamiat": 5, "Pak Studies": 4, "Computer Science": 8 }
+    };
+    const youtubeLinks = {
+      "1_Physics_ch1": "https://www.youtube.com/embed/38c3YFCJDJk",
+      "2_Biology (Zoology)_ch1": "https://www.youtube.com/embed/6aLCUh1sbOU",
+      "2_Biology (Zoology)_ch2": "https://youtu.be/r6K4lGVxK9w?si=D5Xhxmru7JP_VvPX",
+      "2_Biology (Zoology)_ch1": "https://www.youtube.com/embed/6aLCUh1sbOU",
+      "2_Biology (Zoology)_ch1": "https://www.youtube.com/embed/6aLCUh1sbOU",
+      "2_Biology (Zoology)_ch1": "https://www.youtube.com/embed/6aLCUh1sbOU",
+      "2_Biology (Zoology)_ch1": "https://www.youtube.com/embed/6aLCUh1sbOU",
+      "2_Biology (Zoology)_ch1": "https://www.youtube.com/embed/6aLCUh1sbOU",
+
+
+    };
+
+    $('#yearSel').on('change', function () {
+      $('#subSel').html('<option value="">Select Subject</option>');
+      $('#chapSel').html('<option value="">Select Chapter</option>');
+      $('#lectureList').empty();
+      let y = this.value;
+      if (syllabus[y]) {
+        Object.keys(syllabus[y]).forEach(sub => {
+          $('#subSel').append(`<option value="${sub}">${sub}</option>`);
+        });
+      }
+    });
+    $('#subSel').on('change', function () {
+      const y = $('#yearSel').val(), sub = this.value;
+      $('#chapSel').html('<option value="">Select Chapter</option>');
+      $('#lectureList').empty();
+      const total = syllabus[y]?.[sub] || 0;
+      for (let i = 1; i <= total; i++) {
+        $('#chapSel').append(`<option value="ch${i}">Chapter ${i}</option>`);
+      }
+    });
+    $('#chapSel').on('change', function () {
+      const y = $('#yearSel').val(), sub = $('#subSel').val(), chap = this.value;
+      $('#lectureList').empty();
+      const key = `${y}_${sub}_${chap}`;
+      let video = youtubeLinks[key];
+      if (video) {
+        $('#lectureList').append(`
+          <div class="card">
+            <h5>${sub} - ${chap} (Year ${y})</h5>
+            <iframe src="${video}" allowfullscreen></iframe>
+          </div>`);
+      } else {
+        $('#lectureList').append(`<div class="card"><h5>${sub} - ${chap}</h5><p>Lecture link not uploaded yet.</p></div>`);
+      }
+    });
+  </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

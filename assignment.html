@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Help - Assignments & MCQs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- bootstrap5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- fontawesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #001f3f;
+      color: white;
+      position: relative;
+
+    }
+
+    video#bgVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      color: #00bfff;
+      text-shadow: 0 0 10px #00bfff;
+    }
+    .filter-buttons {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .filter-buttons button {
+      background-color: #00509e;
+      border: none;
+      padding: 15px 25px;
+      margin: 10px;
+      color: white;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #0077ff;
+    }
+    .section {
+      display: none;
+      margin: 30px auto;
+      max-width: 800px;
+      background: rgba(0,0,50,0.7);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00bfff;
+    }
+    .section.active {
+      display: block;
+    }
+    h2 {
+      color: #00d9ff;
+      text-align: center;
+      font-weight: 600;
+    }
+    .mcq {
+      margin: 20px 0;
+    }
+    .mcq p {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .mcq button {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .correct {
+      background-color: green;
+      color: white;
+    }
+    .incorrect {
+      background-color: red;
+      color: white;
+    }
+    .download-btn {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .download-btn a {
+      background-color: #00bfff;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00bfff;
+    }
+  </style>
+</head>
+<body>
+   <div class="scrolling-line text-center">
+    <div class="scrolling-text">
+      🎓 Get Past Papers, Coding Help, Assignments & Notes – Free for Sindh Board Students!
+    </div>
+  </div>
+  <header>
+   
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top px-4">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">
+      <i class="fas fa-graduation-cap me-2"></i>StudentHelp
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="/index.html"><i class="fas fa-home d-block text-center"></i>Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            <i class="fas fa-book-open d-block text-center"></i>Notes
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Pre-Medical</a></li>
+            <li><a class="dropdown-item" href="#">Pre-Engineering</a></li>
+            <li><a class="dropdown-item" href="#">Commerce</a></li>
+            <li><a class="dropdown-item" href="#">Arts</a></li>
+            <li><a class="dropdown-item" href="#">Computer Science</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-file-alt d-block text-center"></i>Past Papers</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/assignment.html"><i class="fas fa-tasks d-block text-center"></i>Assignments</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/codinghelp.html"><i class="fas fa-code d-block text-center"></i>Coding Help</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html"><i class="fas fa-envelope d-block text-center"></i>Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/blog.html"><i class="fas fa-blog d-block text-center"></i>Blog</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </header>
+  <video autoplay muted loop id="bgVideo">
+    <source src="/assests/contact.mp4" type="video/mp4">
+  </video>
+
+  <h1 style="margin-top: 120px;">Student Help - Assignments & MCQs</h1>
+
+  <div class="filter-buttons">
+    <button onclick="filterContent('html')">HTML</button>
+    <button onclick="filterContent('css')">CSS</button>
+    <button onclick="filterContent('bootstrap')">Bootstrap</button>
+    <button onclick="filterContent('javascript')">JavaScript</button>
+    <button onclick="filterContent('jquery')">jQuery</button>
+  </div>
+
+  <div id="html" class="section active">
+    <h2>HTML Assignment</h2>
+    <div class="download-btn"><a href="/downloads/html-assignment.docx" download>Download Assignment (Word)</a></div>
+    <div id="html-mcqs">
+      <div class="mcq"><p>1. What does HTML stand for?</p><button onclick="check(this, true)">HyperText Markup Language</button><button onclick="check(this, false)">HyperText Machine Language</button></div>
+      <div class="mcq"><p>2. Which tag is used for line breaks?</p><button onclick="check(this, true)">&lt;br&gt;</button><button onclick="check(this, false)">&lt;lb&gt;</button></div>
+      <div class="mcq"><p>3. Which tag is used for inserting an image?</p><button onclick="check(this, true)">&lt;img&gt;</button><button onclick="check(this, false)">&lt;image&gt;</button></div>
+      <div class="mcq"><p>4. HTML files are saved with which extension?</p><button onclick="check(this, true)">.html</button><button onclick="check(this, false)">.htmll</button></div>
+      <div class="mcq"><p>5. Which tag is used to create a hyperlink?</p><button onclick="check(this, true)">&lt;a&gt;</button><button onclick="check(this, false)">&lt;link&gt;</button></div>
+    </div>
+  </div>
+
+  <div id="css" class="section">
+    <h2>CSS Assignment</h2>
+    <div class="download-btn"><a href="/downloads/css-assignment.docx" download>Download Assignment (Word)</a></div>
+    <div id="css-mcqs">
+      <div class="mcq"><p>1. What does CSS stand for?</p><button onclick="check(this, true)">Cascading Style Sheets</button><button onclick="check(this, false)">Creative Style System</button></div>
+      <div class="mcq"><p>2. Which CSS property is used to change text color?</p><button onclick="check(this, true)">color</button><button onclick="check(this, false)">font-color</button></div>
+      <div class="mcq"><p>3. Which is the correct CSS syntax?</p><button onclick="check(this, true)">body {color: black;}</button><button onclick="check(this, false)">{body;color:black;}</button></div>
+      <div class="mcq"><p>4. How do you add a background color in CSS?</p><button onclick="check(this, true)">background-color: blue;</button><button onclick="check(this, false)">color-background: blue;</button></div>
+      <div class="mcq"><p>5. How to select an element with id 'main'?</p><button onclick="check(this, true)">#main</button><button onclick="check(this, false)">.main</button></div>
+    </div>
+  </div>
+
+  <div id="bootstrap" class="section">
+    <h2>Bootstrap Assignment</h2>
+    <div class="download-btn"><a href="/downloads/bootstrap-assignment.docx" download>Download Assignment (Word)</a></div>
+    <div id="bootstrap-mcqs">
+      <div class="mcq"><p>1. What is Bootstrap?</p><button onclick="check(this, true)">A CSS framework</button><button onclick="check(this, false)">A JavaScript library</button></div>
+      <div class="mcq"><p>2. What class makes a button blue in Bootstrap?</p><button onclick="check(this, true)">btn-primary</button><button onclick="check(this, false)">btn-blue</button></div>
+      <div class="mcq"><p>3. What is the container class used for?</p><button onclick="check(this, true)">To center and pad content</button><button onclick="check(this, false)">To add animations</button></div>
+      <div class="mcq"><p>4. Which class creates a responsive grid?</p><button onclick="check(this, true)">row</button><button onclick="check(this, false)">grid</button></div>
+      <div class="mcq"><p>5. How do you include Bootstrap in a page?</p><button onclick="check(this, true)">Via CDN link</button><button onclick="check(this, false)">With a .js file only</button></div>
+    </div>
+  </div>
+
+  <div id="javascript" class="section">
+    <h2>JavaScript Assignment</h2>
+    <div class="download-btn"><a href="/downloads/javascript-assignment.docx" download>Download Assignment (Word)</a></div>
+    <div id="javascript-mcqs">
+      <div class="mcq"><p>1. What is JavaScript used for?</p><button onclick="check(this, true)">Web interactivity</button><button onclick="check(this, false)">Styling web pages</button></div>
+      <div class="mcq"><p>2. Which symbol is used for comments in JS?</p><button onclick="check(this, true)">//</button><button onclick="check(this, false)">##</button></div>
+      <div class="mcq"><p>3. How do you declare a variable?</p><button onclick="check(this, true)">let x;</button><button onclick="check(this, false)">variable x;</button></div>
+      <div class="mcq"><p>4. What is 'typeof' used for?</p><button onclick="check(this, true)">Check variable type</button><button onclick="check(this, false)">Check string length</button></div>
+      <div class="mcq"><p>5. What keyword stops a loop?</p><button onclick="check(this, true)">break</button><button onclick="check(this, false)">exit</button></div>
+    </div>
+  </div>
+
+  <div id="jquery" class="section">
+    <h2>jQuery Assignment</h2>
+    <div class="download-btn"><a href="/downloads/jquery-assignment.docx" download>Download Assignment (Word)</a></div>
+    <div id="jquery-mcqs">
+      <div class="mcq"><p>1. jQuery is a...</p><button onclick="check(this, true)">JavaScript library</button><button onclick="check(this, false)">CSS framework</button></div>
+      <div class="mcq"><p>2. How to select elements in jQuery?</p><button onclick="check(this, true)">$("selector")</button><button onclick="check(this, false)">query(selector)</button></div>
+      <div class="mcq"><p>3. What does $(document).ready() do?</p><button onclick="check(this, true)">Runs code after DOM loads</button><button onclick="check(this, false)">Checks if user is online</button></div>
+      <div class="mcq"><p>4. jQuery method to hide elements?</p><button onclick="check(this, true)">.hide()</button><button onclick="check(this, false)">.disappear()</button></div>
+      <div class="mcq"><p>5. jQuery file ends with?</p><button onclick="check(this, true)">.js</button><button onclick="check(this, false)">.jq</button></div>
+    </div>
+  </div>
+
+  <script>
+    function filterContent(id) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+
+    function check(button, isCorrect) {
+      const buttons = button.parentElement.querySelectorAll('button');
+      buttons.forEach(btn => {
+        btn.disabled = true;
+      });
+      if (isCorrect) {
+        button.classList.add('correct');
+      } else {
+        button.classList.add('incorrect');
+      }
+    }
+  </script>
+
+  <!-- bootstrap js bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
