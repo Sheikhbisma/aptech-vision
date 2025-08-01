@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Past Papers - Filtered Cards</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intermediate Past Papers</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     .custom-card {
       border: none;
-      border-radius: 15px;
+      border-radius: 20px;
       transition: all 0.3s ease-in-out;
       overflow: hidden;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+      min-height: 250px;
     }
-
     .custom-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+      transform: scale(1.06);
+      box-shadow: 0 18px 36px rgba(0, 0, 0, 0.2);
     }
-
     .card-header {
       background-color: #0d6efd;
       color: white;
-      font-size: 1.3rem;
-      padding: 15px;
-      font-weight: 600;
+      font-size: 1.5rem;
+      padding: 20px;
+      font-weight: bold;
     }
-
     .card-body {
-      padding: 25px;
-      font-size: 1.1rem;
+      padding: 30px;
+      font-size: 1.2rem;
     }
-
-    .card-text {
-      margin-bottom: 15px;
-    }
-
     .btn-primary {
       font-size: 1rem;
-      padding: 10px 20px;
+      padding: 12px 25px;
     }
-
-    /* Optional: color badges for faculties */
-    .badge-faculty {
-      font-size: 0.85rem;
-      background-color: #6c757d;
+    .subject-title {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #333;
+      margin-top: 30px;
+      border-left: 5px solid #0d6efd;
+      padding-left: 15px;
+    }
+    @media (max-width: 768px) {
+      .card-header {
+        font-size: 1.3rem;
+      }
+      .card-body {
+        font-size: 1rem;
+        padding: 20px;
+      }
     }
   </style>
 </head>
 <body>
-
 <div class="container py-5">
-  <h2 class="text-center mb-4">📚 Past Papers Archive</h2>
+  <h2 class="text-center mb-5">📚 Intermediate Past Papers Archive</h2>
 
   <!-- Filters -->
   <div class="row mb-4">
-    <div class="col-md-6">
+    <div class="col-md-4 mb-2">
+      <select id="classFilter" class="form-select">
+        <option value="all">Filter by Class</option>
+        <option value="first">First Year</option>
+        <option value="second">Second Year</option>
+      </select>
+    </div>
+    <div class="col-md-4 mb-2">
       <select id="facultyFilter" class="form-select">
         <option value="all">Filter by Faculty</option>
         <option value="science">Science</option>
@@ -63,81 +73,117 @@
         <option value="commerce">Commerce</option>
       </select>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4 mb-2">
       <select id="subjectFilter" class="form-select">
         <option value="all">Filter by Subject</option>
-        <option value="math">Math</option>
-        <option value="physics">Physics</option>
-        <option value="economics">Economics</option>
-        <option value="history">History</option>
       </select>
     </div>
   </div>
 
-  <!-- Cards -->
-  <div class="row" id="cardsContainer">
-
-    <!-- Card 1 -->
-    <div class="col-md-4 mb-4 card-item" data-faculty="science" data-subject="math">
-      <div class="card custom-card">
-        <div class="card-header">Math - 2023</div>
-        <div class="card-body">
-          <p class="card-text"><span class="badge bg-primary">Faculty: Science</span></p>
-          <a href="#" class="btn btn-primary">📥 Download Paper</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="col-md-4 mb-4 card-item" data-faculty="science" data-subject="physics">
-      <div class="card custom-card">
-        <div class="card-header">Physics - 2022</div>
-        <div class="card-body">
-          <p class="card-text"><span class="badge bg-primary">Faculty: Science</span></p>
-          <a href="#" class="btn btn-primary">📥 Download Paper</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="col-md-4 mb-4 card-item" data-faculty="arts" data-subject="history">
-      <div class="card custom-card">
-        <div class="card-header">History - 2021</div>
-        <div class="card-body">
-          <p class="card-text"><span class="badge bg-danger">Faculty: Arts</span></p>
-          <a href="#" class="btn btn-primary">📥 Download Paper</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Add more cards as needed -->
-
-  </div>
+  <!-- Papers Container -->
+  <div id="papersContainer"></div>
 </div>
 
 <script>
+  const data = [
+    { name: "Math", value: "math", faculty: "science", class: "first" },
+    { name: "Physics", value: "physics", faculty: "science", class: "first" },
+    { name: "Chemistry", value: "chemistry", faculty: "science", class: "second" },
+    { name: "Biology", value: "biology", faculty: "science", class: "second" },
+    { name: "English", value: "english", faculty: "arts", class: "first" },
+    { name: "Urdu", value: "urdu", faculty: "arts", class: "second" },
+    { name: "Islamiat", value: "islamiat", faculty: "arts", class: "first" },
+    { name: "Pak Studies", value: "pakstudies", faculty: "arts", class: "second" },
+    { name: "Economics", value: "economics", faculty: "commerce", class: "second" },
+    { name: "History", value: "history", faculty: "arts", class: "first" }
+  ];
+
+  const classFilter = document.getElementById('classFilter');
   const facultyFilter = document.getElementById('facultyFilter');
   const subjectFilter = document.getElementById('subjectFilter');
-  const cards = document.querySelectorAll('.card-item');
+  const papersContainer = document.getElementById('papersContainer');
 
-  function filterCards() {
+  function getFilteredSubjects() {
+    const selectedClass = classFilter.value;
     const selectedFaculty = facultyFilter.value;
-    const selectedSubject = subjectFilter.value;
 
-    cards.forEach(card => {
-      const cardFaculty = card.getAttribute('data-faculty');
-      const cardSubject = card.getAttribute('data-subject');
+    return data.filter(sub => 
+      (selectedClass === 'all' || sub.class === selectedClass) &&
+      (selectedFaculty === 'all' || sub.faculty === selectedFaculty)
+    );
+  }
 
-      const showFaculty = selectedFaculty === 'all' || selectedFaculty === cardFaculty;
-      const showSubject = selectedSubject === 'all' || selectedSubject === cardSubject;
+  function updateSubjectDropdown() {
+    const filtered = getFilteredSubjects();
+    subjectFilter.innerHTML = `<option value="all">Filter by Subject</option>`;
+    const uniqueSubjects = [...new Set(filtered.map(sub => sub.name))];
 
-      card.style.display = (showFaculty && showSubject) ? 'block' : 'none';
+    uniqueSubjects.forEach(name => {
+      const sub = filtered.find(s => s.name === name);
+      const opt = document.createElement('option');
+      opt.value = sub.value;
+      opt.textContent = sub.name;
+      subjectFilter.appendChild(opt);
     });
   }
 
-  facultyFilter.addEventListener('change', filterCards);
-  subjectFilter.addEventListener('change', filterCards);
-</script>
+  function renderCards() {
+    const selectedClass = classFilter.value;
+    const selectedFaculty = facultyFilter.value;
+    const selectedSubject = subjectFilter.value;
 
+    const filteredSubjects = data.filter(sub => 
+      (selectedClass === 'all' || sub.class === selectedClass) &&
+      (selectedFaculty === 'all' || sub.faculty === selectedFaculty) &&
+      (selectedSubject === 'all' || sub.value === selectedSubject)
+    );
+
+    papersContainer.innerHTML = '';
+
+    filteredSubjects.forEach(sub => {
+      const title = `<h3 class="subject-title">${sub.name} (${sub.class.charAt(0).toUpperCase() + sub.class.slice(1)} Year)</h3>`;
+      const cardHTML = `
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <div class="card custom-card">
+              <div class="card-header">${sub.name} - 2023</div>
+              <div class="card-body">
+                <p class="card-text"><span class="badge bg-primary">Faculty: ${sub.faculty}</span></p>
+                <a href="downloads/${sub.value}_2023.pdf" download class="btn btn-primary">📥 Download Paper</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card custom-card">
+              <div class="card-header">${sub.name} - 2022</div>
+              <div class="card-body">
+                <p class="card-text"><span class="badge bg-primary">Faculty: ${sub.faculty}</span></p>
+                <a href="downloads/${sub.value}_2022.pdf" download class="btn btn-primary">📥 Download Paper</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      papersContainer.innerHTML += title + cardHTML;
+    });
+  }
+
+  // Event Listeners
+  classFilter.addEventListener('change', () => {
+    updateSubjectDropdown();
+    renderCards();
+  });
+
+  facultyFilter.addEventListener('change', () => {
+    updateSubjectDropdown();
+    renderCards();
+  });
+
+  subjectFilter.addEventListener('change', renderCards);
+
+  // Initial Load
+  updateSubjectDropdown();
+  renderCards();
+</script>
 </body>
 </html>

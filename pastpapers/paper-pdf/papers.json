@@ -1,0 +1,37 @@
+[
+  {
+    "subject": "Math",
+    "subjectKey": "math",
+    "faculty": "science",
+    "year": 2023,
+    "file": "math_2023.pdf"
+  },
+  {
+    "subject": "Math",
+    "subjectKey": "math",
+    "faculty": "science",
+    "year": 2022,
+    "file": "math_2022.pdf"
+  },
+  {
+    "subject": "Urdu",
+    "subjectKey": "urdu",
+    "faculty": "arts",
+    "year": 2023,
+    "file": "urdu_2023.pdf"
+  },
+  {
+    "subject": "Physics",
+    "subjectKey": "physics",
+    "faculty": "science",
+    "year": 2022,
+    "file": "physics_2022.pdf"
+  },
+  {
+    "subject": "Economics",
+    "subjectKey": "economics",
+    "faculty": "commerce",
+    "year": 2021,
+    "file": "economics_2021.pdf"
+  }
+]
