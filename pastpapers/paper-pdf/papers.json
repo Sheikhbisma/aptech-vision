@@ -1,37 +1,22 @@
 [
   {
-    "subject": "Math",
-    "subjectKey": "math",
+    "name": "Math",
+    "value": "math",
     "faculty": "science",
-    "year": 2023,
-    "file": "math_2023.pdf"
+    "class": "first",
+    "papers": {
+      "2023": "downloads/Math_First_2023.pdf",
+      "2022": "downloads/Math_First_2022.pdf"
+    }
   },
   {
-    "subject": "Math",
-    "subjectKey": "math",
-    "faculty": "science",
-    "year": 2022,
-    "file": "math_2022.pdf"
-  },
-  {
-    "subject": "Urdu",
-    "subjectKey": "urdu",
+    "name": "English",
+    "value": "english",
     "faculty": "arts",
-    "year": 2023,
-    "file": "urdu_2023.pdf"
-  },
-  {
-    "subject": "Physics",
-    "subjectKey": "physics",
-    "faculty": "science",
-    "year": 2022,
-    "file": "physics_2022.pdf"
-  },
-  {
-    "subject": "Economics",
-    "subjectKey": "economics",
-    "faculty": "commerce",
-    "year": 2021,
-    "file": "economics_2021.pdf"
+    "class": "first",
+    "papers": {
+      "2023": "downloads/English_Inter_2023.pdf",
+      "2022": "downloads/Eng2022.pdf"
+    }
   }
 ]
