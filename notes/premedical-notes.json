@@ -109,98 +109,266 @@
     "link": "notes/1st-bio-ch1.pdf"
   },
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 2",
-    "title": "Biological Molecules",
+    "title": "Support And Movement",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 3",
-    "title": "Enzymes",
+    "title": "Nervous Coordination",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 4",
-    "title": "The Cell",
+    "title": "Chemical Coordination",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
-    "chapter": "Variety Of Life",
-    "title": "Organic Chemistry",
+    "chapter": "Chapter 5",
+    "title": "Animal Behaviour",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 6",
-    "title": "Bacteria",
+    "title": "Reproduction",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 7",
-    "title": "Kingdom Protoctista",
+    "title": "Development And Aging",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 8",
-    "title": "Kingdom Fungi",
+    "title": "Chromosomes And DNA",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 9",
-    "title": "Kingdom PLantae",
+    "title": "Inheritance",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 10",
-    "title": "Kingdom Animalia",
+    "title": "Evolution",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
+    "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 11",
-    "title": "Bio Energetics",
+    "title": "Man And His Environment",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
     "class": "1st Year",
-    "subject": "Biology",
+    "subject": "Chemistry",
+    "chapter": "Chapter 1",
+    "title": "Stoichiometry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 2",
+    "title": "Atomic Structure",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 1",
+    "title": "Stoichiometry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 2",
+    "title": "Atomic Structure",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 1",
+    "title": "Stoichiometry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 2",
+    "title": "Atomic Structure",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 1",
+    "title": "Stoichiometry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 2",
+    "title": "Atomic Structure",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 1",
+    "title": "Stoichiometry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 2",
+    "title": "Atomic Structure",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 1",
+    "title": "Stoichiometry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 2",
+    "title": "Atomic Structure",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 3",
+    "title": "Theories Of Covalent Bonding And Shapes Of Molecules",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 4",
+    "title": "States Of Matter l:Gases",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 5",
+    "title": "States Of Matter ll:Liquids",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 6",
+    "title": "States Of Matter lll:Solids",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 7",
+    "title": "Chemical Equilibrium",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 8",
+    "title": "Acids,Bases And Salts",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 9",
+    "title": "Chemical Kinetics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 10",
+    "title": "Solution And Colloids",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 11",
+    "title": "Thermochemistry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Chemistry",
     "chapter": "Chapter 12",
-    "title": "Nutrition",
+    "title": "Electrochemistry",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
-    "class": "1st Year",
-    "subject": "Biology",
-    "chapter": "Chapter 13",
-    "title": "Nutrition",
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 12",
+    "title": "Electrochemistry",
     "link": "notes/2nd-chem-ch3.pdf"
   }
 ]
