@@ -10,7 +10,7 @@
     "class": "1st Year",
     "subject": "Biology",
     "chapter": "Chapter 2",
-    "title": "Organic Chemistry",
+    "title": "Biological Molecules",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
@@ -18,7 +18,7 @@
     "class": "1st Year",
     "subject": "Biology",
     "chapter": "Chapter 3",
-    "title": "Organic Chemistry",
+    "title": "Enzymes",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
@@ -26,14 +26,14 @@
     "class": "1st Year",
     "subject": "Biology",
     "chapter": "Chapter 4",
-    "title": "Organic Chemistry",
+    "title": "The Cell",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
     "class": "1st Year",
     "subject": "Biology",
-    "chapter": "Chapter 5",
+    "chapter": "Variety Of Life",
     "title": "Organic Chemistry",
     "link": "notes/2nd-chem-ch3.pdf"
   }
@@ -42,7 +42,7 @@
     "class": "1st Year",
     "subject": "Biology",
     "chapter": "Chapter 6",
-    "title": "Organic Chemistry",
+    "title": "Bacteria",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
@@ -50,7 +50,7 @@
     "class": "1st Year",
     "subject": "Biology",
     "chapter": "Chapter 7",
-    "title": "Organic Chemistry",
+    "title": "Kingdom Protoctista",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
@@ -58,7 +58,7 @@
     "class": "1st Year",
     "subject": "Biology",
     "chapter": "Chapter 8",
-    "title": "Organic Chemistry",
+    "title": "Kingdom Fungi",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
@@ -66,7 +66,7 @@
     "class": "1st Year",
     "subject": "Biology",
     "chapter": "Chapter 9",
-    "title": "Organic Chemistry",
+    "title": "Kingdom PLantae",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
@@ -74,7 +74,133 @@
     "class": "1st Year",
     "subject": "Biology",
     "chapter": "Chapter 10",
+    "title": "Kingdom Animalia",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 11",
+    "title": "Bio Energetics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 12",
+    "title": "Nutrition",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 13",
+    "title": "Nutrition",
+    "link": "notes/2nd-chem-ch3.pdf"
+  },
+  {
+    "class": "2nd Year",
+    "subject": "Biology",
+    "chapter": "Chapter 1",
+    "title": "Homeostasis",
+    "link": "notes/1st-bio-ch1.pdf"
+  },
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 2",
+    "title": "Biological Molecules",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 3",
+    "title": "Enzymes",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 4",
+    "title": "The Cell",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Variety Of Life",
     "title": "Organic Chemistry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 6",
+    "title": "Bacteria",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 7",
+    "title": "Kingdom Protoctista",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 8",
+    "title": "Kingdom Fungi",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 9",
+    "title": "Kingdom PLantae",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 10",
+    "title": "Kingdom Animalia",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 11",
+    "title": "Bio Energetics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 12",
+    "title": "Nutrition",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Biology",
+    "chapter": "Chapter 13",
+    "title": "Nutrition",
     "link": "notes/2nd-chem-ch3.pdf"
   }
 ]
