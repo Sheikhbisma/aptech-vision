@@ -9,12 +9,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
   <link rel="stylesheet" href="/style.css">
   <style>
     body {
   background-color: white;
   font-family: 'Segoe UI', sans-serif;
   color: #000;
+}
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  
 }
 
 /* Cup on Plate */
@@ -139,16 +151,16 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
         <li class="nav-item">
-          <a class="nav-link active" href="/index.html"><i class="fas fa-home d-block text-center"></i>Home</a>
+          <a class="nav-link " href="/index.html"><i class="fas fa-home d-block text-center"></i>Home</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
             <i class="fas fa-book-open d-block text-center"></i>Notes
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/notes/1.html">Pre-Medical</a></li>
-            <li><a class="dropdown-item" href="/notes/engineer.html">Pre-Engineering</a></li>
+            <li><a class="dropdown-item" href="/notes/medical.html">Pre-Medical</a></li>
+            <li><a class="dropdown-item active" href="/notes/engineer.html">Pre-Engineering</a></li>
             <li><a class="dropdown-item" href="/notes/commerce.html">Commerce</a></li>
             <li><a class="dropdown-item" href="/notes/arts.html">Arts</a></li>
             <li><a class="dropdown-item" href="/notes/cs.html">Computer Science</a></li>
@@ -180,6 +192,9 @@
   </div>
 </nav>
   </header>
+<video autoplay muted loop id="bgVideo">
+  <source src="/notes/8631661-hd_1920_1080_24fps (1).mp4" type="video/mp4">
+</video>
 
   <!-- Cup on Plate Heading -->
   <div class="cup-plate-container" style="margin-top: 200px;">

@@ -188,86 +188,7 @@
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 1",
-    "title": "Stoichiometry",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 2",
-    "title": "Atomic Structure",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 1",
-    "title": "Stoichiometry",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 2",
-    "title": "Atomic Structure",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 1",
-    "title": "Stoichiometry",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 2",
-    "title": "Atomic Structure",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 1",
-    "title": "Stoichiometry",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 2",
-    "title": "Atomic Structure",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 1",
-    "title": "Stoichiometry",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 2",
-    "title": "Atomic Structure",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
+  
   {
     "class": "1st Year",
     "subject": "Chemistry",
@@ -650,19 +571,228 @@
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
+  
   {
-    "class": "2nd Year",
-    "subject": "PST",
+    "class": "1st Year",
+    "subject": "Physics",
     "chapter": "Chapter 1",
-    "title": "Establishmemnt Of An Islamic State",
+    "title": "Measurement",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 2",
+    "title": "Kinamatics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 3",
+    "title": "Dynamics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 4",
+    "title": "Rotational And Circular Motion",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 5",
+    "title": "Work, Energy And Power",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 6",
+    "title": "Fluid Statics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 7",
+    "title": "Fluid Dynamics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 8",
+    "title": "Electric Fields",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 9",
+    "title": "Capacitors",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 10",
+    "title": "D.C Circuits",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 11",
+    "title": "Oscillations",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 12",
+    "title": "Acoustics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 13",
+    "title": "Physical Optics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "Physics",
+    "chapter": "Chapter 14",
+    "title": "Communication",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
   {
     "class": "2nd Year",
-    "subject": "PST",
+    "subject": "Physics",
     "chapter": "Chapter 1",
-    "title": "Establishmemnt Of An Islamic State",
+    "title": "Molecular Theory Of Gases",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 2",
+    "title": "First Law Of Thermodynamics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 3",
+    "title": "Second Law Of Thermodynamics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 4",
+    "title": "Magnetic Fields",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 5",
+    "title": "Electromagnetic Induction",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 6",
+    "title": "Alternating Current",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 7",
+    "title": "Physics Of Solids",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 8",
+    "title": "Solid States Of Electronics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 9",
+    "title": "Digital Electronics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 10",
+    "title": "Relativity",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 11",
+    "title": "Quantam Physics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 12",
+    "title": "Atomic Physics",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 13",
+    "title": "Atomic Nucleus",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Physics",
+    "chapter": "Chapter 14",
+    "title": "Particle Physics",
     "link": "notes/2nd-chem-ch3.pdf"
   }
 ]
