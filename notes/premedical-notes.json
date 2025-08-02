@@ -33,8 +33,8 @@
   {
     "class": "1st Year",
     "subject": "Biology",
-    "chapter": "Variety Of Life",
-    "title": "Organic Chemistry",
+    "chapter": "Chapter 5",
+    "title": "Variety Of Life",
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
@@ -367,8 +367,183 @@
   {
     "class": "2nd Year",
     "subject": "Chemistry",
-    "chapter": "Chapter 12",
+    "chapter": "Chapter 1",
+    "title": "Chemistry Of Representative",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 2",
+    "title": "Chemistry Of Outer Transition Elements",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 3",
+    "title": "Organic Compounds",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 4",
+    "title": "Nomenclature Of Organic Compounds",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 5",
+    "title": "Hydrocarbons",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 6",
+    "title": "Alkyl Halides And Amines",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 7",
+    "title": "Alcohols Phenols And ethers",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 8",
     "title": "Electrochemistry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 9",
+    "title": "Carbonyl Compound ll",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 10",
+    "title": "Biochemistry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 11",
+    "title": "Industrial Chemistry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 12",
+    "title": "Industrial Chemistry",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "Chemistry",
+    "chapter": "Chapter 13",
+    "title": "Spectroscopy",
+    "link": "notes/2nd-chem-ch3.pdf"
+  },
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 1",
+    "title": "Democratic citizenship",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 2",
+    "title": "Preservation Of Nature",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 3",
+    "title": "Managing Change",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 4",
+    "title": "Technology Smart And Tech-Savy",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 5",
+    "title": "Civic Sense And Civic Activities",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 6",
+    "title": "Respecting Self And Others",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 7",
+    "title": "Self Grooming",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 8",
+    "title": "Places Of Historical/Cultural Importance",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 9",
+    "title": "Choosing Career",
+    "link": "notes/2nd-chem-ch3.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Chapter 10",
+    "title": "Practising Positive World Ethics",
     "link": "notes/2nd-chem-ch3.pdf"
   }
 ]

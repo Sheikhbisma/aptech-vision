@@ -65,24 +65,28 @@ function updateChapterOptions() {
       (selectedClass === '' || item.class === selectedClass) &&
       (selectedSubject === '' || item.subject === selectedSubject)
     )
-    .map(item => item.chapter))];
+    .map(item => item.chapter)
+  )];
 
   filteredChapters.forEach(chapter => {
     chapterFilter.innerHTML += `<option value="${chapter}">${chapter}</option>`;
   });
 }
 
-// Filter logic on dropdown change
+
+// Attach filter logic
 ['classFilter', 'subjectFilter', 'chapterFilter'].forEach(id => {
   document.getElementById(id).addEventListener('change', () => {
     const selectedClass = document.getElementById('classFilter').value;
     const selectedSubject = document.getElementById('subjectFilter').value;
     const selectedChapter = document.getElementById('chapterFilter').value;
 
-    // Only update dropdowns if not selecting a chapter
-    if (id !== 'chapterFilter') {
-      updateSubjectOptions();
-      updateChapterOptions();
+    // Update dropdowns only if class or subject changed
+    if (id === 'classFilter') {
+      updateSubjectOptions(selectedClass);
+    }
+    if (id === 'classFilter' || id === 'subjectFilter') {
+      updateChapterOptions(selectedClass, selectedSubject);
     }
 
     const filtered = notesData.filter(item => {
@@ -96,3 +100,4 @@ function updateChapterOptions() {
     renderNotes(filtered);
   });
 });
+
