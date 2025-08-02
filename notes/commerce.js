@@ -1,6 +1,6 @@
 let notesData = [];
 
-fetch('premedical-notes.json')
+fetch('commerce-notes.json')
   .then(res => res.json())
   .then(data => {
     notesData = data;
