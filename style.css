@@ -404,7 +404,7 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
-.card {
+.services .card {
   min-width: 250px;
   flex: 0 0 auto;
   background: #fff;
@@ -414,7 +414,7 @@ body {
   text-align: center;
 }
 
-.card img {
+.services .card img {
   width: 100%;
   height: 160px;
   object-fit: cover;
@@ -422,25 +422,17 @@ body {
   margin-bottom: 10px;
 }
 
-.card h2 {
+.services.card h2 {
   font-size: 1.2rem;
   margin: 10px 0 5px;
 }
 
-.card p {
+.services .card p {
   font-size: 0.9rem;
   color: #555;
 }
 
-.card button {
-  margin-top: 10px;
-  padding: 8px 14px;
-  border: none;
-  background-color: #007BFF;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
+
 
 .controls {
   text-align: center;
@@ -489,3 +481,91 @@ body {
 }
 
 
+/* notes page */
+.custom-card {
+  
+  background: rgba(6, 15, 44, 0.95);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  position: relative;
+  padding-top: 40px;
+}
+
+.custom-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+}
+
+/* Header bar with chapter */
+.card-header-strip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 6px 10px;
+      background-color: #0088cc;
+  font-weight: bold;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Icon */
+.card-icon {
+  font-size: 2.2rem;
+  color: #0088cc;
+  margin-top: 20px;
+}
+
+/* Footer */
+.card-footer {
+  background: transparent;
+  padding-bottom: 15px;
+  margin-top: auto;
+}
+
+.view-btn {
+      background-color: #0088cc;
+  color: #000;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+}
+
+.view-btn:hover {
+      background-color: #00bcd4;
+  color: #000;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+.typewriter-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #00ffe7;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      border-right: 3px solid #00ffe7;
+      animation: typing 4s steps(60, end) forwards, blink 0.8s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
