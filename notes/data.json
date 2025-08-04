@@ -1,0 +1,91 @@
+{
+  "First Year": {
+    "Pre-Medical": [
+      { "name": "Biology", "url": "papers/fy/biology.pdf" },
+      { "name": "Chemistry", "url": "papers/fy/chemistry.pdf" },
+      { "name": "Physics", "url": "papers/fy/physics.pdf" },
+      { "name": "Urdu", "url": "papers/fy/urdu.pdf" },
+      { "name": "Pst", "url": "papers/fy/pst.pdf" },
+      { "name": "Islamiat", "url": "papers/fy/islamiat.pdf" }
+    ],
+    "Pre-Engineering": [
+      { "name": "Mathematics", "url": "papers/fy/math.pdf" },
+      { "name": "Chemistry", "url": "papers/fy/chemistry.pdf" },
+      { "name": "Physics", "url": "papers/fy/physics.pdf" },
+      { "name": "Urdu", "url": "papers/fy/urdu.pdf" },
+      { "name": "English", "url": "papers/fy/english.pdf" },
+      { "name": "Islamiat", "url": "papers/fy/islamiat.pdf" },
+      { "name": "PST", "url": "papers/fy/pst.pdf" }
+    ],
+    "Arts": [
+      { "name": "Civics", "url": "papers/fy/civics.pdf" },
+      { "name": "Education", "url": "papers/fy/education.pdf" },
+      { "name": "Economics", "url": "papers/fy/economics.pdf" },
+      { "name": "Islamic Studies (Elective)", "url": "papers/fy/islamic-studies-elective.pdf" },
+      { "name": "Sociology", "url": "papers/fy/sociology.pdf" },
+      { "name": "History", "url": "papers/fy/history.pdf" },
+      { "name": "Urdu", "url": "papers/fy/urdu.pdf" },
+      { "name": "English", "url": "papers/fy/english.pdf" },
+      { "name": "Islamiat (Compulsory)", "url": "papers/fy/islamiat.pdf" },
+      { "name": "Pakistan Studies", "url": "papers/fy/pst.pdf" }
+    ],
+    "Commerce": [
+      { "name": "Accounting", "url": "papers/fy/accounting.pdf" },
+      { "name": "Economics", "url": "papers/fy/economics.pdf" },
+      { "name": "Business Mathematics", "url": "papers/fy/business-math.pdf" },
+      { "name": "Principles of Commerce", "url": "papers/fy/principles-of-commerce.pdf" },
+      { "name": "Urdu", "url": "papers/fy/urdu.pdf" },
+      { "name": "English", "url": "papers/fy/english.pdf" },
+      { "name": "Islamiat", "url": "papers/fy/islamiat.pdf" },
+      { "name": "Pakistan Studies", "url": "papers/fy/pst.pdf" }
+    ],
+    "Computer Science": [
+      { "name": "Computer", "url": "papers/fy/computer.pdf" },
+      { "name": "Mathematics", "url": "papers/fy/math.pdf" },
+      { "name": "Physics", "url": "papers/fy/physics.pdf" },
+      { "name": "English", "url": "papers/fy/english.pdf" },
+      { "name": "Programming", "url": "papers/fy/programming.pdf" }
+    ]
+  },
+  "Second Year": {
+    "Pre-Medical": [
+      { "name": "Biology", "url": "papers/sy/biology.pdf" },
+      { "name": "Chemistry", "url": "papers/sy/chemistry.pdf" },
+      { "name": "Physics", "url": "papers/sy/physics.pdf" },
+      { "name": "English", "url": "papers/sy/english.pdf" },
+      { "name": "Islamiat", "url": "papers/sy/islamiat.pdf" }
+    ],
+    "Pre-Engineering": [
+      { "name": "Mathematics", "url": "papers/sy/math.pdf" },
+      { "name": "Physics", "url": "papers/sy/physics.pdf" },
+      { "name": "Chemistry", "url": "papers/sy/chemistry.pdf" },
+      { "name": "English", "url": "papers/sy/english.pdf" },
+      { "name": "Islamiat", "url": "papers/sy/islamiat.pdf" }
+    ],
+    "Arts": [
+      { "name": "Civics", "url": "papers/sy/civics.pdf" },
+      { "name": "Urdu", "url": "papers/sy/urdu.pdf" },
+      { "name": "English", "url": "papers/sy/english.pdf" },
+      { "name": "Pakistan Studies", "url": "papers/sy/pakistan_studies.pdf" },
+      { "name": "Economics", "url": "papers/sy/economics.pdf" },
+      { "name": "History", "url": "papers/sy/history.pdf" }
+    ],
+    "Commerce": [
+      { "name": "Accounting", "url": "papers/sy/accounting.pdf" },
+      { "name": "Economics", "url": "papers/sy/economics.pdf" },
+      { "name": "Business Mathematics", "url": "papers/sy/business_mathematics.pdf" },
+      { "name": "Principles of Commerce", "url": "papers/sy/principles_of_commerce.pdf" },
+      { "name": "English", "url": "papers/sy/english.pdf" },
+      { "name": "Urdu", "url": "papers/sy/urdu.pdf" },
+      { "name": "Pakistan Studies", "url": "papers/sy/pakistan_studies.pdf" }
+    ],
+    "Computer Science": [
+      { "name": "Computer", "url": "papers/sy/computer.pdf" },
+      { "name": "Mathematics", "url": "papers/sy/math.pdf" },
+      { "name": "Physics", "url": "papers/sy/physics.pdf" },
+      { "name": "English", "url": "papers/sy/english.pdf" },
+      { "name": "Islamiat", "url": "papers/sy/islamiat.pdf" },
+      { "name": "Pakistan Studies", "url": "papers/sy/pakistan_studies.pdf" }
+    ]
+  }
+}
