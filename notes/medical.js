@@ -4,9 +4,10 @@ fetch('premedical-notes.json')
   .then(res => res.json())
   .then(data => {
     notesData = data;
-    renderNotes(data);
     updateSubjectOptions();
     updateChapterOptions();
+        renderNotes([]); // 👈 Add this line
+
   });
 
 // Render cards
@@ -15,16 +16,18 @@ function renderNotes(data) {
   container.innerHTML = '';
 
   if (data.length === 0) {
-    container.innerHTML = '<p class="text-center text-danger">No notes found.</p>';
+    container.innerHTML =  `
+     <div class="typewriter-container">
+    🔍 Please select Class, Subject, or Chapter to view notes.
+  </div>
+    `;
     return;
   }
 
   data.forEach(note => {
     container.innerHTML += `
-       <div class="col-md-4 mb-5">
-  <div class="custom-card position-relative h-100" style="background: rgba(0, 0, 50, 0.3);
-      backdrop-filter: blur(10px);      box-shadow: 0 0 20px #00bcd4;
-">
+    <div class="col-md-4 mb-5">
+  <div class="custom-card position-relative h-100">
     
     <!-- Top Chapter Bar -->
     <div class="card-header-strip text-white text-center">
@@ -49,6 +52,8 @@ function renderNotes(data) {
     </div>
   </div>
 </div>
+
+
     `;
   });
 }

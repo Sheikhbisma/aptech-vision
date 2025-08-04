@@ -585,6 +585,14 @@ body {
     border-color: transparent
   }
 }
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;        /* changed from min-width */
+  height: 100vh;     
+  z-index: -1;
+  object-fit: cover;}
 
 
 
