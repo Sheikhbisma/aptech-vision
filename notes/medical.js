@@ -21,17 +21,34 @@ function renderNotes(data) {
 
   data.forEach(note => {
     container.innerHTML += `
-      <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">${note.title}</h5>
-            <p class="card-text"><strong>Class:</strong> ${note.class}</p>
-            <p class="card-text"><strong>Subject:</strong> ${note.subject}</p>
-            <p class="card-text"><strong>Chapter:</strong> ${note.chapter}</p>
-            <a href="${note.link}" target="_blank" class="btn btn-primary" download>View Notes</a>
-          </div>
-        </div>
-      </div>
+       <div class="col-md-4 mb-5">
+  <div class="custom-card position-relative h-100" style="background: rgba(0, 0, 50, 0.3);
+      backdrop-filter: blur(10px);      box-shadow: 0 0 20px #00bcd4;
+">
+    
+    <!-- Top Chapter Bar -->
+    <div class="card-header-strip text-white text-center">
+      ${note.chapter}
+    </div>
+    
+    <!-- Icon -->
+    <div class="card-icon text-center">
+      <i class="fas fa-book-open"></i>
+    </div>
+
+    <!-- Body -->
+    <div class="card-body text-white text-center">
+      <h5 class="card-title pb-2">${note.title}</h5>
+      <p class="card-text">📘 <strong>Class:</strong> ${note.class}</p>
+      <p class="card-text">🧪 <strong>Subject:</strong> ${note.subject}</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="card-footer text-center">
+      <a href="${note.link}" target="_blank" class="btn view-btn mt-2">📄 View PDF</a>
+    </div>
+  </div>
+</div>
     `;
   });
 }

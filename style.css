@@ -8,9 +8,11 @@
   --primary: rgb(6, 15, 44);
   --secondary: #fff;
 }
-html{
+
+html {
   overflow-x: hidden;
 }
+
 body {
   position: relative;
   background-color: #ffffff;
@@ -49,9 +51,11 @@ body {
     transform: translateY(0) scale(1);
     opacity: 0.2;
   }
+
   50% {
     opacity: 0.5;
   }
+
   100% {
     transform: translateY(-120vh) scale(1.2);
     opacity: 0;
@@ -67,7 +71,7 @@ body {
 .nav-item {
   text-align: center;
   padding: 0 10px;
-  
+
 }
 
 .nav-link {
@@ -87,10 +91,12 @@ body {
   background: linear-gradient(90deg, #00d4ff 0%, #008cff 100%);
   transition: all 0.5s ease;
 }
-.nav-link.active{
-    background: linear-gradient(90deg, #00d4ff 0%, #008cff 100%);
+
+.nav-link.active {
+  background: linear-gradient(90deg, #00d4ff 0%, #008cff 100%);
 
 }
+
 .navbar-brand {
   color: white !important;
   font-weight: bold;
@@ -361,31 +367,32 @@ body {
 }
 
 .scrolling-line {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 1055;
-      background-color: rgb(44, 43, 43);
-      color: white;
-      padding: 6px 0;
-      overflow: hidden;
-    }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1055;
+  background-color: rgb(44, 43, 43);
+  color: white;
+  padding: 6px 0;
+  overflow: hidden;
+}
 
-    .scrolling-text {
-      display: inline-block;
-      white-space: nowrap;
-      animation: scroll-left 10s linear infinite;
-      font-size: 14px;
-    }
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 10s linear infinite;
+  font-size: 14px;
+}
 
-    @keyframes scroll-left {
-      0% {
-        transform: translateX(100%);
-      }
-      100% {
-        transform: translateX(-100%);
-      }
-    }
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
 .container {
   max-width: 1200px;
@@ -483,11 +490,13 @@ body {
 
 /* notes page */
 .custom-card {
-  
-  background: rgba(6, 15, 44, 0.95);
-  border: 1px solid rgba(0, 255, 255, 0.15);
+
+  background: rgba(4, 4, 83, 0.3);
+  backdrop-filter: blur(10px) !important;
+
+  border: 3px solid #00bcd4;
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  box-shadow: 0 0 20px #00bcd4;
   overflow: hidden;
   transition: transform 0.3s ease;
   position: relative;
@@ -506,7 +515,7 @@ body {
   left: 0;
   width: 100%;
   padding: 6px 10px;
-      background-color: #0088cc;
+  background-color: #0088cc;
   font-weight: bold;
   font-size: 0.95rem;
   letter-spacing: 0.5px;
@@ -530,7 +539,7 @@ body {
 }
 
 .view-btn {
-      background-color: #0088cc;
+  background-color: #0088cc;
   color: #000;
   border: none;
   padding: 8px 20px;
@@ -541,31 +550,49 @@ body {
 }
 
 .view-btn:hover {
-      background-color: #00bcd4;
+  background-color: #00bcd4;
   color: #000;
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
 }
+
+/* notes heading */
+.typewriter {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  color: #06070c;
+  text-shadow: 0 0 10px #00bfff;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #ffffff;
+  animation: typing 2.5s steps(15), blink 0.7s step-end infinite;
+  max-width: 15ch;
+}
+
+@keyframes typing {
+  from {
+    max-width: 0
+  }
+
+  to {
+    max-width: 15ch
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+
 .typewriter-container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #00ffe7;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2rem;
-      text-align: center;
-      white-space: nowrap;
-      overflow: hidden;
-      width: 0;
-      border-right: 3px solid #00ffe7;
-      animation: typing 4s steps(60, end) forwards, blink 0.8s step-end infinite;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-
-    @keyframes blink {
-      50% { border-color: transparent; }
-    }
+  font-size: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  color: black;
+  margin-top: 24px;
+  text-align: center;
+}

@@ -22,42 +22,19 @@
   position: fixed;
   top: 0;
   left: 0;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100vw;        /* changed from min-width */
+  height: 100vh;     
   z-index: -1;
   object-fit: cover;
   
 }
-
-/* Cup on Plate */
-.cup-plate-container {
-  position: relative;
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 40px;
-}
-.cup-image {
-  position: absolute;
-  top: -50px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  z-index: 3;
-  animation: float 3s ease-in-out infinite;
-}
-@keyframes float {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(-12px); }
-}
-.cup-plate-container h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 0;
-  padding-top: 60px;
-  color: rgb(6, 15, 44);
-  position: relative;
-  z-index: 2;
-}
+h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      color: #00bfff;
+      text-shadow: 0 0 10px #00bfff;
+    }
 
 /* Filters (Select Boxes) */
 /* Glowy Select Input Styling */
@@ -83,50 +60,8 @@
 }
 
 
-/* Notes Cards */
-.note-card {
-  margin-bottom: 1.5rem;
-}
-/* Updated Card Styling */
-.card {
-  background-color: rgb(6, 15, 44);
-  color: white !important;
-  border: 1px solid rgba(0, 255, 255, 0.3); /* Soft glowing border */
-  border-radius: 18px;
-  padding: 20px;
-  font-style: italic; /* Tilted font */
-  box-shadow: 
-    0 0 50px rgba(95, 165, 165, 0.3), 
-    0 4px 20px rgba(0, 0, 0, 0.4); /* Glow + depth */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-6px) scale(1.01);
-  box-shadow: 
-    0 0 15px rgba(0, 255, 255, 0.5), 
-    0 8px 30px rgba(0, 0, 0, 0.5); /* Brighter on hover */
-}
-
-/* Title and Text Tilt */
-.card-title,
-.card-text {
-  font-style: italic; /* Slight tilt for all text */
-}
 
 
-/* Buttons */
-.btn-primary {
-  background-color: #0d6efd;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(13, 110, 253, 0.5);
-}
-.btn-primary:hover {
-  background-color: #0b5ed7;
-  box-shadow: 0 0 12px rgba(13, 110, 253, 0.7);
-}
 
   </style>
 </head>
@@ -193,17 +128,16 @@
 </nav>
   </header>
 <video autoplay muted loop id="bgVideo">
-  <source src="/notes/8631661-hd_1920_1080_24fps (1).mp4" type="video/mp4">
+  <source src="/notes/4440125-hd_1920_1080_25fps (1).mp4" type="video/mp4">
 </video>
 
-  <!-- Cup on Plate Heading -->
-  <div class="cup-plate-container" style="margin-top: 200px;">
-    <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Notes Icon" class="cup-image">
-    <h1>Pre-Engineering Notes</h1>
-  </div>
-
-  <!-- Filters -->
-  <div class="container">
+  
+  
+<!-- Filters -->
+<div class="container" style="margin-top: 100px;">
+   <div class="text-center">
+    <h1 class="typewriter">Pre-Engineering</h1>
+   </div>
     <div class="row my-4">
       <div class="col-md-4">
         <select id="classFilter" class="form-select">
