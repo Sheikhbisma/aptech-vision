@@ -6,7 +6,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 1",
     "title": "Stoichiometry",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-1-min.pdf"
   }
   ,
   {
@@ -14,7 +14,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 2",
     "title": "Atomic Structure",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-2-min.pdf"
   }
   ,
   {
@@ -22,7 +22,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 3",
     "title": "Theories Of Covalent Bonding And Shapes Of Molecules",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-3-min.pdf"
   }
   ,
   {
@@ -30,7 +30,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 4",
     "title": "States Of Matter l:Gases",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-4-min.pdf"
   }
   ,
   {
@@ -38,7 +38,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 5",
     "title": "States Of Matter ll:Liquids",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-5-min.pdf"
   }
   ,
   {
@@ -46,7 +46,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 6",
     "title": "States Of Matter lll:Solids",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-6-min.pdf"
   }
   ,
   {
@@ -54,7 +54,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 7",
     "title": "Chemical Equilibrium",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-7-min.pdf"
   }
   ,
   {
@@ -62,7 +62,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 8",
     "title": "Acids,Bases And Salts",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-8-min.pdf"
   }
   ,
   {
@@ -70,7 +70,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 9",
     "title": "Chemical Kinetics",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-9-min.pdf"
   }
   ,
   {
@@ -78,7 +78,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 10",
     "title": "Solution And Colloids",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-10,11,12-min.pdf"
   }
   ,
   {
@@ -86,7 +86,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 11",
     "title": "Thermochemistry",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-10,11,12-min.pdf"
   }
   ,
   {
@@ -94,7 +94,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 12",
     "title": "Electrochemistry",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-10,11,12-min.pdf"
   }
   ,
   {
@@ -203,138 +203,35 @@
   {
     "class": "1st Year",
     "subject": "English",
-    "chapter": "Chapter 1",
-    "title": "Quaid e Azam On 14 August, 1947",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "Prose",
+    "title": "Prose Section",
+    "link": "pdfs/1st-eng-prose-min.pdf"
   }
   ,
+ 
   {
     "class": "1st Year",
     "subject": "English",
-    "chapter": "Chapter 2",
-    "title": "Once More To The Lake",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 3",
-    "title": "The Necklace",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 4",
-    "title": "Technological Revolution",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 5",
-    "title": "My Bank Account",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 6",
-    "title": "Self-reliance",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 7",
-    "title": "Struggle For An Education",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 8",
-    "title": "A voyage To The City Of Lions",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 9",
-    "title": "Choosing Career",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 10",
-    "title": "Pearls Of Wisdom",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "Poems",
+    "title": "Poetry Section",
+    "link": "pdfs/1st-eng-poetry-min.pdf"
   },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 1",
-    "title": "The Characters Of Happy Life",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 2",
-    "title": "Don't Quit",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 3",
-    "title": "Ozymandias",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 4",
-    "title": "Good timber",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 5",
-    "title": "Lucy Gray",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 6",
-    "title": "The Abbot Of Canterbury",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 7",
-    "title": "Surr Khahori",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
+  
   {
     "class": "1st Year",
     "subject": "English",
     "chapter": "Play",
     "title": "The Visit To a Small Planet",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/1st-eng-play-min.pdf"
   },
+   {
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Grammer",
+    "title": "Grammer Section",
+    "link": "pdfs/1st-eng-grammer-min.pdf"
+  }
+  ,
   {
     "class": "2nd Year",
     "subject": "English",
@@ -989,7 +886,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 1",
     "title": "Complex Numbers",
-    "link": "notes/pdfs/maths-chap-1.pdf"
+    "link": "pdfs/maths-chap-1.pdf"
   }
   ,
   {
@@ -997,7 +894,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 2",
     "title": " Matrices & Determinants",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-2.pdf"
   }
   ,
   {
@@ -1005,7 +902,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 3",
     "title": " Vectors",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-3.pdf"
   }
   ,
   {
@@ -1013,7 +910,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 4",
     "title": "Sequences & Series",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-4.pdf"
   }
   ,
   {
@@ -1021,7 +918,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 5",
     "title": " Miscellaneous Series",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-5.pdf"
   }
   ,
   {
@@ -1029,7 +926,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 6",
     "title": "Permutation, Combination & Probablity",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-6.pdf"
   }
   ,
   {
@@ -1037,7 +934,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 7",
     "title": " Mathematical Induction & Bionomial Theorem",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-7.pdf"
   }
   ,
   {
@@ -1045,7 +942,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 8",
     "title": " Functions And Graph",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-8.pdf"
   }
   ,
   {
@@ -1053,7 +950,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 9",
     "title": " Linear Programming",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-9.pdf"
   }
   ,
   {
@@ -1061,7 +958,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 10",
     "title": " Trignometric Identities Of Sum & Differnce Of Angle",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-10.pdf"
   }
   ,
   {
@@ -1069,7 +966,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 11",
     "title": " Applications Of Trignometry",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-11.pdf"
   }
   ,
   {
@@ -1077,7 +974,7 @@
     "subject": "Mathematics",
     "chapter": " Chapter 12",
     "title": " Graph Of Trignometric & Inverse Trignometric Function & Solution Of Trignometric Equations ",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/maths-chap-12.pdf"
   }
   ,
   {
