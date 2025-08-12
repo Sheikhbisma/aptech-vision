@@ -106,14 +106,14 @@
     "subject": "Biology",
     "chapter": "Chapter 1",
     "title": "Homeostasis",
-    "link": "notes/1st-bio-ch1.pdf"
+    "link": "pdfs/2nd-year-bio-chap-1.pdf"
   },
   {
     "class": "2nd Year",
     "subject": "Biology",
     "chapter": "Chapter 2",
     "title": "Support And Movement",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/2nd-year-bio-chap-2.pdf"
   }
   ,
   {
@@ -129,7 +129,7 @@
     "subject": "Biology",
     "chapter": "Chapter 4",
     "title": "Chemical Coordination",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/2nd-year-bio-chap-4_compressed.pdf"
   }
   ,
   {
@@ -137,7 +137,7 @@
     "subject": "Biology",
     "chapter": "Chapter 5",
     "title": "Animal Behaviour",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/2nd-year-bio-chap-5_compressed.pdf"
   }
   ,
   {
@@ -161,7 +161,7 @@
     "subject": "Biology",
     "chapter": "Chapter 8",
     "title": "Chromosomes And DNA",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/2nd-year-bio-chap-8.pdf"
   }
   ,
   {
@@ -194,7 +194,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 1",
     "title": "Stoichiometry",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-1-min.pdf"
   }
   ,
   {
@@ -202,7 +202,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 2",
     "title": "Atomic Structure",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-2-min.pdf"
   }
   ,
   {
@@ -210,7 +210,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 3",
     "title": "Theories Of Covalent Bonding And Shapes Of Molecules",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-3-min.pdf"
   }
   ,
   {
@@ -218,7 +218,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 4",
     "title": "States Of Matter l:Gases",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-4-min.pdf"
   }
   ,
   {
@@ -226,7 +226,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 5",
     "title": "States Of Matter ll:Liquids",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-5-min.pdf"
   }
   ,
   {
@@ -234,7 +234,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 6",
     "title": "States Of Matter lll:Solids",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-6-min.pdf"
   }
   ,
   {
@@ -242,7 +242,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 7",
     "title": "Chemical Equilibrium",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-7-min.pdf"
   }
   ,
   {
@@ -250,7 +250,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 8",
     "title": "Acids,Bases And Salts",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-8-min.pdf"
   }
   ,
   {
@@ -258,7 +258,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 9",
     "title": "Chemical Kinetics",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-9-min.pdf"
   }
   ,
   {
@@ -266,7 +266,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 10",
     "title": "Solution And Colloids",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-10,11,12-min.pdf"
   }
   ,
   {
@@ -274,7 +274,7 @@
     "subject": "Chemistry",
     "chapter": "Chapter 11",
     "title": "Thermochemistry",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-10,11,12-min.pdf"
   }
   ,
   {
@@ -282,504 +282,75 @@
     "subject": "Chemistry",
     "chapter": "Chapter 12",
     "title": "Electrochemistry",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/chem-chap-10,11,12-min.pdf"
   }
   ,
   {
     "class": "2nd Year",
     "subject": "Chemistry",
-    "chapter": "Chapter 1",
-    "title": "Chemistry Of Representative",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "All Chapters",
+    "title": "Organic + Inorganic Complete Notes",
+    "link": "pdfs/2nd-year-chem-complete.pdf"
   }
   ,
+
   {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 2",
-    "title": "Chemistry Of Outer Transition Elements",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Prose",
+    "title": "Prose Section",
+    "link": "pdfs/1st-eng-prose-min.pdf"
   }
   ,
+ 
   {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 3",
-    "title": "Organic Compounds",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 4",
-    "title": "Nomenclature Of Organic Compounds",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 5",
-    "title": "Hydrocarbons",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 6",
-    "title": "Alkyl Halides And Amines",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 7",
-    "title": "Alcohols Phenols And ethers",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 8",
-    "title": "Carbonyl Compound ll:Aldehydes And Ketones",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 9",
-    "title": "Carbonyl Compound ll:Carboxylic Acid And Functional derivatives",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 10",
-    "title": "Biochemistry",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 11",
-    "title": "Industrial Chemistry",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 12",
-    "title": "Enviromental Chemistry",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 13",
-    "title": "Spectroscopy",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "class": "1st Year",
+    "subject": "English",
+    "chapter": "Poems",
+    "title": "Poetry Section",
+    "link": "pdfs/1st-eng-poetry-min.pdf"
   },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 1",
-    "title": "Quaid e Azam On 14 August, 1947",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 2",
-    "title": "Once More To The Lake",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 3",
-    "title": "The Necklace",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 4",
-    "title": "Technological Revolution",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 5",
-    "title": "My Bank Account",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 6",
-    "title": "Self-reliance",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 7",
-    "title": "Struggle For An Education",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 8",
-    "title": "A voyage To The City Of Lions",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 9",
-    "title": "Choosing Career",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Chapter 10",
-    "title": "Pearls Of Wisdom",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 1",
-    "title": "The Characters Of Happy Life",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 2",
-    "title": "Don't Quit",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 3",
-    "title": "Ozymandias",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 4",
-    "title": "Good timber",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 5",
-    "title": "Lucy Gray",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 6",
-    "title": "The Abbot Of Canterbury",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
-  {
-    "class": "1st Year",
-    "subject": "English",
-    "chapter": "Poem 7",
-    "title": "Surr Khahori",
-    "link": "notes/2nd-chem-ch3.pdf"
-  },
+  
   {
     "class": "1st Year",
     "subject": "English",
     "chapter": "Play",
     "title": "The Visit To a Small Planet",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/1st-eng-play-min.pdf"
   },
-  {
-    "class": "2nd Year",
+   {
+    "class": "1st Year",
     "subject": "English",
-    "chapter": "Chapter 1",
-    "title": "Twenty Minutes Of Mrs. Oakentubb",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "Grammer",
+    "title": "Grammer Section",
+    "link": "pdfs/1st-eng-grammer-min.pdf"
   }
   ,
   {
     "class": "2nd Year",
     "subject": "English",
-    "chapter": "Chapter 2",
-    "title": "Reflection On The Re-Awakening East",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "Chapter + Poem + Novel + Grammer",
+    "title": "English Complete Notes",
+    "link": "pdfs/2ndyear-eng.pdf"
   }
+ 
   ,
   {
     "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Chapter 3",
-    "title": "The Day The Dam Broke",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Chapter 4",
-    "title": "Pakistan And The Modern World",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Chapter 5",
-    "title": "Act lll Of The Silver Box",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Chapter 6",
-    "title": "The world As I see It",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Chapter 7",
-    "title": "The Devoted Friend",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Chapter 8",
-    "title": "Space Ship One",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Chapter 9",
-    "title": "An Astronomer's Viwe Of The Universe",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Chapter 10",
-    "title": "Life In The Universe",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 1",
-    "title": "The Seven Ages Of Man",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 2",
-    "title": "The Man Of Life Upright",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 3",
-    "title": "Lines From Samson Agonistes",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 4",
-    "title": "Lines From Essay On Man",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 5",
-    "title": "Stanzas From An Elegy Written In A Country Churchyard",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 6",
-    "title": "The Solitary Reaper",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 7",
-    "title": "Music When Soft Voices Die",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 8",
-    "title": "Lines From Endymion",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 9",
-    "title": "Say Not The Struggle Naught Availeth",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 10",
-    "title": "LineFrom Ulysses",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Poem 11",
-    "title": "The Lost Star",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "English",
-    "chapter": "Novel",
-    "title": "The Prisoner Of Zenda",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "subject": "PST",
+    "chapter": "All Chapters (ENGLISH)",
+    "title": "Complete Notes",
+    "link": "pdfs/2nd-year-pst.pdf"
   }
   ,
   {
     "class": "2nd Year",
     "subject": "PST",
-    "chapter": "Chapter 1",
-    "title": "The Establishmemnt Of Pakistan",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "تمام ابواب (اردو) ",
+    "title": "مکمل مطالعہ پاکستان کے نوٹس",
+    "link": "pdfs/2nd-year-pst-urdu.pdf"
   }
   ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 2",
-    "title": "History Of Pakistan",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 3",
-    "title": "Establishment Of An Democratic Islamic State",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 4",
-    "title": "The Land Of Pakistan",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 5",
-    "title": "The Culture Of Pakistan",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 6",
-    "title": "Languages Of Pakistan",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 7",
-    "title": "Economic Planning And Development",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 8",
-    "title": "Pakistan And The Comity Of Nation",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 9",
-    "title": "Fundamental Rights Protected Under The 1973 Constitution Of Pakistan",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "PST",
-    "chapter": "Chapter 10",
-    "title": "Violation Of Rights And Redressial Of Grievances",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  
   {
     "class": "1st Year",
     "subject": "Physics",
