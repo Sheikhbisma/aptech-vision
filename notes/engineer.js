@@ -6,7 +6,7 @@ fetch('preengineer-notes.json')
     notesData = data;
     updateSubjectOptions();
     updateChapterOptions();
-        renderNotes([]); // 👈 Add this line
+    renderNotes([]); // 👈 Add this line
 
   });
 
@@ -16,7 +16,7 @@ function renderNotes(data) {
   container.innerHTML = '';
 
   if (data.length === 0) {
-    container.innerHTML =  `
+    container.innerHTML = `
      <div class="typewriter-container">
     🔍 Please select Class, Subject, or Chapter to view notes.
   </div>
