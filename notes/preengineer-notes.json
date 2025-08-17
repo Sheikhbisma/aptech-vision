@@ -411,150 +411,15 @@
     "link": "notes/2nd-chem-ch3.pdf"
   }
   ,
+  
   {
     "class": "1st Year",
     "subject": "اسلامیات",
-    "chapter": "باب سوم (الف) عقیدہ توحید",
-    "title": "عقیدہ توحید",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "بابِ صوم ",
+    "title": " تمام اسباق",
+    "link": "pdfs/Islamiat.pdf"
   }
   ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "باب سوم (الف) عقیدہ رسالت",
-    "title": " عقیدہ رسالت",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "  باب سوم (الف) :  فرشتوں پر ایمان",
-    "title": "  فرشتوں پر ایمان لانا",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "باب سوم (الف) :عقیدہ آخرت",
-    "title": "عقیدہ آخرت",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "باب سوم (الف) : ایمان بالکتاب",
-    "title": " ایمان بالکتاب",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "بابِ صوم (حصہ ب): عبادات",
-    "title": " عبادات",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "بابِ صوم (حصہ ب): نماز",
-    "title": " نماز",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "بابِ صوم (حصہ ب): زکوٰۃ",
-    "title": " زکوٰۃ",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "بابِ صوم (حصہ ب): روزہ",
-    "title": " روزہ",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": "بابِ صوم (حصہ ب): حج",
-    "title": " حج",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": " بابِ صوم (حصہ ج): حضورِ کریم ﷺ بحیثیت معلم، منتظم، سپہ سالار، اور مصنّف",
-    "title": " حضورِ کریم ﷺ بحیثیت معلم، منتظم، سپہ سالار، اور مصنّف",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": " بابِ صوم (حصہ ج):اخلاق و آداب",
-    "title": "اخلاق و آداب",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": " بابِ صوم (حصہ ج):عفو و درگزر",
-    "title": "عفو و درگزر",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": " بابِ صوم (حصہ ج):عدل و انصاف",
-    "title": "عدل و انصاف",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": " بابِ صوم (حصہ ج):اخوت (بھائی چارہ)",
-    "title": "اخوت (بھائی چارہ)",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": " بابِ صوم (حصہ ج):حقوق العباد",
-    "title": "حقوق العباد",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": " بابِ صوم (حصہ ج):عورتوں کے حقوق",
-    "title": " عورتوں کے حقوق",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "اسلامیات",
-    "chapter": " بابِ صوم (حصہ ج):  مسلمانوں کا باہمی اتحاد",
-    "title": "  مسلمانوں کا باہمی اتحاد ",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-    ,
   {
     "class": "1st Year",
     "subject": "Mathematics",
@@ -649,5 +514,54 @@
     "chapter": " Chapter 12",
     "title": " Graph Of Trignometric & Inverse Trignometric Function & Solution Of Trignometric Equations ",
     "link": "pdfs/maths-chap-12.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "اُردو",
+    "chapter": "  تشریح",
+    "title": " اشعار کی تشریح",
+    "link": "pdfs/ashar_ki_tashreeh.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "اُردو",
+    "chapter": "  اقتباسات",
+    "title": " اقتباسات کی تشریح",
+    "link": "pdfs/iqhtibas.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "اُردو",
+    "chapter": "  تمام اسباق",
+    "title": "خلاصہ اور مرکزی خیال",
+    "link": "pdfs/khulasa_markazi_khyal.pdf"
+  }
+  ,
+  {
+    "class": "1st Year",
+    "subject": "اُردو",
+    "chapter": "شعرا پر تبصرہ",
+    "title":"   شعرا پر تبصرہ",
+    "link": "pdfs/tabsara.pdf"
+  }
+  
+  ,
+  {
+    "class": "1st Year",
+    "subject": "اُردو",
+    "chapter": "نثر نگاروں پر تبصرہ",
+    "title":" نثر نگاروں پر تبصرہ",
+    "link": "pdfs/nasar_nigar"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "اُردو",
+    "chapter": "Full Notes",
+    "title":"Full Notes",
+    "link": "pdfs/nasar_nigar"
   }
 ]

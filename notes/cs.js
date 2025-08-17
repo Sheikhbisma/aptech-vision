@@ -48,7 +48,7 @@ function renderNotes(data) {
 
     <!-- Footer -->
     <div class="card-footer text-center">
-      <a href="${note.link}" target="_blank" class="btn view-btn mt-2">📄 View PDF</a>
+      <a href="${note.link}" target="_blank" class="btn view-btn mt-2" download>📄 View PDF</a>
     </div>
   </div>
 </div>
