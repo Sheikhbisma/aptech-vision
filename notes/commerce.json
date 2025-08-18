@@ -159,18 +159,34 @@
   }
   ,
   {
+    "class": "2nd Year",
+    "subject": "Economics",
+    "chapter": "Complete Notes",
+    "title":"Complete Notes",
+    "link": "pdfs/economics-fullnotes.pdf"
+  }
+  ,
+  {
     "class": "1st Year",
     "subject": "P.O.C",
     "chapter": "Short Q/A",
-    "title":"Full Notes",
-    "link": "pdfs/POC_short"
+    "title":" Short Q/A",
+    "link": "pdfs/POC_short.pdf"
   }
   ,
   {
     "class": "1st Year",
     "subject": "P.O.C",
     "chapter": "Long Q/A",
+    "title":"Descriptive Q/A",
+    "link": "pdfs/POC_long.pdf"
+  }
+  ,
+  {
+    "class": "2nd Year",
+    "subject": "P.O.C",
+    "chapter": "Full Notes",
     "title":"Full Notes",
-    "link": "pdfs/long"
+    "link": "pdfs/POC-fullnotes.pdf"
   }
 ]

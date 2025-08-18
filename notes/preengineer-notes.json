@@ -76,27 +76,12 @@
   {
     "class": "1st Year",
     "subject": "Chemistry",
-    "chapter": "Chapter 10",
-    "title": "Solution And Colloids",
+    "chapter": "Chapter 10 + 11 + 12",
+    "title": "Last Three Chapters",
     "link": "pdfs/chem-chap-10,11,12-min.pdf"
   }
   ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 11",
-    "title": "Thermochemistry",
-    "link": "pdfs/chem-chap-10,11,12-min.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 12",
-    "title": "Electrochemistry",
-    "link": "pdfs/chem-chap-10,11,12-min.pdf"
-  }
-  ,
+  
   {
     "class": "2nd Year",
     "subject": "Chemistry",
@@ -272,119 +257,15 @@
     "subject": "Physics",
     "chapter": "Chapter 14",
     "title": "Communication",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/1st-year-physics-communication.pdf"
   }
   ,
   {
     "class": "2nd Year",
     "subject": "Physics",
-    "chapter": "Chapter 1",
-    "title": "Molecular Theory Of Gases",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 2",
-    "title": "First Law Of Thermodynamics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 3",
-    "title": "Second Law Of Thermodynamics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 4",
-    "title": "Magnetic Fields",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 5",
-    "title": "Electromagnetic Induction",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 6",
-    "title": "Alternating Current",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 7",
-    "title": "Physics Of Solids",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 8",
-    "title": "Solid States Of Electronics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 9",
-    "title": "Digital Electronics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 10",
-    "title": "Relativity",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 11",
-    "title": "Quantam Physics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 12",
-    "title": "Atomic Physics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 13",
-    "title": "Atomic Nucleus",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 14",
-    "title": "Particle Physics",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "Complete",
+    "title": "Complete Notes",
+    "link": "pdfs/2nd-year-physics.pdf"
   }
   ,
   {

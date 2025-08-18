@@ -111,93 +111,10 @@
   {
     "class": "2nd Year",
     "subject": "Biology",
-    "chapter": "Chapter 1",
-    "title": "Homeostasis",
-    "link": "pdfs/2nd-year-bio-chap-1.pdf"
+    "chapter": "Solved Book Exercise",
+    "title": "Solved Book",
+    "link": "pdfs/2nd-year-book-solved.pdf"
   },
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 2",
-    "title": "Support And Movement",
-    "link": "pdfs/2nd-year-bio-chap-2.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 3",
-    "title": "Nervous Coordination",
-    "link": "pdfs/2nd-year-bio-nervous-coordination.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 4",
-    "title": "Chemical Coordination",
-    "link": "pdfs/2nd-year-bio-chap-4.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 5",
-    "title": "Animal Behaviour",
-    "link": "pdfs/2nd-year-bio-chap-5.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 6",
-    "title": "Reproduction",
-    "link": "pdfs/2nd-year-bio-reproduction.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 7",
-    "title": "Development And Aging",
-    "link": "pdfs/2nd-year-bio-chap-7.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 8",
-    "title": "Chromosomes And DNA",
-    "link": "pdfs/2nd-year-bio-chap-8.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 9",
-    "title": "Inheritance",
-    "link": "pdfs/2nd-year-bio-chap-9.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 10",
-    "title": "Evolution",
-    "link": "pdfs/2nd-year-bio-chap-10.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Biology",
-    "chapter": "Chapter 11",
-    "title": "Man And His Environment",
-    "link": "pdfs/2nd-year-bio-chap-11.pdf"
-  }
-  ,
-  
- 
-  
   
   {
     "class": "1st Year",
@@ -274,24 +191,8 @@
   {
     "class": "1st Year",
     "subject": "Chemistry",
-    "chapter": "Chapter 10",
-    "title": "Solution And Colloids",
-    "link": "pdfs/chem-chap-10,11,12-min.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 11",
-    "title": "Thermochemistry",
-    "link": "pdfs/chem-chap-10,11,12-min.pdf"
-  }
-  ,
-  {
-    "class": "1st Year",
-    "subject": "Chemistry",
-    "chapter": "Chapter 12",
-    "title": "Electrochemistry",
+    "chapter": "Chapter 10 + 11 + 12",
+    "title": "Last Three Chapters",
     "link": "pdfs/chem-chap-10,11,12-min.pdf"
   }
   ,
@@ -470,121 +371,18 @@
     "subject": "Physics",
     "chapter": "Chapter 14",
     "title": "Communication",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "link": "pdfs/1st-year-physics-communication.pdf"
   }
   ,
   {
     "class": "2nd Year",
     "subject": "Physics",
-    "chapter": "Chapter 1",
-    "title": "Molecular Theory Of Gases",
-    "link": "notes/2nd-chem-ch3.pdf"
+    "chapter": "Complete",
+    "title": "Complete Notes",
+    "link": "pdfs/2nd-year-physics.pdf"
   }
   ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 2",
-    "title": "First Law Of Thermodynamics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 3",
-    "title": "Second Law Of Thermodynamics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 4",
-    "title": "Magnetic Fields",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 5",
-    "title": "Electromagnetic Induction",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 6",
-    "title": "Alternating Current",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 7",
-    "title": "Physics Of Solids",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 8",
-    "title": "Solid States Of Electronics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 9",
-    "title": "Digital Electronics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 10",
-    "title": "Relativity",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 11",
-    "title": "Quantam Physics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 12",
-    "title": "Atomic Physics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 13",
-    "title": "Atomic Nucleus",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
-  {
-    "class": "2nd Year",
-    "subject": "Physics",
-    "chapter": "Chapter 14",
-    "title": "Particle Physics",
-    "link": "notes/2nd-chem-ch3.pdf"
-  }
-  ,
+  
   {
     "class": "1st Year",
     "subject": "اسلامیات",
