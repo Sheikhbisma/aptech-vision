@@ -165,6 +165,16 @@
 
     <!-- HTML Example -->
     <div class="card concept html">
+      <h2>Parent And Child Element</h2>
+      <p>Here, the <code>&lt;div&gt;</code> is the <strong>parent</strong> element.  
+The two <code>&lt;p&gt;</code> tags inside it are <strong>child</strong> elements.  
+CSS properties applied to the parent can affect the children, like background, padding, or display settings.
+</p>
+<pre><code>&lt;div class="parent"&gt;
+    &lt;p class="child"&gt;This is a child element&lt;/p&gt;
+    &lt;p class="child"&gt;Another child element&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
       <h2>HTML Headings</h2>
       <pre><code>&lt;h1&gt;Main Heading&lt;/h1&gt;
 &lt;h2&gt;Sub Heading&lt;/h2&gt;</code></pre>
@@ -212,7 +222,7 @@
         &lt;/tbody&gt;
    &lt;/table&gt;</code></pre>
 
-      <h2>Ordered List(ol)</h2>
+      <h2>Ordered(ol) List(li)</h2>
       <p>Ordered list is used when the order of items is important. It shows numbers or letters.</p>
       <pre><code>&lt;ol&gt;
     &lt;li&gt;Turn on the computer&lt;/li&gt;
@@ -274,6 +284,9 @@
 &lt;aside&gt; Sidebar Info &lt;/aside&gt;
 &lt;footer&gt; Footer Section &lt;/footer&gt;
 </code></pre>
+<h2>Anchor (a) Tag</h2>
+<p>The <code>&lt;a&gt;</code> element creates hyperlinks to other pages, emails, or sections of the page.  </p>
+<pre><code>&lt;a href="https://www.google.com"&gt;Go to Google&lt;/a&gt;</code></pre>
       <h2>Link With Attributes</h2>
       <p>This example shows how to create different types of links in HTML.
         The first link opens Google in a new browser tab using <code>target="_blank"</code>.
@@ -382,7 +395,252 @@ It is useful for quick changes but not recommended for large projects.</p>
   background-color: blue;
 }</code></pre>
 <h2>Basic CSS Properties</h2>
-<p></p>
+<p>These are basic CSS properties: <code>color</code> (text color), <code>background-color</code>, <code>font-family</code>, <code>font-size</code>, <code>text-align</code>, <code>margin</code>, and <code>padding</code>.  
+They help you style HTML elements easily.</p>
+<pre><code>&lt;style&gt;
+/* Text color and background */
+p {
+    color: navy;
+    background-color: lightgray;
+}
+
+/* Font and size */
+h2 {
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+}
+
+/* Text alignment */
+div {
+    text-align: center;
+}
+
+/* Margin and padding */
+
+<p>
+<strong>Margin:</strong> The space outside an element, between the element and other elements.  
+It creates distance around the element.  
+
+<strong>Padding:</strong> The space inside an element, between the element's content and its border.  
+It pushes the content inward, creating breathing room inside the element.
+</p>
+section {
+    margin: 20px;
+    padding: 15px;
+}
+/* Border */
+div{
+  border:2px solid black;/* Outline Of The Element Syntax: width|style|color */
+  border-radius:10px; /* Rounded the corners */
+}
+&lt;/style&gt;
+</code></pre>
+<h2>Flex Properties</h2>
+<p>Flexbox is used to create flexible layouts.  
+  display flex makes a container arrange its child elements in a single line (row) by default, allowing easy horizontal alignment, spacing, and responsive layout.
+Parent container properties control overall layout (direction, alignment, wrapping).  
+Child item properties control individual item behavior (growth, shrink, order, self-alignment).  
+Using flexbox makes horizontal & vertical alignment easy, responsive layouts simpler, and spacing consistent.</p>
+<pre><code>&lt;!-- Flex Container (Parent) Properties --&gt;
+.container {
+    display: flex;             /* makes the container a flexbox */
+    flex-direction: row;       /* row | column | row-reverse | column-reverse */
+    justify-content: flex-start; /* flex-start|flex-end|center|space-between|space-around|space-evenly */
+    align-items: stretch;      /* flex-start | flex-end | center | baseline | stretch */
+    flex-wrap: nowrap;         /* nowrap | wrap | wrap-reverse */
+    align-content: stretch;    /* for multi-line flex containers */
+}
+
+&lt;!-- Flex Item (Child) Properties --&gt;
+.item {
+    flex-grow: 0;             /* number, how much item grows relative to others */
+    flex-shrink: 1;           /* number, how much item shrinks if needed */
+    flex-basis: auto;         /* initial size of item */
+    order: 0;                 /* number, changes order of items */
+    align-self: auto;         /* overrides align-items for this item */
+}
+</code></pre>
+<h2>Height And Width</h2>
+<p>In CSS, <strong>width</strong> sets the horizontal size of an element, and <strong>height</strong> sets the vertical size.  
+You can use units like <code>px</code> (pixels), <code>%</code> (percentage of parent), <code>em</code>, <code>rem</code>, and more.</p>
+<pre><code>&lt;style&gt;
+.box {
+    width: 200px;          /* horizontal size */
+    height: 150px;         /* vertical size */
+    background-color: lightblue;
+    border: 2px solid navy;
+    margin: 10px;
+}
+&lt;/style&gt;
+
+&lt;div class="box"&gt;This is a box&lt;/div&gt;
+<p>
+This box is 200 pixels wide and 150 pixels tall.  
+Width controls how wide the element is, and height controls how tall it is.  
+You can also use percentages: <code>width: 50%</code> makes the element half the width of its parent container.
+</p>
+</code></pre>
+<h2>Styling For List</h2>
+<p>The CSS property <code>list-style-type</code> controls the appearance of these bullets or numbers.  
+For unordered lists, possible values include <code>disc</code> (default), <code>circle</code>, <code>square</code>, or <code>none</code>.  
+For ordered lists, values like <code>decimal</code>, <code>upper-roman</code>, <code>lower-alpha</code> can be used.  
+This allows you to customize how list items appear visually.</p>
+<pre><code>&lt;style&gt;
+ul {
+    list-style-type: square; /* changes the bullet style to square */
+}
+ol {
+    list-style-type: upper-roman; /* numbers appear as I, II, III... */
+}
+&lt;/style&gt;
+</pre></code>
+<h2>Anchor (a) Tag Decoration</h2>
+<p>Using the CSS property <code>text-decoration</code>, you can control this line style.
+For example, <code>none</code> removes the underline, <code>underline</code> adds it, <code>overline</code> places a line above the text, and <code>line-through</code> strikes through the text.  
+You can also style the link color separately using the <code>color</code> property.</p>
+<pre><code>&lt;style&gt;
+a {
+    text-decoration: underline; /* add underline */
+    color: blue;           /* sets link color */
+}
+&lt;/style&gt;
+</code></pre>
+<h2>Grid system</h2>
+<p>
+CSS Grid allows you to divide a container into rows and columns.  
+Using <code>grid-template-columns</code>, you define how many columns the grid will have and their width.  
+<code>grid-gap</code> adds space between grid items.  
+Each child element inside the grid container automatically becomes a grid item and aligns itself in the defined rows and columns.  
+Grid is very powerful for creating layouts like galleries, dashboards, and multi-column designs.
+</p>
+<pre><code>
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /* 3 columns, each 100px wide */
+    grid-template-columns:repeat(3,1fr)/*it means 3 equal columns*/
+    grid-gap: 10px;
+}
+</code>
+</pre>  
+<h2>Positions</h2>
+<p>CSS positioning allows you to control **where an element appears** on a web page.  
+The main property is <code>position</code>, which can take several values to change the element's placement.
+- <code>relative</code> moves the element slightly from its normal position.  
+- <code>absolute</code> positions the element relative to its nearest parent with a position set.  
+- <code>fixed</code> keeps the element in place even when scrolling.  
+- <code>sticky</code> sticks the element to a specified point when scrolling past it.  
+You can combine these with <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> to adjust the exact position.</p>
+<pre><code>&lt;style&gt;
+.container {
+    position: relative; /* parent should be positioned */
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+}
+.box {
+    position: absolute; /* absolute positioning */
+    top: 20px;
+    left: 50px;
+    width: 100px;
+    height: 80px;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 80px;
+}
+&lt;/style&gt;
+</code></pre>
+<h2>: :before And : :after</h2>
+<p>
+CSS <code>::before</code> and <code>::after</code> are <strong>pseudo-elements</strong> used to insert content **before or after an element's actual content**.  
+They are often used for decorative purposes, icons, or adding text without changing HTML.
+The <code>content</code> property defines what will be added.  
+These pseudo-elements are useful for adding decorative symbols, quotes, or small icons without modifying the HTML structure.  
+You can style them with color, font-size, margin, or any CSS property.
+</p>
+<pre><code>&lt;style&gt;
+h3::before {
+    content: "★ "; /* adds a star before the heading text */
+    color: gold;
+}
+h3::after {
+    content: " ☆"; /* adds a star after the heading text */
+    color: gold;
+}
+&lt;/style&gt;
+
+&lt;h3&gt;My Heading&lt;/h3&gt;
+</code></pre>
+<h2>:Hover Effect</h2>
+<p>
+The <code>:hover</code> pseudo-class applies styles when the user hovers the mouse over an element.  
+In this example, the link has no underline by default and is blue in color.  
+When hovered, the link becomes underlined and changes its color to red.  
+Hover effects are widely used to give visual feedback and improve user experience on web pages.
+</p>
+<pre><code>&lt;style&gt;
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline; /* underline appears when hovered */
+    color: red; /* color changes on hover */
+}
+&lt;/style&gt;
+
+&lt;a href="https://www.google.com"&gt;Go to Google&lt;/a&gt;
+</code></pre>
+<h2>Transition</h2>
+<p>
+The <code>transition</code> property makes changes in CSS properties smooth over time.  
+In this example, when the button is hovered, the background color changes from blue to green and the button slightly grows in size.  
+The <code>0.5s</code> and <code>0.3s</code> define the duration of the transitions, and <code>ease</code> controls the speed curve.  
+Without transition, the color and size would change instantly, but with it, the changes are gradual and visually appealing.
+</p>
+<pre><code>a{
+  transition: property duration timing-function delay;
+  transition: all 0.3s ease; /* all properties change smoothly in 0.3s */
+}
+</code></pre>
+<h2>Transform</h2>
+<p>The <code>transform</code> property in CSS allows you to visually change an element without affecting the layout around it</p>
+<h3>translate(x, y)</h3>
+<p>Moves the element horizontally (x) and vertically (y).</p>
+<pre><code>transform: translate(50px, 20px); /* moves right 50px, down 20px */</code></pre>
+<h3>rotate(angle)</h3>
+<p>Rotates the element by a given angle.</p>
+<pre><code>transform: rotate(45deg); /* rotates element 45 degrees clockwise */</code></pre>
+<h3>scale(factor)</h3>
+<p>Scales (resizes) element uniformly.</p>
+<pre><code>transform: scale(1.5); /* 1.5 times bigger */</code></pre>
+<h2>Animation</h2>
+<p>CSS animations allow you to **move, change, or transform elements smoothly over time** without using JavaScript.  
+Animations are defined using <code>@keyframes</code> to describe the sequence of changes and the <code>animation</code> property to apply it to elements.In this example, the box moves horizontally from left to right and changes color.  
+The <code>animation</code> property applies the animation to the element, specifying the name (<code>moveBox</code>), duration (3 seconds), and repetition (<code>infinite</code>).  
+CSS animations make web pages more interactive and visually appealing without using JavaScript.</p>
+<pre><code>&lt;style&gt;
+  animation-name → name of @keyframes
+animation-duration → how long the animation lasts
+animation-iteration-count → how many times to repeat
+animation-timing-function → speed curve (linear, ease, ease-in-out)
+@keyframes moveBox {
+    0%   { transform: translateX(0); background-color: lightblue; }
+    50%  { transform: translateX(100px); background-color: lightgreen; }
+    100% { transform: translateX(0); background-color: lightblue; }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 50px;
+    animation: moveBox 3s infinite; /* name duration repeat */
+}
+&lt;/style&gt;
+
+&lt;div class="box"&gt;Animated Box&lt;/div&gt;
+</code></pre>
+
       <div class="lang-switch">
         <button class="btn btn-sm btn-outline-info toggle-lang">اردو / Urdu</button>
       </div>
