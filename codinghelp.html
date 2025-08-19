@@ -166,11 +166,11 @@
     <!-- HTML Example -->
     <div class="card concept html">
       <h2>Parent And Child Element</h2>
-      <p>Here, the <code>&lt;div&gt;</code> is the <strong>parent</strong> element.  
-The two <code>&lt;p&gt;</code> tags inside it are <strong>child</strong> elements.  
-CSS properties applied to the parent can affect the children, like background, padding, or display settings.
-</p>
-<pre><code>&lt;div class="parent"&gt;
+      <p>Here, the <code>&lt;div&gt;</code> is the <strong>parent</strong> element.
+        The two <code>&lt;p&gt;</code> tags inside it are <strong>child</strong> elements.
+        CSS properties applied to the parent can affect the children, like background, padding, or display settings.
+      </p>
+      <pre><code>&lt;div class="parent"&gt;
     &lt;p class="child"&gt;This is a child element&lt;/p&gt;
     &lt;p class="child"&gt;Another child element&lt;/p&gt;
 &lt;/div&gt;
@@ -284,9 +284,9 @@ CSS properties applied to the parent can affect the children, like background, p
 &lt;aside&gt; Sidebar Info &lt;/aside&gt;
 &lt;footer&gt; Footer Section &lt;/footer&gt;
 </code></pre>
-<h2>Anchor (a) Tag</h2>
-<p>The <code>&lt;a&gt;</code> element creates hyperlinks to other pages, emails, or sections of the page.  </p>
-<pre><code>&lt;a href="https://www.google.com"&gt;Go to Google&lt;/a&gt;</code></pre>
+      <h2>Anchor (a) Tag</h2>
+      <p>The <code>&lt;a&gt;</code> element creates hyperlinks to other pages, emails, or sections of the page. </p>
+      <pre><code>&lt;a href="https://www.google.com"&gt;Go to Google&lt;/a&gt;</code></pre>
       <h2>Link With Attributes</h2>
       <p>This example shows how to create different types of links in HTML.
         The first link opens Google in a new browser tab using <code>target="_blank"</code>.
@@ -317,7 +317,8 @@ CSS properties applied to the parent can affect the children, like background, p
 </code></pre>
       <h2>Audio</h2>
       <p>The <code>&lt;audio&gt;</code> tag is used to add sound or music to a webpage, and it usually includes the
-        <code>controls</code> attribute so the user can play, pause, or adjust volume. </p>
+        <code>controls</code> attribute so the user can play, pause, or adjust volume.
+      </p>
       <pre><code>&lt;audio controls&gt;
     &lt;source src="audiofile.mp3" type="audio/mpeg"&gt;
     Your browser does not support the audio element.
@@ -363,10 +364,10 @@ CSS properties applied to the parent can affect the children, like background, p
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-<h2>External CSS (using .css file)</h2>
-<p>External CSS is written in a separate <code>.css</code> file and linked using <code>&lt;link&gt;</code>.  
-This is useful for styling multiple pages consistently.</p>
-<pre><code>&lt;!DOCTYPE html&gt;
+      <h2>External CSS (using .css file)</h2>
+      <p>External CSS is written in a separate <code>.css</code> file and linked using <code>&lt;link&gt;</code>.
+        This is useful for styling multiple pages consistently.</p>
+      <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
     &lt;link rel="stylesheet" href="styles.css"&gt;
@@ -377,10 +378,10 @@ This is useful for styling multiple pages consistently.</p>
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-<h2>Inline Css</h2>
-<p>Inline CSS is written directly inside the HTML element using the <code>style</code> attribute.  
-It is useful for quick changes but not recommended for large projects.</p>
-<pre><code>&lt;h1 style="color: purple; text-align: center;"&gt;Hello Inline CSS!&lt;/h1&gt;
+      <h2>Inline Css</h2>
+      <p>Inline CSS is written directly inside the HTML element using the <code>style</code> attribute.
+        It is useful for quick changes but not recommended for large projects.</p>
+      <pre><code>&lt;h1 style="color: purple; text-align: center;"&gt;Hello Inline CSS!&lt;/h1&gt;
 &lt;p style="color: teal; font-size: 18px;"&gt;This paragraph uses inline CSS.&lt;/p&gt;
 </code></pre>
       <h2>CSS Selectors</h2>
@@ -394,10 +395,13 @@ It is useful for quick changes but not recommended for large projects.</p>
 .myClass {
   background-color: blue;
 }</code></pre>
-<h2>Basic CSS Properties</h2>
-<p>These are basic CSS properties: <code>color</code> (text color), <code>background-color</code>, <code>font-family</code>, <code>font-size</code>, <code>text-align</code>, <code>margin</code>, and <code>padding</code>.  
-They help you style HTML elements easily.</p>
-<pre><code>&lt;style&gt;
+      <h2>Basic CSS Properties</h2>
+      <p>These are basic CSS properties: <code>color</code> (text color), <code>background-color</code>,
+        <code>font-family</code>, <code>font-size</code>, <code>text-align</code>, <code>margin</code>, and
+        <code>padding</code>.
+        They help you style HTML elements easily.
+      </p>
+      <pre><code>&lt;style&gt;
 /* Text color and background */
 p {
     color: navy;
@@ -435,13 +439,15 @@ div{
 }
 &lt;/style&gt;
 </code></pre>
-<h2>Flex Properties</h2>
-<p>Flexbox is used to create flexible layouts.  
-  display flex makes a container arrange its child elements in a single line (row) by default, allowing easy horizontal alignment, spacing, and responsive layout.
-Parent container properties control overall layout (direction, alignment, wrapping).  
-Child item properties control individual item behavior (growth, shrink, order, self-alignment).  
-Using flexbox makes horizontal & vertical alignment easy, responsive layouts simpler, and spacing consistent.</p>
-<pre><code>&lt;!-- Flex Container (Parent) Properties --&gt;
+      <h2>Flex Properties</h2>
+      <p>Flexbox is used to create flexible layouts.
+        display flex makes a container arrange its child elements in a single line (row) by default, allowing easy
+        horizontal alignment, spacing, and responsive layout.
+        Parent container properties control overall layout (direction, alignment, wrapping).
+        Child item properties control individual item behavior (growth, shrink, order, self-alignment).
+        Using flexbox makes horizontal & vertical alignment easy, responsive layouts simpler, and spacing consistent.
+      </p>
+      <pre><code>&lt;!-- Flex Container (Parent) Properties --&gt;
 .container {
     display: flex;             /* makes the container a flexbox */
     flex-direction: row;       /* row | column | row-reverse | column-reverse */
@@ -460,10 +466,13 @@ Using flexbox makes horizontal & vertical alignment easy, responsive layouts sim
     align-self: auto;         /* overrides align-items for this item */
 }
 </code></pre>
-<h2>Height And Width</h2>
-<p>In CSS, <strong>width</strong> sets the horizontal size of an element, and <strong>height</strong> sets the vertical size.  
-You can use units like <code>px</code> (pixels), <code>%</code> (percentage of parent), <code>em</code>, <code>rem</code>, and more.</p>
-<pre><code>&lt;style&gt;
+      <h2>Height And Width</h2>
+      <p>In CSS, <strong>width</strong> sets the horizontal size of an element, and <strong>height</strong> sets the
+        vertical size.
+        You can use units like <code>px</code> (pixels), <code>%</code> (percentage of parent), <code>em</code>,
+        <code>rem</code>, and more.
+      </p>
+      <pre><code>&lt;style&gt;
 .box {
     width: 200px;          /* horizontal size */
     height: 150px;         /* vertical size */
@@ -480,12 +489,15 @@ Width controls how wide the element is, and height controls how tall it is.
 You can also use percentages: <code>width: 50%</code> makes the element half the width of its parent container.
 </p>
 </code></pre>
-<h2>Styling For List</h2>
-<p>The CSS property <code>list-style-type</code> controls the appearance of these bullets or numbers.  
-For unordered lists, possible values include <code>disc</code> (default), <code>circle</code>, <code>square</code>, or <code>none</code>.  
-For ordered lists, values like <code>decimal</code>, <code>upper-roman</code>, <code>lower-alpha</code> can be used.  
-This allows you to customize how list items appear visually.</p>
-<pre><code>&lt;style&gt;
+      <h2>Styling For List</h2>
+      <p>The CSS property <code>list-style-type</code> controls the appearance of these bullets or numbers.
+        For unordered lists, possible values include <code>disc</code> (default), <code>circle</code>,
+        <code>square</code>, or <code>none</code>.
+        For ordered lists, values like <code>decimal</code>, <code>upper-roman</code>, <code>lower-alpha</code> can be
+        used.
+        This allows you to customize how list items appear visually.
+      </p>
+      <pre><code>&lt;style&gt;
 ul {
     list-style-type: square; /* changes the bullet style to square */
 }
@@ -494,26 +506,28 @@ ol {
 }
 &lt;/style&gt;
 </pre></code>
-<h2>Anchor (a) Tag Decoration</h2>
-<p>Using the CSS property <code>text-decoration</code>, you can control this line style.
-For example, <code>none</code> removes the underline, <code>underline</code> adds it, <code>overline</code> places a line above the text, and <code>line-through</code> strikes through the text.  
-You can also style the link color separately using the <code>color</code> property.</p>
-<pre><code>&lt;style&gt;
+      <h2>Anchor (a) Tag Decoration</h2>
+      <p>Using the CSS property <code>text-decoration</code>, you can control this line style.
+        For example, <code>none</code> removes the underline, <code>underline</code> adds it, <code>overline</code>
+        places a line above the text, and <code>line-through</code> strikes through the text.
+        You can also style the link color separately using the <code>color</code> property.</p>
+      <pre><code>&lt;style&gt;
 a {
     text-decoration: underline; /* add underline */
     color: blue;           /* sets link color */
 }
 &lt;/style&gt;
 </code></pre>
-<h2>Grid system</h2>
-<p>
-CSS Grid allows you to divide a container into rows and columns.  
-Using <code>grid-template-columns</code>, you define how many columns the grid will have and their width.  
-<code>grid-gap</code> adds space between grid items.  
-Each child element inside the grid container automatically becomes a grid item and aligns itself in the defined rows and columns.  
-Grid is very powerful for creating layouts like galleries, dashboards, and multi-column designs.
-</p>
-<pre><code>
+      <h2>Grid system</h2>
+      <p>
+        CSS Grid allows you to divide a container into rows and columns.
+        Using <code>grid-template-columns</code>, you define how many columns the grid will have and their width.
+        <code>grid-gap</code> adds space between grid items.
+        Each child element inside the grid container automatically becomes a grid item and aligns itself in the defined
+        rows and columns.
+        Grid is very powerful for creating layouts like galleries, dashboards, and multi-column designs.
+      </p>
+      <pre><code>
 .container {
     display: grid;
     grid-template-columns: 100px 100px 100px; /* 3 columns, each 100px wide */
@@ -521,16 +535,17 @@ Grid is very powerful for creating layouts like galleries, dashboards, and multi
     grid-gap: 10px;
 }
 </code>
-</pre>  
-<h2>Positions</h2>
-<p>CSS positioning allows you to control **where an element appears** on a web page.  
-The main property is <code>position</code>, which can take several values to change the element's placement.
-- <code>relative</code> moves the element slightly from its normal position.  
-- <code>absolute</code> positions the element relative to its nearest parent with a position set.  
-- <code>fixed</code> keeps the element in place even when scrolling.  
-- <code>sticky</code> sticks the element to a specified point when scrolling past it.  
-You can combine these with <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> to adjust the exact position.</p>
-<pre><code>&lt;style&gt;
+</pre>
+      <h2>Positions</h2>
+      <p>CSS positioning allows you to control **where an element appears** on a web page.
+        The main property is <code>position</code>, which can take several values to change the element's placement.
+        - <code>relative</code> moves the element slightly from its normal position.
+        - <code>absolute</code> positions the element relative to its nearest parent with a position set.
+        - <code>fixed</code> keeps the element in place even when scrolling.
+        - <code>sticky</code> sticks the element to a specified point when scrolling past it.
+        You can combine these with <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> to
+        adjust the exact position.</p>
+      <pre><code>&lt;style&gt;
 .container {
     position: relative; /* parent should be positioned */
     width: 300px;
@@ -549,15 +564,17 @@ You can combine these with <code>top</code>, <code>right</code>, <code>bottom</c
 }
 &lt;/style&gt;
 </code></pre>
-<h2>: :before And : :after</h2>
-<p>
-CSS <code>::before</code> and <code>::after</code> are <strong>pseudo-elements</strong> used to insert content **before or after an element's actual content**.  
-They are often used for decorative purposes, icons, or adding text without changing HTML.
-The <code>content</code> property defines what will be added.  
-These pseudo-elements are useful for adding decorative symbols, quotes, or small icons without modifying the HTML structure.  
-You can style them with color, font-size, margin, or any CSS property.
-</p>
-<pre><code>&lt;style&gt;
+      <h2>: :before And : :after</h2>
+      <p>
+        CSS <code>::before</code> and <code>::after</code> are <strong>pseudo-elements</strong> used to insert content
+        **before or after an element's actual content**.
+        They are often used for decorative purposes, icons, or adding text without changing HTML.
+        The <code>content</code> property defines what will be added.
+        These pseudo-elements are useful for adding decorative symbols, quotes, or small icons without modifying the
+        HTML structure.
+        You can style them with color, font-size, margin, or any CSS property.
+      </p>
+      <pre><code>&lt;style&gt;
 h3::before {
     content: "★ "; /* adds a star before the heading text */
     color: gold;
@@ -570,14 +587,14 @@ h3::after {
 
 &lt;h3&gt;My Heading&lt;/h3&gt;
 </code></pre>
-<h2>:Hover Effect</h2>
-<p>
-The <code>:hover</code> pseudo-class applies styles when the user hovers the mouse over an element.  
-In this example, the link has no underline by default and is blue in color.  
-When hovered, the link becomes underlined and changes its color to red.  
-Hover effects are widely used to give visual feedback and improve user experience on web pages.
-</p>
-<pre><code>&lt;style&gt;
+      <h2>:Hover Effect</h2>
+      <p>
+        The <code>:hover</code> pseudo-class applies styles when the user hovers the mouse over an element.
+        In this example, the link has no underline by default and is blue in color.
+        When hovered, the link becomes underlined and changes its color to red.
+        Hover effects are widely used to give visual feedback and improve user experience on web pages.
+      </p>
+      <pre><code>&lt;style&gt;
 a {
     text-decoration: none;
     color: blue;
@@ -590,35 +607,44 @@ a:hover {
 
 &lt;a href="https://www.google.com"&gt;Go to Google&lt;/a&gt;
 </code></pre>
-<h2>Transition</h2>
-<p>
-The <code>transition</code> property makes changes in CSS properties smooth over time.  
-In this example, when the button is hovered, the background color changes from blue to green and the button slightly grows in size.  
-The <code>0.5s</code> and <code>0.3s</code> define the duration of the transitions, and <code>ease</code> controls the speed curve.  
-Without transition, the color and size would change instantly, but with it, the changes are gradual and visually appealing.
-</p>
-<pre><code>a{
+      <h2>Transition</h2>
+      <p>
+        The <code>transition</code> property makes changes in CSS properties smooth over time.
+        In this example, when the button is hovered, the background color changes from blue to green and the button
+        slightly grows in size.
+        The <code>0.5s</code> and <code>0.3s</code> define the duration of the transitions, and <code>ease</code>
+        controls the speed curve.
+        Without transition, the color and size would change instantly, but with it, the changes are gradual and visually
+        appealing.
+      </p>
+      <pre><code>a{
   transition: property duration timing-function delay;
   transition: all 0.3s ease; /* all properties change smoothly in 0.3s */
 }
 </code></pre>
-<h2>Transform</h2>
-<p>The <code>transform</code> property in CSS allows you to visually change an element without affecting the layout around it</p>
-<h3>translate(x, y)</h3>
-<p>Moves the element horizontally (x) and vertically (y).</p>
-<pre><code>transform: translate(50px, 20px); /* moves right 50px, down 20px */</code></pre>
-<h3>rotate(angle)</h3>
-<p>Rotates the element by a given angle.</p>
-<pre><code>transform: rotate(45deg); /* rotates element 45 degrees clockwise */</code></pre>
-<h3>scale(factor)</h3>
-<p>Scales (resizes) element uniformly.</p>
-<pre><code>transform: scale(1.5); /* 1.5 times bigger */</code></pre>
-<h2>Animation</h2>
-<p>CSS animations allow you to **move, change, or transform elements smoothly over time** without using JavaScript.  
-Animations are defined using <code>@keyframes</code> to describe the sequence of changes and the <code>animation</code> property to apply it to elements.In this example, the box moves horizontally from left to right and changes color.  
-The <code>animation</code> property applies the animation to the element, specifying the name (<code>moveBox</code>), duration (3 seconds), and repetition (<code>infinite</code>).  
-CSS animations make web pages more interactive and visually appealing without using JavaScript.</p>
-<pre><code>&lt;style&gt;
+      <h2>Transform</h2>
+      <p>The <code>transform</code> property in CSS allows you to visually change an element without affecting the
+        layout around it</p>
+      <h3>translate(x, y)</h3>
+      <p>Moves the element horizontally (x) and vertically (y).</p>
+      <pre><code>transform: translate(50px, 20px); /* moves right 50px, down 20px */</code></pre>
+      <h3>rotate(angle)</h3>
+      <p>Rotates the element by a given angle.</p>
+      <pre><code>transform: rotate(45deg); /* rotates element 45 degrees clockwise */</code></pre>
+      <h3>scale(factor)</h3>
+      <p>Scales (resizes) element uniformly.</p>
+      <pre><code>transform: scale(1.5); /* 1.5 times bigger */</code></pre>
+      <h2>Animation</h2>
+      <p>CSS animations allow you to **move, change, or transform elements smoothly over time** without using
+        JavaScript.
+        Animations are defined using <code>@keyframes</code> to describe the sequence of changes and the
+        <code>animation</code> property to apply it to elements.In this example, the box moves horizontally from left to
+        right and changes color.
+        The <code>animation</code> property applies the animation to the element, specifying the name
+        (<code>moveBox</code>), duration (3 seconds), and repetition (<code>infinite</code>).
+        CSS animations make web pages more interactive and visually appealing without using JavaScript.
+      </p>
+      <pre><code>&lt;style&gt;
   animation-name → name of @keyframes
 animation-duration → how long the animation lasts
 animation-iteration-count → how many times to repeat
@@ -674,10 +700,516 @@ animation-timing-function → speed curve (linear, ease, ease-in-out)
 
     <!-- JavaScript Example -->
     <div class="card concept js">
-      <h2>JavaScript Alert</h2>
-      <pre><code>&lt;script&gt;
-  alert("Hello World");
-&lt;/script&gt;</code></pre>
+      <h2>JavaScript Variables</h2>
+      <p>In JavaScript, variables are used to store data values. You can think of them as containers that hold
+        information.
+        There are three main ways to declare variables: <code>var</code>, <code>let</code>, and <code>const</code>.</p>
+      <pre><code>// Using var (old way, function scoped)
+var name = "Ali";
+
+// Using let (modern way, block scoped)
+let age = 20;
+
+// Using const (cannot be changed once assigned)
+const country = "Pakistan";
+
+console.log(name);     // Output: Ali
+console.log(age);      // Output: 20
+console.log(country);  // Output: Pakistan
+<p>
+- <b>var</b>: Old keyword, function-scoped, not recommended for modern coding.  
+- <b>let</b>: Best choice for variables that can change.  
+- <b>const</b>: Use when you don’t want the value to change.  
+</p></code></pre>
+      <h2>JavaScript Data Types</h2>
+      <p>
+        In JavaScript, data types define the kind of values a variable can hold. They are divided into two categories:
+        <b>Primitive</b> and <b>Non-Primitive</b>.
+      </p>
+      <h3>1. Primitive Data Types</h3>
+      <pre><code><p>
+Primitive data types are the basic building blocks of JavaScript. They include:
+</p>
+// String → Text data
+let name = "Ali";
+
+// Number → Numeric values
+let age = 20;
+
+// Boolean → True or False
+let isStudent = true;
+
+// Undefined → Variable declared but not assigned
+let city;
+console.log(city); // Output: undefined
+
+// Null → Empty value
+let car = null;
+
+// Symbol → Unique identifier (advanced use)
+let sym = Symbol("id");
+
+// BigInt → Very large numbers
+let bigNumber = 123456789012345678901234567890n;</code></pre>
+      <h3>2. Non-Primitive (Reference) Data Types</h3>
+      <pre><code><p>
+Non-primitive types store collections of values or more complex entities. They include:
+</p>
+// Object → Collection of key-value pairs
+let person = {
+  name: "Sara",
+  age: 22
+};
+
+// Array → List of values
+let fruits = ["Apple", "Banana", "Mango"];</code></pre>
+      <h2>JavaScript Functions</h2>
+      <p>
+        A function in JavaScript is a reusable block of code that performs a specific task. Instead of writing the same
+        code again and again,
+        you can define it once in a function and call it whenever needed.
+      </p>
+      <h3>1. Function Declaration</h3>
+      <pre><code>// Function declaration
+function greet() {
+  console.log("Hello, Welcome to JavaScript!");
+}
+
+// Calling the function
+greet();  // Output: Hello, Welcome to JavaScript!</code></pre>
+      <h3>2. Function with Parameters</h3>
+      <pre><code><p><b>Parameters</b> are like input values that we pass into a function.
+They allow a function to work with different data each time it is called.</p>
+  // Function with parameters
+function add(a, b) {
+  return a + b;
+}
+console.log(add(5, 3));  // Output: 8</code></pre>
+      <h3>3. Function with Default Parameter</h3>
+      <pre><code>
+  // Default parameter
+function greetUser(name = "Guest") {
+  console.log("Hello " + name);
+}
+
+greetUser("Ali");   // Output: Hello Ali
+greetUser();        // Output: Hello Guest
+</code></pre>
+      <h3>4. Function Expression</h3>
+      <pre><code>
+  // Function stored in a variable
+const multiply = function(x, y) {
+  return x * y;
+};
+console.log(multiply(2,3)); //Output 6
+</code></pre>
+      <h3>5. Arrow Function (Modern)</h3>
+      <pre><code>
+  // Arrow function (short syntax)
+const divide = (a, b) => a / b;
+console.log(divide(10, 2));  // Output: 5
+</code></pre>
+      <h2>JavaScript Operators</h2>
+      <p>
+        Operators are special symbols used to perform operations on values and variables.
+        Example: <code>+</code> is used to add numbers, <code>*</code> is used to multiply.
+      </p>
+      <h3>1. Arithmetic Operators</h3>
+      <pre><code><p>Used for mathematical calculations.</p>
+let a = 10, b = 3;
+
+console.log(a + b);  // Addition → 13
+console.log(a - b);  // Subtraction → 7
+console.log(a * b);  // Multiplication → 30
+console.log(a / b);  // Division → 3.333...
+console.log(a % b);  // Modulus (remainder) → 1
+console.log(a ** b); // Exponentiation (power) → 1000</code></pre>
+      <h3>2. Assignment Operators</h3>
+      <pre><code><p>Used to assign values to variables.</p>
+let x = 5;
+x += 3;  // Same as x = x + 3 → 8
+x -= 2;  // Same as x = x - 2 → 6
+x *= 4;  // Same as x = x * 4 → 24
+x /= 6;  // Same as x = x / 6 → 4</code></pre>
+      <h3>3. Comparison Operators</h3>
+      <pre><code><p>Used to compare values (result is <code>true</code> or <code>false</code>).</p>
+console.log(5 == "5");   // true (only checks value)
+console.log(5 === "5");  // false (checks value + type)
+console.log(10 != 5);    // true (! => not means 10 is not equal to 5)
+console.log(10 > 6);     // true
+console.log(10 < 6);     // false
+console.log(10 >= 10);   // true</code></pre>
+      <h3>4. Logical Operators</h3>
+      <pre><code><p>Used to combine conditions.</p>
+let age = 20;
+
+console.log(age > 18 && age < 30); // AND → true
+console.log(age > 25 || age < 18); // OR → false
+console.log(!(age > 18));          // NOT → false</code></pre>
+      <h3>5. String Operators</h3>
+      <pre><code><p>Used to join (concatenate) strings.</p>
+let firstName = "Ali";
+let lastName = "Khan";
+
+console.log(firstName + " " + lastName);  // Output: Ali Khan
+<b>Summary:</b>  
+- Arithmetic → +, -, *, /, %, **  
+- Assignment → =, +=, -=, *=, /=  
+- Comparison → ==, ===, !=, >, <, >=, <=  
+- Logical → &&, ||, !  
+- String → + (concatenation)  </code></pre>
+      <h2>Built In Function In JavaScript</h2>
+      <p>
+        JavaScript provides some ready-made functions (called <b>built-in functions</b>) that we can use directly
+        without creating them ourselves.
+        Here are a few common ones:
+      </p>
+      <h3>1. alert()</h3>
+      <pre><code><p>
+The <code>alert()</code> function shows a popup message on the screen.
+</p>// Shows a popup message
+alert("Welcome to JavaScript!");</code></pre>
+
+      <h3>2. prompt()</h3>
+      <pre><code><p>
+The <code>prompt()</code> function asks the user for input and returns the entered value.
+</p>// Ask user for their name
+let name = prompt("Enter your name:");
+alert("Hello " + name);  // Displays Hello + user’s name</code></pre>
+      <h3>3. Date()</h3>
+      <pre><code><p>
+The <code>Date()</code> object is used to work with current date and time.
+</p>// Get the current date and time
+let today = new Date();
+
+console.log(today);        // Full date and time
+console.log(today.getFullYear()); // Year only
+console.log(today.getMonth() + 1); // Month (0-based, so +1)
+console.log(today.getDate());      // Day of month
+console.log(today.getDay());       // Day of week (0=Sunday)
+<p>
+<b>Summary:</b>  
+- <code>alert()</code> → Show a message popup.  
+- <code>prompt()</code> → Take input from the user.  
+- <code>Date()</code> → Work with date & time.  
+</p></code></pre>
+      <h2>Getting Elements in JavaScript</h2>
+      <p>
+        To interact with HTML using JavaScript, we first need to "select" or "get" the element.
+        JavaScript provides different methods to do this:
+      </p>
+      <h3>1. getElementById()</h3>
+      <pre><code><p>Selects an element by its <code>id</code>.</p>// HTML
+  &lt;p id="demo"&gt;Hello&lt;/p&gt;
+// JavaScript
+let element = document.getElementById("demo");
+console.log(element.innerText);  // Output: Hello</code></pre>
+      <h3>2. getElementsByClassName()</h3>
+      <pre><code><p>Selects all elements with a given <code>class</code>. (It returns a list).</p>
+// HTML
+&lt; p class="text"&gt; First&lt;/p&gt;
+&lt; p class="text"&gt; Second&lt;/p&gt;
+
+// JavaScript
+let items = document.getElementsByClassName("text");
+console.log(items[0].innerText); // Output: First [0] is the index number</code></pre>
+      <h3>3. getElementsByTagName()</h3>
+      <pre><code><p>Selects all elements with a given <code>tag name</code>.</p>
+// HTML
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h1&gt;Heading 2&lt;/h1&gt;
+// JavaScript
+let headings = document.getElementsByTagName("h1");
+console.log(headings[1].innerText); // Output: Heading 2</code></pre>
+      <h3>4. querySelector()</h3>
+      <pre><code><p>Selects the <b>first</b> element that matches a CSS selector.</p>
+// HTML
+&lt;p class="text"&gt; Hello&lt;/p&gt;
+// JavaScript
+let element = document.querySelector(".text");
+console.log(element.innerText);  // Output: Hello</code></pre>
+      <h3>5. querySelectorAll()</h3>
+      <pre><code><p>Selects <b>all</b> elements that match a CSS selector.</p>
+// HTML
+&lt;p class="text"&gt; one&lt;/p&gt;
+&lt;p class="text"&gt; two&lt;/p&gt;
+
+// JavaScript
+let elements = document.querySelectorAll(".text");
+console.log(elements[0].innerText); // Output: One
+console.log(elements[1].innerText); // Output: Two
+<p>
+<b>Summary:</b>  
+- <code>getElementById()</code> → Single element by ID.  
+- <code>getElementsByClassName()</code> → List of elements by class.  
+- <code>getElementsByTagName()</code> → List of elements by tag.  
+- <code>querySelector()</code> → First matching element.  
+- <code>querySelectorAll()</code> → All matching elements.  
+</p></code></pre>
+      <h2>How To Change Text In JavaScript ?</h2>
+      <p>
+        After getting an element, we can change its content or style using different properties:
+      </p>
+      <pre><code><p>
+<b>Summary:</b>  
+- <code>innerText</code> → Change only the text inside an element.  
+- <code>innerHTML</code> → Change HTML content (can include tags).  
+- <code>style</code> → Change CSS properties (color, font-size, etc).  
+- <code>setAttribute()</code> → Change attributes like src, href, id.  
+</p></code></pre>
+      <h2>JavaScript DOM (Document Object Model)</h2>
+      <p>
+        The <b>DOM</b> (Document Object Model) is a way for JavaScript to interact with HTML.
+        It treats an HTML page as a <b>tree of objects</b> where each tag (&lt;h1&gt;, &lt;p&gt;, &lt;div&gt;, etc.) is
+        a node in the tree.
+        Using the DOM, we can <b>get</b>, <b>change</b>, <b>add</b>, or <b>remove</b> elements.
+      </p>
+      <h3>1. DOM Structure</h3>
+      <pre><code><p>
+In the DOM, <code>&lt;html&gt;</code> is the root → inside it we have <code>&lt;body&gt;</code> → inside body we have <code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code>.
+</p><p>
+Example HTML:
+</p>&lt;html&gt;
+  &lt;body&gt;
+    &lt;h1 id="title"&gt;Hello&lt;/h1&gt;
+    &lt;p class="text"&gt;This is a paragraph&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      <h3>5. Creating and Adding Elements</h3>
+      <pre><code>// Create a new paragraph
+let newPara = document.createElement("p");
+newPara.innerText = "This is a new paragraph!";
+
+// Add it inside body
+document.body.appendChild(newPara);</code></pre>
+      <h3>6. Removing Elements</h3>
+      <pre><code>let oldPara = document.querySelector(".text");
+oldPara.remove();  // Removes the paragraph
+<p>
+<b>Summary:</b>  
+- The DOM is a tree representation of HTML.  
+- JavaScript uses the DOM to manipulate elements.  
+- We can <b>access</b>, <b>change</b>, <b>create</b>, and <b>remove</b> elements with DOM methods.  
+</p></code></pre>
+      <h2>JavaScript Event Listeners</h2>
+      <p>
+        An <b>event</b> is an action that happens on a web page (like a click, hover, key press, or form submit).
+        With <code>addEventListener()</code>, we can tell JavaScript to run some code when an event occurs.
+      </p>
+      <h3>1. Basic Example: Click Event</h3>
+      <pre><code>// HTML
+&lt;button id="btn"&gt;Click Me&lt;/button&gt;
+
+// JavaScript
+let button = document.getElementById("btn");
+
+button.addEventListener("click", function() {
+  alert("Button was clicked!");
+});</code></pre>
+      <h3>2. Mouse Events</h3>
+      <pre><code>// HTML
+<p id="para">Hover over me!</p>
+// JavaScript
+let para = document.getElementById("para");
+
+para.addEventListener("mouseover", function() {
+  para.style.color = "red";   // Change color on hover
+});
+
+para.addEventListener("mouseout", function() {
+  para.style.color = "black"; // Back to black when mouse leaves
+});</code></pre>
+
+      <h3>3. Keyboard Event</h3>
+      <pre><code>// HTML
+&lt;input type="text" id="inputBox" placeholder="Type something"&gt;
+
+// JavaScript
+let input = document.getElementById("inputBox");
+
+input.addEventListener("keydown", function(event) {
+  console.log("Key pressed: " + event.key);
+});</code></pre>
+      <h3>4. Multiple Events on Same Element</h3>
+      <pre><code>let box = document.getElementById("btn");
+
+box.addEventListener("mouseenter", () => {
+  console.log("Mouse entered button");
+});
+
+box.addEventListener("mouseleave", () => {
+  console.log("Mouse left button");
+});
+<p>
+<b>Summary:</b>  
+- <code>addEventListener("event", function)</code> → Attaches a function to run when the event happens.  
+- Common events: <code>click</code>, <code>mouseover</code>, <code>mouseout</code>, <code>keydown</code>, <code>submit</code>.  
+- Use <code>removeEventListener()</code> to stop an event from listening.  
+</p></code></pre>
+      <h2>JavaScript Conditional Statements</h2>
+      <p>
+        Conditional statements are used to make decisions in code.
+        They allow JavaScript to run different blocks of code based on certain conditions.
+      </p>
+      <h3>1. if Statement</h3>
+      <pre><code>// Example 1
+let age = 18;
+
+if (age >= 18) {
+  console.log("You are an adult");
+}
+- `let age = 18;` → Variable `age` ko 18 assign kiya.  
+- `if (age >= 18)` → Condition check: "kya age 18 ya usse zyada hai?"  
+- If condition `true` hai → `"You are an adult"` print hoga.  
+- If condition `false` hoti → kuch bhi run nahi hota.  
+</code></pre>
+      <h3>2. if...else Statement</h3>
+      <pre><code>let marks = 40;
+
+if (marks >= 50) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+- Agar `marks >= 50` → `"Pass"` print karega.  
+- Agar condition false hai → `"Fail"` print karega.  </code></pre>
+
+      <h3>3. if...else if...else Statement</h3>
+      <pre><code>let percentage = 75;
+
+if (percentage >= 80) {
+  console.log("Grade A+");
+} else if (percentage >= 60) {
+  console.log("Grade B");
+} else {
+  console.log("Grade C");
+}
+- Agar `percentage >= 80` → `"Grade A+"`.  
+- Agar pehli condition false hai lekin `percentage >= 60` true hai → `"Grade B"`.  
+- Agar dono conditions false → `"Grade C"`.  
+</code></pre>
+      <h3>4. Nested if (if ke andar if)</h3>
+      <pre><code>let user = "student";
+let marks = 85;
+
+if (user === "student") {
+  if (marks > 80) {
+    console.log("Excellent Student");
+  }
+}
+- Pehle check hoga → `user === "student"`.  
+- Agar true hai → phir andar wala `if` check karega `marks > 80`.  
+- Agar dono true → `"Excellent Student"` print hoga.  </code></pre>
+      <h2>JavaScript Loops</h2>
+      <p>
+        Loops are used when we want to repeat a block of code multiple times.
+        Instead of writing the same code again and again, we can use a loop.
+      </p>
+
+      <h3>1. for Loop</h3>
+      <pre><code><p>
+The <code>for</code> loop repeats code a fixed number of times.
+</p>
+for (let i = 1; i <= 5; i++) {
+  console.log("Number: " + i);
+}
+- `let i = 1;` → loop start hoga i = 1 se  
+- `i <= 5;` → loop chalega jab tak condition true hai  
+- `i++` → har round ke baad i ko 1 se increase karega  
+- Output: 1, 2, 3, 4, 5  </code></pre>
+      <h3>2. while Loop</h3>
+      <pre><code><p>
+The <code>while</code> loop keeps running <b>as long as the condition is true</b>.
+</p>let x = 1;
+
+while (x <= 3) {
+  console.log("Count: " + x);
+  x++;
+}
+- Pehle condition check hoti hai `x <= 3`  
+- Agar true → block chalega  
+- Har round mein x++ hota hai  </code></pre>
+      <h3>3. do...while Loop</h3>
+      <pre><code><p>
+This loop runs the code <b>at least once</b>, even if condition is false.
+</p>let y = 6;
+
+do {
+  console.log("Value: " + y);
+  y++;
+} while (y <= 5);
+- Code ek dafa run hoga chahe condition false ho  
+- Yahan pe `y=6` hai, condition false hai lekin output ek dafa print hoga </code></pre>
+      <h3>4. for...of Loop (Arrays)</h3>
+      <pre><code><p>
+The <code>for...of</code> loop is used to go through arrays.
+</p>let fruits = ["Apple", "Banana", "Mango"];
+
+for (let fruit of fruits) {
+  console.log(fruit);
+}
+**Output:**  
+Apple  
+Banana  
+Mango</code></pre>
+      <h3>5. forEach() Method (Arrays)</h3>
+      <pre><code><p>
+The <code>forEach()</code> method runs a function for each array element.
+</p>let numbers = [10, 20, 30];
+
+numbers.forEach(function(num) {
+  console.log(num);
+});
+**Output:**  
+10  
+20  
+30  
+<p>
+<b>Summary:</b>  
+- <code>for</code> → Use when you know how many times to repeat.  
+- <code>while</code> → Keep running while condition is true.  
+- <code>do...while</code> → Run at least once, then check condition.  
+- <code>for...of</code> → Best for looping through arrays.  
+- <code>forEach()</code> → Array method for looping.  
+</p>
+</code></pre>
+<h2>JavaScript Array Methods</h2>
+<p>
+Arrays are used to store multiple values in a single variable.  
+Some important methods to add or remove items in arrays are:
+</p>
+<h3>1. push()</h3>
+<pre><code><p>
+Adds an item at the <b>end</b> of the array.
+</p>let fruits = ["Apple", "Banana"];
+fruits.push("Mango");
+
+console.log(fruits); 
+// Output: ["Apple", "Banana", "Mango"]</code></pre>
+<h3>2. pop()</h3>
+<pre><code><p>
+Removes the <b>last</b> item from the array.
+</p>let fruits = ["Apple", "Banana", "Mango"];
+fruits.pop();
+
+console.log(fruits); 
+// Output: ["Apple", "Banana"]</code></pre>
+<h3>3. shift()</h3>
+<pre><code><p>
+Removes the <b>first</b> item from the array.
+</p>let fruits = ["Apple", "Banana", "Mango"];
+fruits.shift();
+
+console.log(fruits); 
+// Output: ["Banana", "Mango"]</code></pre>
+<h3>4. unshift()</h3>
+<pre><code><p>
+Adds an item at the <b>start</b> of the array.
+</p>let fruits = ["Banana", "Mango"];
+fruits.unshift("Apple");
+
+console.log(fruits); 
+// Output: ["Apple", "Banana", "Mango"]</code></pre>
       <div class="lang-switch">
         <button class="btn btn-sm btn-outline-info toggle-lang">اردو / Urdu</button>
       </div>
