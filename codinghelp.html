@@ -679,13 +679,206 @@ animation-timing-function → speed curve (linear, ease, ease-in-out)
 
     <!-- Bootstrap Example -->
     <div class="card concept bootstrap">
+      <h2>Introduction</h2>
+      <pre><code><p>
+<b>Bootstrap</b> is a popular CSS framework that helps us create responsive and beautiful websites quickly.  
+It already provides ready-made classes for layout, colors, buttons, forms, and more 
+ so we don’t need to write a lot of custom CSS.
+</p></code></pre>
+<h2>How To Use Bootstrap</h2>
+<pre><code><p>Bootstrap CDN method recommended</p>
+&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"&gt;<!-- Bootstrap JS (optional, for components like navbar, modal, carousel) -->
+&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+
+<h2>Download Method</h2><p>Download Bootstrap files from getbootstrap.com, include
+bootstrap.min.css and bootstrap.bundle.min.js in your project folder, and link them in HTML.</p></code>
+</pre>
       <h2>Bootstrap Grid System</h2>
-      <pre><code>&lt;div class="container"&gt;
+      <p>
+The <b>Bootstrap Grid System</b> uses rows and columns to create responsive layouts. 
+Each row is divided into 12 equal columns, and you can decide how many columns each element should span. 
+This system ensures your design adjusts perfectly across different screen sizes.
+</p>
+<pre><code>&lt;div class="container"&gt;
   &lt;div class="row"&gt;
-    &lt;div class="col-md-6"&gt;Column 1&lt;/div&gt;
-    &lt;div class="col-md-6"&gt;Column 2&lt;/div&gt;
+    &lt;div class="col" style="background:lightblue"&gt;Column 1&lt;/div&gt;
+    &lt;div class="col" style="background:lightgreen"&gt;Column 2&lt;/div&gt;
+    &lt;div class="col" style="background:lightpink"&gt;Column 3&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+ Column Size Example
+&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-4" style="background:lightblue"&gt;Takes 4 columns&lt;/div&gt;
+    &lt;div class="col-8" style="background:lightgreen"&gt;Takes 8 columns&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
+<h2>Bootstrap Breakpoints</h2>
+<p>Breakpoints are specific screen widths where Bootstrap changes the layout 
+to make websites responsive (mobile-friendly).</p>
+<pre><code><h4>Bootstrap Default Breakpoints</h4>- Extra Small (xs): &lt;576px  → class is just .col
+- Small (sm): ≥576px → class is .col-sm
+- Medium (md): ≥768px → class is .col-md
+- Large (lg): ≥992px → class is .col-lg
+- Extra Large (xl): ≥1200px → class is .col-xl
+- Extra Extra Large (xxl): ≥1400px → class is .col-xxl
+<h4>Usage Example</h4>&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-12 col-sm-6 col-md-4 col-lg-3" 
+         style="background:lightblue"&gt;
+      Responsive Column
+    &lt;/div&gt;
+    &lt;div class="col-12 col-sm-6 col-md-8 col-lg-9" 
+         style="background:lightgreen"&gt;
+      Another Column
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Breakpoints let you design layouts that look good on 
+MOBILE 📱, TABLET 💻, and DESKTOP 🖥️ devices.</code></pre>
+<h2> Container vs. Container-Fluid</h2>
+<p>✔ container
+- Fixed width (changes at breakpoints).
+- Content is centered with margins on left and right.
+
+✔ container-fluid
+- Full width of the screen (always 100% width).
+- Used when you want your layout to span the entire page.</p>
+<pre><code>&lt;div class="container"&gt;
+  &lt;p&gt;This is inside a fixed container.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="container-fluid"&gt;
+  &lt;p&gt;This is inside a full-width container.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+<h2>Bootstrap Typography & Text Utilities</h2>
+<p>Bootstrap provides built-in classes for headings, paragraphs, and text styling.</p>
+<pre><code><h4>Display Headings (larger font sizes)</h4>&lt;h1 class="display-1"&gt;Display 1&lt;/h1&gt;
+&lt;h1 class="display-2"&gt;Display 2&lt;/h1&gt;
+&lt;h1 class="display-3"&gt;Display 3&lt;/h1&gt;<h4>Lead Paragraph</h4>&lt;p class="lead"&gt;
+  This is a lead paragraph. It stands out from regular text.
+&lt;/p&gt;<h4>Text Alignment</h4>&lt;p class="text-start"&gt;Left aligned text&lt;/p&gt;
+&lt;p class="text-center"&gt;Center aligned text&lt;/p&gt;
+&lt;p class="text-end"&gt;Right aligned text&lt;/p&gt;<h4>Text Colors</h4>&lt;p class="text-primary"&gt;Primary text&lt;/p&gt;
+&lt;p class="text-success"&gt;Success text&lt;/p&gt;
+&lt;p class="text-danger"&gt;Danger text&lt;/p&gt;
+&lt;p class="text-warning"&gt;Warning text&lt;/p&gt;
+&lt;p class="text-info"&gt;Info text&lt;/p&gt;
+&lt;p class="text-muted"&gt;Muted text&lt;/p&gt;
+<h4>Font Weight & Style</h4>&lt;p class="fw-bold"&gt;Bold text&lt;/p&gt;
+&lt;p class="fw-light"&gt;Light text&lt;/p&gt;
+&lt;p class="fst-italic"&gt;Italic text&lt;/p&gt;- Use display classes for large headings
+<h5>- .lead makes paragraphs stand out
+- .text-start, .text-center, .text-end → alignment
+- .text-* classes apply predefined Bootstrap colors
+- fw-* for font weight, fst-* for style</h5></code></pre>
+<h2>Bootstrap Buttons</h2>
+<p>Bootstrap provides pre-styled buttons with different colors, sizes, 
+and styles. Buttons are created using the &lt;button&gt; element or 
+an &lt;a&gt; (anchor) tag with class .btn.</p>
+<pre><code>&lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+&lt;button class="btn btn-success"&gt;Success&lt;/button&gt;
+&lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;
+&lt;button class="btn btn-warning"&gt;Warning&lt;/button&gt;
+&lt;button class="btn btn-info"&gt;Info&lt;/button&gt;
+&lt;button class="btn btn-light"&gt;Light&lt;/button&gt;
+&lt;button class="btn btn-dark"&gt;Dark&lt;/button&gt;&lt;
+button class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-outline-success"&gt;Success&lt;/button&gt;
+&lt;button class="btn btn-outline-danger"&gt;Danger&lt;/button&gt;</code></pre>
+<h2>Bootstrap Forms</h2>
+<p>Bootstrap provides ready-to-use styles for form elements like 
+input fields, labels, checkboxes, radios, and selects.</p>
+<pre><code><h4>Basic Form</h4>
+  &lt;form&gt;
+  &lt;div class="mb-3"&gt;
+    &lt;label for="exampleInputEmail" class="form-label"&gt;Email address&lt;/label&gt;
+    &lt;input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter email"&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mb-3"&gt;
+    &lt;label for="exampleInputPassword" class="form-label"&gt;Password&lt;/label&gt;
+    &lt;input type="password" class="form-control" id="exampleInputPassword" placeholder="Password"&gt;
+  &lt;/div&gt;
+
+  &lt;button type="submit" class="btn btn-primary"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+<h3>Form Control Sizes</h3>
+<pre><code>&lt;input class="form-control form-control-lg" type="text" placeholder="Large input"&gt;
+&lt;input class="form-control" type="text" placeholder="Default input"&gt;
+&lt;input class="form-control form-control-sm" type="text" placeholder="Small input"&gt;</code></pre>
+<h3>Checkboxes &amp; Radio Buttons</h3>
+<pre><code>&lt;div class="form-check"&gt;
+  &lt;input class="form-check-input" type="checkbox" id="check1"&gt;
+  &lt;label class="form-check-label" for="check1"&gt;Remember Me&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="form-check"&gt;
+  &lt;input class="form-check-input" type="radio" name="options" id="radio1"&gt;
+  &lt;label class="form-check-label" for="radio1"&gt;Option 1&lt;/label&gt;
+&lt;/div&gt;</code></pre>
+<h3>Select Dropdown</h3>
+<pre><code>&lt;select class="form-select"&gt;
+  &lt;option selected&gt;Open this select menu&lt;/option&gt;
+  &lt;option value="1"&gt;One&lt;/option&gt;
+  &lt;option value="2"&gt;Two&lt;/option&gt;
+  &lt;option value="3"&gt;Three&lt;/option&gt;
+&lt;/select&gt;<h4>Key Points</h4>
+- Use .form-control for inputs, .form-label for labels
+- .form-check for checkboxes &amp; radios
+- .form-select for dropdown menus
+- Use spacing classes like .mb-3 to separate fields</code></pre>
+<h2>Bootstrap Cards</h2>
+<p>Cards are flexible content containers with options for headers, 
+footers, images, and text.</p>
+<pre><code><h4>Basic Cards</h4>&lt;div class="card" style="width: 18rem;"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Card Title&lt;/h5&gt;
+    &lt;p class="card-text"&gt;
+      This is a simple card with supporting text.
+    &lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary"&gt;Learn More&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre>
+<h3>Card with Image</h3>
+<pre><code>lt;div class="card" style="width: 18rem;"&gt;
+  &lt;img src="https://via.placeholder.com/150" class="card-img-top" alt="..."/&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Card with Image&lt;/h5&gt;
+    &lt;p class="card-text"&gt;Example of card with an image at the top.&lt;/p&gt;
+    &lt;a href="#" class="btn btn-success"&gt;Read More&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+  <h3> Card with Header &amp; Footer</h3>
+  <pre><code>&lt;div class="card text-center"&gt;
+  &lt;div class="card-header"&gt;
+    Featured
+  &lt;/div&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Special title&lt;/h5&gt;
+    &lt;p class="card-text"&gt;With supporting text.&lt;/p&gt;
+    &lt;a href="#" class="btn btn-danger"&gt;Go Somewhere&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="card-footer text-muted"&gt;
+    2 days ago
+  &lt;/div&gt;
+  &lt;/div&gt;
+  <h4>Key Points</h4>- .card is the main container
+- .card-body holds text &amp; buttons
+- .card-img-top for images
+- .card-header and .card-footer for extra sections</code></pre>
+<h2>Important Bootstrap Components for Beginners</h2>
+<pre><code><h5>- Navbar
+- Carousel
+- Modal
+- Dropdown
+- Progress Bar</h5>
+<h4>By learning and practicing these components along with 
+the grid system and forms, you can easily build professional 
+responsive websites using Bootstrap.</h4></code></pre>
       <div class="lang-switch">
         <button class="btn btn-sm btn-outline-info toggle-lang">اردو / Urdu</button>
       </div>
