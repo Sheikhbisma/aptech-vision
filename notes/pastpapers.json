@@ -5,6 +5,7 @@
       { "name": "Chemistry", "url": "pdfpastpapers/1styear-chemistry-pastpapers.pdf" },
       { "name": "Physics", "url": "pdfpastpapers/1styear-physics-pastpapers.pdf" },
       { "name": "Urdu", "url": "pdfpastpapers/1styear-Urdu-pastpapers.pdf" },
+       { "name": "English", "url": "pdfpastpapers/1st-year-English-pastpapers.pdf" },
       { "name": "Islamiat", "url": "pdfpastpapers/1styear-Islamiat-pastpapers.pdf" }
     ],
  "Pre-Engineering": [
@@ -35,19 +36,21 @@
   },
 
   "Second Year": {
-    "Pre-Medical": [
-      { "name": "Biology", "url": "pdfpastpapers/2ndyear-Biology-pastpapers.pdf" },
-      { "name": "Chemistry", "url": "pdfpastpapers/2ndyear-Chemistry-pastpapers.pdf"  },
-         { "name": "Physics", "url": "pdfpastpapers/2nd year-physics-pastpapers.pdf" },
-      { "name": "English", "url": "pdfpastpapers/2ndyear-English-pastpapers.pdf" },
-      { "name": "Islamiat", "url": "papers/sy/islamiat.pdf" }
+  "Pre-Medical": [
+      { "name": "Biology", "url":"pdfpastpapers/2ndyear-Biology-pastpapers.pdf" },
+      { "name": "Chemistry", "url": "pdfpastpapers/2ndyear-chemistry-pastpapers.pdf" },
+      { "name": "Physics", "url": "pdfpastpapers/2ndyear-physics-pastpapers.pdf" },
+      { "name": "Urdu", "url": "pdfpastpapers/2ndyear-Urdu-pastpapers.pdf" },
+       { "name": "English", "url": "pdfpastpapers/2nd-year-English-pastpapers.pdf" },
+      { "name": "Pakistan Studies", "url": "pdfpastpapers/2ndyear-Pst-pastpapers.pdf" }
     ],
     "Pre-Engineering": [
-     { "name": "Mathematics", "url": "pdfpastpapers/2ndyear-Math-pastpapers.pdf" },
-           { "name": "Physics", "url": "pdfpastpapers/2nd year-physics-pastpapers.pdf" },
-      { "name": "Chemistry", "url": "pdfpastpapers/2ndyear-Chemistry-pastpapers.pdf"  },
-       { "name": "English", "url": "pdfpastpapers/2ndyear-English-pastpapers.pdf" },
-      { "name": "Islamiat", "url": "papers/sy/islamiat.pdf" }
+       { "name": "Mathematics", "url":"pdfpastpapers/2ndyear-Math-pastpapers.pdf" },
+      { "name": "Chemistry", "url": "pdfpastpapers/2ndyear-chemistry-pastpapers.pdf" },
+      { "name": "Physics", "url": "pdfpastpapers/2ndyear-physics-pastpapers.pdf" },
+      { "name": "Urdu", "url": "pdfpastpapers/2ndyear-Urdu-pastpapers.pdf" },
+       { "name": "English", "url": "pdfpastpapers/2nd-year-English-pastpapers.pdf" },
+      { "name": "Pakistan Studies", "url": "pdfpastpapers/2ndyear-Pst-pastpapers.pdf" }
     ],
     "Commerce": [
       { "name": "Accounting", "url": "papers/sy/accounting.pdf" },
@@ -63,7 +66,6 @@
       { "name": "Mathematics", "url": "pdfpastpapers/2ndyear-Math-pastpapers.pdf" },
       { "name": "Physics", "url": "pdfpastpapers/2nd year-physics-pastpapers.pdf" },
       { "name": "English", "url": "pdfpastpapers/2ndyear-English-pastpapers.pdf" },
-      { "name": "Islamiat", "url": "papers/sy/islamiat.pdf" },
       { "name": "Pakistan Studies", "url": "pdfpastpapers/2ndyear-Pst-pastpapers.pdf" }
     ]
   }
