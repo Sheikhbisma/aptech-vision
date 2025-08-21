@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Student Help - Assignments & MCQs</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <!-- bootstrap5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/style.css" />
   <style>
     * {
       margin: 0;
@@ -26,7 +26,6 @@
       background: #001f3f;
       color: white;
       position: relative;
-
     }
 
     video#bgVideo {
@@ -128,7 +127,6 @@
   </style>
 </head>
 
-
 <body>
   <div class="scrolling-line text-center">
     <div class="scrolling-text">
@@ -136,11 +134,10 @@
     </div>
   </div>
   <header>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top px-4">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="#">
-          <i class="fas fa-graduation-cap me-2"></i>StudentHelp
+          <i class="fas fa-graduation-cap me-2"></i>Edu Sindh
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
           <span class="navbar-toggler-icon"></span>
@@ -148,7 +145,6 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
             <li class="nav-item">
               <a class="nav-link " href="/index.html"><i class="fas fa-home d-block text-center"></i>Home</a>
             </li>
@@ -184,15 +180,13 @@
             <li class="nav-item">
               <a class="nav-link" href="/contact.html"><i class="fas fa-envelope d-block text-center"></i>Contact</a>
             </li>
-
-
           </ul>
         </div>
       </div>
     </nav>
   </header>
-    <video autoplay muted loop id="bgVideo">
-    <source src="/assests/contact.mp4" type="video/mp4">
+  <video autoplay muted loop id="bgVideo">
+    <source src="/assests/contact.mp4" type="video/mp4" />
   </video>
 
   <h1 style="margin-top: 120px;">Student Help - Assignments & MCQs</h1>
@@ -210,24 +204,56 @@
     <div class="download-btn"><a href="/downloads/html-assignment.docx" download>Download Assignment (Word)</a></div>
     <div id="html-mcqs">
       <div class="mcq">
-        <p>1. What does HTML stand for?</p><button onclick="check(this, true)">HyperText Markup Language</button><button
-          onclick="check(this, false)">HyperText Machine Language</button>
+        <p>1. What does HTML stand for?</p>
+        <button onclick="check(this, true)">HyperText Markup Language</button>
+        <button onclick="check(this, false)">HyperText Machine Language</button>
       </div>
       <div class="mcq">
-        <p>2. Which tag is used for line breaks?</p><button onclick="check(this, true)">&lt;br&gt;</button><button
-          onclick="check(this, false)">&lt;lb&gt;</button>
+        <p>2. Which tag is used for line breaks?</p>
+        <button onclick="check(this, true)">&lt;br&gt;</button>
+        <button onclick="check(this, false)">&lt;lb&gt;</button>
       </div>
       <div class="mcq">
-        <p>3. Which tag is used for inserting an image?</p><button
-          onclick="check(this, true)">&lt;img&gt;</button><button onclick="check(this, false)">&lt;image&gt;</button>
+        <p>3. Which tag is used for inserting an image?</p>
+        <button onclick="check(this, true)">&lt;img&gt;</button>
+        <button onclick="check(this, false)">&lt;image&gt;</button>
       </div>
       <div class="mcq">
-        <p>4. HTML files are saved with which extension?</p><button onclick="check(this, true)">.html</button><button
-          onclick="check(this, false)">.htmll</button>
+        <p>4. HTML files are saved with which extension?</p>
+        <button onclick="check(this, true)">.html</button>
+        <button onclick="check(this, false)">.htmll</button>
       </div>
       <div class="mcq">
-        <p>5. Which tag is used to create a hyperlink?</p><button onclick="check(this, true)">&lt;a&gt;</button><button
-          onclick="check(this, false)">&lt;link&gt;</button>
+        <p>5. Which tag is used to create a hyperlink?</p>
+        <button onclick="check(this, true)">&lt;a&gt;</button>
+        <button onclick="check(this, false)">&lt;link&gt;</button>
+      </div>
+
+      <!-- New MCQs added below -->
+      <div class="mcq">
+        <p>6. Which attribute is used to specify an alternate text for an image?</p>
+        <button onclick="check(this, true)">alt</button>
+        <button onclick="check(this, false)">src</button>
+      </div>
+      <div class="mcq">
+        <p>7. Which tag is used to create a table?</p>
+        <button onclick="check(this, true)">&lt;table&gt;</button>
+        <button onclick="check(this, false)">&lt;tab&gt;</button>
+      </div>
+      <div class="mcq">
+        <p>8. Which element is used to define the title of a document?</p>
+        <button onclick="check(this, true)">&lt;title&gt;</button>
+        <button onclick="check(this, false)">&lt;head&gt;</button>
+      </div>
+      <div class="mcq">
+        <p>9. How do you comment in HTML?</p>
+        <button onclick="check(this, true)">&lt;!-- Comment --&gt;</button>
+        <button onclick="check(this, false)">&lt;! Comment &gt;</button>
+      </div>
+      <div class="mcq">
+        <p>10. Which tag defines a paragraph?</p>
+        <button onclick="check(this, true)">&lt;p&gt;</button>
+        <button onclick="check(this, false)">&lt;para&gt;</button>
       </div>
     </div>
   </div>
@@ -237,24 +263,56 @@
     <div class="download-btn"><a href="/downloads/css-assignment.docx" download>Download Assignment (Word)</a></div>
     <div id="css-mcqs">
       <div class="mcq">
-        <p>1. What does CSS stand for?</p><button onclick="check(this, true)">Cascading Style Sheets</button><button
-          onclick="check(this, false)">Creative Style System</button>
+        <p>1. What does CSS stand for?</p>
+        <button onclick="check(this, true)">Cascading Style Sheets</button>
+        <button onclick="check(this, false)">Creative Style System</button>
       </div>
       <div class="mcq">
-        <p>2. Which CSS property is used to change text color?</p><button
-          onclick="check(this, true)">color</button><button onclick="check(this, false)">font-color</button>
+        <p>2. Which CSS property is used to change text color?</p>
+        <button onclick="check(this, true)">color</button>
+        <button onclick="check(this, false)">font-color</button>
       </div>
       <div class="mcq">
-        <p>3. Which is the correct CSS syntax?</p><button onclick="check(this, true)">body {color:
-          black;}</button><button onclick="check(this, false)">{body;color:black;}</button>
+        <p>3. Which is the correct CSS syntax?</p>
+        <button onclick="check(this, true)">body {color: black;}</button>
+        <button onclick="check(this, false)">{body;color:black;}</button>
       </div>
       <div class="mcq">
-        <p>4. How do you add a background color in CSS?</p><button onclick="check(this, true)">background-color:
-          blue;</button><button onclick="check(this, false)">color-background: blue;</button>
+        <p>4. How do you add a background color in CSS?</p>
+        <button onclick="check(this, true)">background-color: blue;</button>
+        <button onclick="check(this, false)">color-background: blue;</button>
       </div>
       <div class="mcq">
-        <p>5. How to select an element with id 'main'?</p><button onclick="check(this, true)">#main</button><button
-          onclick="check(this, false)">.main</button>
+        <p>5. How to select an element with id 'main'?</p>
+        <button onclick="check(this, true)">#main</button>
+        <button onclick="check(this, false)">.main</button>
+      </div>
+
+      <!-- New MCQs added below -->
+      <div class="mcq">
+        <p>6. Which property is used to change the font size?</p>
+        <button onclick="check(this, true)">font-size</button>
+        <button onclick="check(this, false)">text-size</button>
+      </div>
+      <div class="mcq">
+        <p>7. How do you make text bold in CSS?</p>
+        <button onclick="check(this, true)">font-weight: bold;</button>
+        <button onclick="check(this, false)">text-weight: bold;</button>
+      </div>
+      <div class="mcq">
+        <p>8. Which selector selects all elements?</p>
+        <button onclick="check(this, true)">*</button>
+        <button onclick="check(this, false)">all</button>
+      </div>
+      <div class="mcq">
+        <p>9. What does 'padding' do?</p>
+        <button onclick="check(this, true)">Adds space inside the element</button>
+        <button onclick="check(this, false)">Adds space outside the element</button>
+      </div>
+      <div class="mcq">
+        <p>10. Which property controls the spacing between letters?</p>
+        <button onclick="check(this, true)">letter-spacing</button>
+        <button onclick="check(this, false)">word-spacing</button>
       </div>
     </div>
   </div>
@@ -265,24 +323,56 @@
     </div>
     <div id="bootstrap-mcqs">
       <div class="mcq">
-        <p>1. What is Bootstrap?</p><button onclick="check(this, true)">A CSS framework</button><button
-          onclick="check(this, false)">A JavaScript library</button>
+        <p>1. What is Bootstrap?</p>
+        <button onclick="check(this, true)">A CSS framework</button>
+        <button onclick="check(this, false)">A JavaScript library</button>
       </div>
       <div class="mcq">
-        <p>2. What class makes a button blue in Bootstrap?</p><button
-          onclick="check(this, true)">btn-primary</button><button onclick="check(this, false)">btn-blue</button>
+        <p>2. Which class makes text bold in Bootstrap?</p>
+        <button onclick="check(this, true)">fw-bold</button>
+        <button onclick="check(this, false)">text-bold</button>
       </div>
       <div class="mcq">
-        <p>3. What is the container class used for?</p><button onclick="check(this, true)">To center and pad
-          content</button><button onclick="check(this, false)">To add animations</button>
+        <p>3. Which class is used for responsive images?</p>
+        <button onclick="check(this, true)">img-fluid</button>
+        <button onclick="check(this, false)">img-responsive</button>
       </div>
       <div class="mcq">
-        <p>4. Which class creates a responsive grid?</p><button onclick="check(this, true)">row</button><button
-          onclick="check(this, false)">grid</button>
+        <p>4. What does the container class do?</p>
+        <button onclick="check(this, true)">Centers content and sets max width</button>
+        <button onclick="check(this, false)">Adds padding only</button>
       </div>
       <div class="mcq">
-        <p>5. How do you include Bootstrap in a page?</p><button onclick="check(this, true)">Via CDN
-          link</button><button onclick="check(this, false)">With a .js file only</button>
+        <p>5. How do you create a button in Bootstrap?</p>
+        <button onclick="check(this, true)">class="btn"</button>
+        <button onclick="check(this, false)">class="button"</button>
+      </div>
+
+      <!-- New MCQs added below -->
+      <div class="mcq">
+        <p>6. Which class makes text center aligned?</p>
+        <button onclick="check(this, true)">text-center</button>
+        <button onclick="check(this, false)">center-text</button>
+      </div>
+      <div class="mcq">
+        <p>7. Which class is used to create a button?</p>
+        <button onclick="check(this, true)">btn</button>
+        <button onclick="check(this, false)">button</button>
+      </div>
+      <div class="mcq">
+        <p>8. Which class adds padding in Bootstrap?</p>
+        <button onclick="check(this, true)">p-3</button>
+        <button onclick="check(this, false)">pad-3</button>
+      </div>
+      <div class="mcq">
+        <p>9. Which class makes an image responsive?</p>
+        <button onclick="check(this, true)">img-fluid</button>
+        <button onclick="check(this, false)">img-responsive</button>
+      </div>
+      <div class="mcq">
+        <p>10. Bootstrap is based on which CSS preprocessor?</p>
+        <button onclick="check(this, true)">Sass</button>
+        <button onclick="check(this, false)">LESS</button>
       </div>
     </div>
   </div>
@@ -293,24 +383,56 @@
     </div>
     <div id="javascript-mcqs">
       <div class="mcq">
-        <p>1. What is JavaScript used for?</p><button onclick="check(this, true)">Web interactivity</button><button
-          onclick="check(this, false)">Styling web pages</button>
+        <p>1. Which symbol is used for comments in JavaScript?</p>
+        <button onclick="check(this, true)">//</button>
+        <button onclick="check(this, false)">/* */</button>
       </div>
       <div class="mcq">
-        <p>2. Which symbol is used for comments in JS?</p><button onclick="check(this, true)">//</button><button
-          onclick="check(this, false)">##</button>
+        <p>2. How do you declare a variable in JavaScript?</p>
+        <button onclick="check(this, true)">var</button>
+        <button onclick="check(this, false)">variable</button>
       </div>
       <div class="mcq">
-        <p>3. How do you declare a variable?</p><button onclick="check(this, true)">let x;</button><button
-          onclick="check(this, false)">variable x;</button>
+        <p>3. What is the correct way to write a function?</p>
+        <button onclick="check(this, true)">function myFunc() { }</button>
+        <button onclick="check(this, false)">func myFunc() { }</button>
       </div>
       <div class="mcq">
-        <p>4. What is 'typeof' used for?</p><button onclick="check(this, true)">Check variable type</button><button
-          onclick="check(this, false)">Check string length</button>
+        <p>4. How do you call a function named 'myFunc'?</p>
+        <button onclick="check(this, true)">myFunc();</button>
+        <button onclick="check(this, false)">call myFunc();</button>
       </div>
       <div class="mcq">
-        <p>5. What keyword stops a loop?</p><button onclick="check(this, true)">break</button><button
-          onclick="check(this, false)">exit</button>
+        <p>5. Which operator is used to assign a value?</p>
+        <button onclick="check(this, true)">=</button>
+        <button onclick="check(this, false)">==</button>
+      </div>
+
+      <!-- New MCQs added below -->
+      <div class="mcq">
+        <p>6. How do you write "Hello World" in an alert box?</p>
+        <button onclick="check(this, true)">alert("Hello World");</button>
+        <button onclick="check(this, false)">msg("Hello World");</button>
+      </div>
+      <div class="mcq">
+        <p>7. Which event occurs when the user clicks a button?</p>
+        <button onclick="check(this, true)">onclick</button>
+        <button onclick="check(this, false)">onchange</button>
+      </div>
+      <div class="mcq">
+        <p>8. How do you create a function in JavaScript?</p>
+        <button onclick="check(this, true)">function myFunc() { }</button>
+        <button onclick="check(this, false)">function:myFunc() { }</button>
+      </div>
+      <div class="mcq">
+        <p>9. Which operator checks equality without type conversion?</p>
+        <button onclick="check(this, true)">===</button>
+        <button onclick="check(this, false)">==</button>
+      </div>
+      <div class="mcq">
+        <p>10. What will console.log(typeof 123) output?</p>
+        <button onclick="check(this, true)">number</button>
+        <button onclick="check(this, false)">string</button>
       </div>
     </div>
   </div>
@@ -320,96 +442,89 @@
     <div class="download-btn"><a href="/downloads/jquery-assignment.docx" download>Download Assignment (Word)</a></div>
     <div id="jquery-mcqs">
       <div class="mcq">
-        <p>1. jQuery is a...</p><button onclick="check(this, true)">JavaScript library</button><button
-          onclick="check(this, false)">CSS framework</button>
+        <p>1. What does jQuery simplify?</p>
+        <button onclick="check(this, true)">JavaScript tasks</button>
+        <button onclick="check(this, false)">CSS styling</button>
       </div>
       <div class="mcq">
-        <p>2. How to select elements in jQuery?</p><button onclick="check(this, true)">$("selector")</button><button
-          onclick="check(this, false)">query(selector)</button>
+        <p>2. Which symbol is used for jQuery?</p>
+        <button onclick="check(this, true)">$</button>
+        <button onclick="check(this, false)">#</button>
       </div>
       <div class="mcq">
-        <p>3. What does $(document).ready() do?</p><button onclick="check(this, true)">Runs code after DOM
-          loads</button><button onclick="check(this, false)">Checks if user is online</button>
+        <p>3. How do you hide all paragraphs?</p>
+        <button onclick="check(this, true)">$("p").hide();</button>
+        <button onclick="check(this, false)">hide("p");</button>
       </div>
       <div class="mcq">
-        <p>4. jQuery method to hide elements?</p><button onclick="check(this, true)">.hide()</button><button
-          onclick="check(this, false)">.disappear()</button>
+        <p>4. Which method adds content to the end of selected elements?</p>
+        <button onclick="check(this, true)">append()</button>
+        <button onclick="check(this, false)">add()</button>
       </div>
       <div class="mcq">
-        <p>5. jQuery file ends with?</p><button onclick="check(this, true)">.js</button><button
-          onclick="check(this, false)">.jq</button>
+        <p>5. jQuery is a library of which language?</p>
+        <button onclick="check(this, true)">JavaScript</button>
+        <button onclick="check(this, false)">Java</button>
+      </div>
+
+      <!-- New MCQs added below -->
+      <div class="mcq">
+        <p>6. Which symbol is used to access jQuery?</p>
+        <button onclick="check(this, true)">$</button>
+        <button onclick="check(this, false)">#</button>
+      </div>
+      <div class="mcq">
+        <p>7. How do you hide all paragraphs with jQuery?</p>
+        <button onclick="check(this, true)">$("p").hide();</button>
+        <button onclick="check(this, false)">hide("p");</button>
+      </div>
+      <div class="mcq">
+        <p>8. Which method adds content to the end of selected elements?</p>
+        <button onclick="check(this, true)">append()</button>
+        <button onclick="check(this, false)">add()</button>
+      </div>
+      <div class="mcq">
+        <p>9. How do you write an if statement in jQuery?</p>
+        <button onclick="check(this, true)">if (condition) { }</button>
+        <button onclick="check(this, false)">if condition { }</button>
+      </div>
+      <div class="mcq">
+        <p>10. jQuery uses which language?</p>
+        <button onclick="check(this, true)">JavaScript</button>
+        <button onclick="check(this, false)">Java</button>
       </div>
     </div>
   </div>
- <footer class="text-light" style="background: linear-gradient(135deg, #000000, #1a1a1a); position: relative; z-index: 1;">
-  <div class="container">
-    <div class="row">
-      <!-- About -->
-      <div class="col-md-4 mb-4">
-        <h5 class="fw-bold mb-3 footer-heading" style="color: #00bfff;">Student Help Site</h5>
-        <p class="text-secondary">
-          Notes, Past Papers, Assignments & Coding Help for Sindh Board Students – all in one place!
-        </p>
-      </div>
 
-      <!-- Quick Links -->
-      <div class="col-md-4 mb-4">
-        <h5 class="fw-bold mb-3 text-white footer-heading">Quick Links</h5>
-        <ul class="list-unstyled d-flex flex-column gap-2">
-          <li><a href="/index.html" class="footer-link">Home</a></li>
-          <li><a href="/notes/pastpapers.html" class="footer-link">Past Papers</a></li>
-          <li><a href="/blog.html" class="footer-link">Blog</a></li>
-          <li><a href="/assignment.html" class="footer-link">Assignments</a></li>
-          <li><a href="/codinghelp.html" class="footer-link">Coding Help</a></li>
-          <li><a href="/contact.html" class="footer-link">Contact</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact -->
-      <div class="col-md-4 mb-4">
-        <h5 class="fw-bold mb-3 text-white footer-heading">Contact Us</h5>
-        <p class="text-secondary">Email: <a href="mailto:studenthelpsite@gmail.com" class="text-decoration-none text-light">studenthelpsite@gmail.com</a></p>
-        <hr>
-        <div class="d-flex gap-3">
-          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
-        </div>
-      </div>
-    </div>
-    <hr class="border-secondary">
-    <div class="text-center">
-      <small class="text-light fs-5">© 2025 Student Help Site. All rights reserved.</small>
-    </div>
-  </div>
-</footer>
   <script>
-    function filterContent(id) {
+    function filterContent(section) {
       const sections = document.querySelectorAll('.section');
-      sections.forEach(section => {
-        section.classList.remove('active');
+      sections.forEach(sec => {
+        if (sec.id === section) {
+          sec.classList.add('active');
+        } else {
+          sec.classList.remove('active');
+        }
       });
-      document.getElementById(id).classList.add('active');
     }
 
-    function check(button, isCorrect) {
-      const buttons = button.parentElement.querySelectorAll('button');
-      buttons.forEach(btn => {
-        btn.disabled = true;
-      });
+    function check(btn, isCorrect) {
       if (isCorrect) {
-        button.classList.add('correct');
+        btn.classList.add('correct');
+        alert('Correct!');
       } else {
-        button.classList.add('incorrect');
+        btn.classList.add('incorrect');
+        alert('Wrong answer, try again!');
       }
+      // Disable buttons in the same mcq to prevent multiple tries
+      const parent = btn.parentNode;
+      const buttons = parent.querySelectorAll('button');
+      buttons.forEach(button => button.disabled = true);
     }
   </script>
-
-  <!-- bootstrap js bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    integrity="sha384-czE8t1FGdA75FDyW1r6fC1Vd7qj7bsf7PeC4MW+6ZvHm0QdbJ+Hg5F31hIGIP6WW"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>
