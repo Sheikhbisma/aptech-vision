@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Project</title>
+  <style>
+    /* ==== Base Reset & Fonts ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bg: #0f1226;
+  --card: #171a35;
+  --text: #e8ecff;
+  --muted: #b4b9d6;
+  --accent: #6c9cff;
+  --accent-2:#a06cff;
+  --danger:#ff6b6b;
+  --ok:#4ad295;
+  --shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+html, body {
+  height: 100%;
+}
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(1200px 800px at 20% -10%, #1d2144 0%, transparent 60%),
+              radial-gradient(1000px 600px at 120% 20%, #231b45 0%, transparent 55%),
+              var(--bg);
+  color: var(--text);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+/* ==== Card ==== */
+.container {
+  width: min(92vw, 520px);
+  background: linear-gradient(180deg, #1a1e3b 0%, #151836 100%);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 24px;
+  backdrop-filter: blur(6px);
+}
+
+/* ==== Heading ==== */
+.container h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+/* ==== Input Row ==== */
+#taskInput {
+  width: 70%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: #0f1330;
+  color: var(--text);
+  outline: none;
+  transition: border-color .2s, box-shadow .2s, transform .08s;
+}
+#taskInput::placeholder {
+  color: var(--muted);
+}
+#taskInput:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(108,156,255,.15);
+  transform: translateY(-1px);
+}
+
+button {
+  padding: 12px 16px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .08s ease, filter .2s ease, box-shadow .2s ease;
+  box-shadow: 0 6px 16px rgba(108,156,255,.25);
+}
+button:hover {
+  filter: brightness(1.05);
+}
+button:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* ==== List ==== */
+ul {
+  list-style: none;
+  margin-top: 18px;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #121536;
+  border: 1px solid rgba(255,255,255,.06);
+  color: var(--text);
+  padding: 12px 14px;
+  border-radius: 12px;
+  transition: transform .1s ease, box-shadow .2s ease, border-color .2s ease;
+}
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,.25);
+  border-color: rgba(108,156,255,.35);
+}
+
+/* Task text truncation if long */
+li::before {
+  content: "•";
+  color: var(--ok);
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+li span {
+  flex: 0 0 auto;
+}
+
+/* Delete "button" (the ❌ span) */
+li span {
+  cursor: pointer;
+  color: var(--danger);
+  font-size: 1rem;
+  line-height: 1;
+  padding: 6px 8px;
+  border-radius: 8px;
+  transition: background-color .15s ease, transform .08s ease;
+}
+li span:hover {
+  background: rgba(255,107,107,.12);
+}
+li span:active {
+  transform: scale(0.96);
+}
+
+/* ==== Small screens tweaks ==== */
+@media (max-width: 420px) {
+  #taskInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script>
+    function addTask() {
+        
+      let input = document.getElementById("taskInput");
+      let li = document.createElement("li");
+      if(input.value === ""){
+        alert("Please fill The input Field");
+        return
+      }
+      li.textContent = input.value.trim();
+      
+      let removeBtn = document.createElement("span");
+      removeBtn.textContent = "❌";
+      removeBtn.onclick = function() {
+        li.remove();
+      }
+      let list = document.getElementById("taskList")
+      li.appendChild(removeBtn);
+      list.appendChild(li);
+      input.value = "";
+    }
+  </script>
+</body>
+</html>
