@@ -5,8 +5,11 @@
 }
 
 :root {
-  --primary: rgb(6, 15, 44);
-  --secondary: #fff;
+--primary: #0a2a43;     /* Dark navy blue for navbar & footer */
+  --secondary: #ffffff;   /* White */
+  --accent: #00c2ff;      /* Cyan highlight for hover, links, buttons */
+  --light-bg: #f8f9fa;    /* Light grey section bg */
+  --text-dark: #212529;   /* Body text */
 }
 
 html {
@@ -64,7 +67,7 @@ body {
 
 
 .navbar {
-  background-color: #000;
+  background-color: var(--primary) !important;
   top: 30px;
 }
 

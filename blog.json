@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "name": "Study Tips",
+      "posts": [
+        {
+          "title": "Time Management for Students",
+          "description": "Learn how to manage your study hours effectively.",
+          "details": "Full guide on dividing your day into balanced study, rest, and fun..."
+        },
+        {
+          "title": "How to Take Notes",
+          "description": "Effective note-taking techniques.",
+          "details": "Cornell method, mind-mapping, and digital tools explained in detail..."
+        },
+        {
+          "title": "Exam Preparation",
+          "description": "Smart ways to prepare for exams.",
+          "details": "Past papers, mock tests, and revision techniques covered..."
+        },
+        {
+          "title": "Healthy Study Habits",
+          "description": "Boost memory with healthy habits.",
+          "details": "Sleep cycles, diet, and exercise tips for sharper focus..."
+        },
+        {
+          "title": "Avoiding Procrastination",
+          "description": "Beat procrastination easily.",
+          "details": "Step-by-step methods to overcome laziness and distractions..."
+        }
+      ]
+    },
+    {
+      "name": "Coding for Beginners",
+      "posts": [
+        {
+          "title": "Learn HTML Basics",
+          "description": "Introduction to web structure with HTML.",
+          "details": "Tags, elements, attributes explained with examples..."
+        },
+        {
+          "title": "CSS Styling",
+          "description": "Make your pages beautiful with CSS.",
+          "details": "Selectors, colors, layouts, and responsive design basics..."
+        },
+        {
+          "title": "JavaScript 101",
+          "description": "First steps in JavaScript programming.",
+          "details": "Variables, functions, loops, and DOM basics covered..."
+        },
+        {
+          "title": "Bootstrap Guide",
+          "description": "Build responsive pages quickly.",
+          "details": "Grid system, utilities, and components for fast web dev..."
+        },
+        {
+          "title": "Debugging Tips",
+          "description": "Fix errors like a pro.",
+          "details": "Console tricks, error handling, and debugging mindset..."
+        }
+      ]
+    }
+  ]
+}
