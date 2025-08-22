@@ -846,3 +846,27 @@ body {
       transition-delay: 0.4s;
       
     }
+    /* modal */
+    /* Modal styling according to theme */
+#blogModal .modal-content {
+  background-color: var(--secondary); /* White background */
+  color: var(--text-dark);           /* Dark text */
+  border-radius: 12px;               /* Rounded corners */
+  border: 2px solid var(--primary);  /* Navy border */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2); /* Subtle shadow */
+}
+
+#blogModal .modal-header {
+  background-color: var(--primary);  /* Navbar/Footer navy */
+  color: var(--secondary);           /* White text */
+  border-bottom: 2px solid var(--accent);
+}
+
+#blogModal .btn-close {
+  filter: invert(1); /* White close button */
+}
+
+#blogModal .modal-body {
+  font-size: 1rem;
+  line-height: 1.6;
+}

@@ -67,33 +67,126 @@
   ,
 
     {
-      "id": 11,
-      "title": "HTML Basics",
-      "shortText": "Learn the foundation of web development with HTML.",
-      "description": "HTML (HyperText Markup Language) is the standard language for creating webpages. It uses elements like headings, paragraphs, links, images, and lists to structure content. With HTML, you can build the basic skeleton of any website. Learning HTML is the first step for anyone starting web development."
-    },
-    {
-      "id": 12,
-      "title": "CSS Styling ",
-      "shortText": "Understand how to style webpages using CSS.",
-      "description": "CSS (Cascading Style Sheets) is used to style and design webpages created with HTML. It controls colors, fonts, layouts, spacing, and overall look of a website. With CSS, developers can make websites responsive, attractive, and user-friendly. Mastering CSS is essential for front-end development."
-    },
-    {
-      "id": 13,
-      "title": "Javascript Intro",
-      "shortText": "Get started with JavaScript – the language of the web.",
-      "description": "JavaScript is a powerful programming language used to make websites interactive and dynamic. It allows developers to create features like image sliders, form validations, dropdown menus, and more. JavaScript runs directly in the browser and works alongside HTML and CSS. Learning JavaScript is essential for becoming a front-end or full-stack developer."
-    },
-    {
-      "id": 14,
-      "title": "Mini Project: Calculator",
-      "shortText": "The Mini Project: Calculator helps you practice core front-end skills. You’ll build a simple UI with buttons (0–9, +, −, ×, ÷, C, =), an input/display screen, and responsive styling with CSS. Using JavaScript, you’ll handle button clicks, update the display, parse expressions, and perform operations with proper order and edge cases (clearing, decimal input, divide-by-zero check). This project strengthens DOM manipulation, event handling, basic state management, and clean code structure—perfect for beginners."
-    },
-    {
-      "id": 15,
-      "title": "Debugging Tips",
-      "shortText": "Learn essential debugging tips to quickly identify and fix coding errors with confidence.",
-      "description": "Debugging Tips are essential for every programmer. Debugging means finding and fixing errors in your code effectively. Start by carefully reading error messages—they usually point to the exact issue. Use console.log() to trace variable values and program flow. Test your code in small parts instead of running everything at once. Keep your code clean and well-indented so problems are easier to spot. Take breaks if stuck—fresh eyes often catch hidden mistakes. With patience and systematic testing, debugging becomes a skill that improves problem-solving and coding confidence."
-    }
+    "id": 11,
+    "title": "Past Papers Guide",
+    "shortText": "Practice past papers to identify important topics and improve time management.",
+    "description": "Solving past papers helps you understand question patterns and frequently asked topics. It improves your speed and boosts confidence. Review mistakes to avoid repeating them. Remember, consistent practice is the key to board exam success."
+  },
+  {
+    "id": 12,
+    "title": "Important Questions",
+    "shortText": "Focus on frequently asked questions and strengthen your understanding.",
+    "description": "Identify key questions from guides, notes, and past papers. Practice answering them in exam format to build confidence. Clarify doubts with teachers and peers. Stay disciplined and motivated to cover all important topics before the exam."
+  },
+  {
+    "id": 13,
+    "title": "How to Attempt Paper",
+    "shortText": "Learn smart strategies to maximize marks in exams.",
+    "description": "Read all questions carefully before starting. Start with questions you are confident about. Allocate time wisely and use headings/bullets for clarity. Stay calm and focused—planning your attempt can significantly improve your score."
+  },
+  {
+    "id": 14,
+    "title": "Revision Timetable",
+    "shortText": "Organize your study schedule to revise effectively.",
+    "description": "Break your syllabus into daily targets and mix subjects to avoid monotony. Include short breaks to stay fresh. Track progress and adjust your timetable based on difficulty. Consistent and planned revision is crucial for exam readiness."
+  },
+  {
+    "id": 15,
+    "title": "Exam Day Tips",
+    "shortText": "Prepare yourself mentally and physically for the exam day.",
+    "description": "Sleep well the night before, have a healthy breakfast, and reach the center early. Read instructions carefully and stay calm throughout the exam. Avoid last-minute stress; confidence and composure are as important as knowledge."
+  }
+  ,
+
+{
+    "id": 16,
+    "title": "Career in Medicine",
+    "shortText": "Explore diverse career paths in medical and allied fields.",
+    "description": "Choose FSc Pre-Medical for MBBS, BDS, pharmacy, physiotherapy, nursing, or medical research. Prepare for entrance exams like MDCAT, explore scholarships, and stay updated with merit policies. Remember, consistent effort and passion for helping others can lead you to a fulfilling medical career."
+  },
+  {
+    "id": 17,
+    "title": "Engineering Fields",
+    "shortText": "Discover how engineering shapes the world and your future.",
+    "description": "Pre-Engineering opens doors to Civil, Mechanical, Electrical, Software, and AI fields. Prepare for ECAT and other entrance tests. Engineering requires problem-solving, creativity, and dedication. Stay motivated and keep learning—your ideas can impact millions."
+  },
+  {
+    "id": 18,
+    "title": "Commerce Scope",
+    "shortText": "Unlock opportunities in finance, accounting, and business management.",
+    "description": "B.Com, CA, ACCA, banking, auditing, and finance fields offer diverse career paths. Good communication, internships, and consistent learning help you grow. Believe in your potential and take small steps daily—success in commerce is a combination of knowledge and perseverance."
+  },
+  {
+    "id": 19,
+    "title": "Arts & Humanities",
+    "shortText": "Pursue creativity and critical thinking for a rewarding career.",
+    "description": "Fields include psychology, journalism, design, teaching, and social work. Develop your portfolio, soft skills, and seek scholarships. Arts encourages self-expression and continuous learning. Stay curious, work hard, and let your creativity guide you."
+  },
+  {
+    "id": 20,
+    "title": "Computer Science Future",
+    "shortText": "Master coding, AI, and cybersecurity to thrive in tech.",
+    "description": "CS careers include programming, AI, cybersecurity, and data science. Learn languages early, practice debugging, and build mini projects. Certifications and freelancing opportunities boost experience. Stay motivated, experiment, and embrace challenges to become a confident coder."
+  },
+  {
+    "id": 16,
+    "title": "Career in Medicine",
+    "shortText": "Explore diverse career paths in medical and allied fields.",
+    "description": "Choose FSc Pre-Medical for MBBS, BDS, pharmacy, physiotherapy, nursing, or medical research. Prepare for entrance exams like MDCAT, explore scholarships, and stay updated with merit policies. Remember, consistent effort and passion for helping others can lead you to a fulfilling medical career."
+  },
+  {
+    "id": 17,
+    "title": "Engineering Fields",
+    "shortText": "Discover how engineering shapes the world and your future.",
+    "description": "Pre-Engineering opens doors to Civil, Mechanical, Electrical, Software, and AI fields. Prepare for ECAT and other entrance tests. Engineering requires problem-solving, creativity, and dedication. Stay motivated and keep learning—your ideas can impact millions."
+  },
+  {
+    "id": 18,
+    "title": "Commerce Scope",
+    "shortText": "Unlock opportunities in finance, accounting, and business management.",
+    "description": "B.Com, CA, ACCA, banking, auditing, and finance fields offer diverse career paths. Good communication, internships, and consistent learning help you grow. Believe in your potential and take small steps daily—success in commerce is a combination of knowledge and perseverance."
+  },
+  {
+    "id": 19,
+    "title": "Arts & Humanities",
+    "shortText": "Pursue creativity and critical thinking for a rewarding career.",
+    "description": "Fields include psychology, journalism, design, teaching, and social work. Develop your portfolio, soft skills, and seek scholarships. Arts encourages self-expression and continuous learning. Stay curious, work hard, and let your creativity guide you."
+  },
+  {
+    "id": 20,
+    "title": "Computer Science Future",
+    "shortText": "Master coding, AI, and cybersecurity to thrive in tech.",
+    "description": "CS careers include programming, AI, cybersecurity, and data science. Learn languages early, practice debugging, and build mini projects. Certifications and freelancing opportunities boost experience. Stay motivated, experiment, and embrace challenges to become a confident coder."
+  },
+  {
+    "id": 21,
+    "title": "Stay Motivated Daily",
+    "shortText": "Start each day with small achievable goals to keep momentum.",
+    "description": "Set clear daily objectives and track your progress. Reward yourself for completing tasks. A consistent daily routine builds discipline and motivation, helping you stay productive and focused."
+  },
+  {
+    "id": 22,
+    "title": "Beating Stress",
+    "shortText": "Use simple techniques to manage stress effectively.",
+    "description": "Practice deep breathing, take short breaks, and maintain a clean workspace. Exercise and proper sleep are key. Talking to someone when overwhelmed can help. Staying calm improves focus and productivity."
+  },
+  {
+    "id": 23,
+    "title": "Goal Setting 101",
+    "shortText": "Break big goals into smaller, actionable steps.",
+    "description": "Define clear and specific goals. Track your weekly or monthly progress. Adjust your plan when needed. Breaking goals into smaller tasks makes them manageable and keeps motivation high."
+  },
+  {
+    "id": 24,
+    "title": "Morning Routines",
+    "shortText": "A strong morning routine sets a productive tone for the day.",
+    "description": "Wake up early, hydrate, and plan your day. A consistent morning routine improves focus, energy, and efficiency. Small positive habits compound into long-term success."
+  },
+  {
+    "id": 25,
+    "title": "Self Discipline",
+    "shortText": "Consistency and focus are keys to personal growth.",
+    "description": "Avoid distractions, stick to routines, and practice small daily habits. Over time, discipline becomes second nature, improving productivity, learning, and overall success."
+  }
   ]
 }
