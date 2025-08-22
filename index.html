@@ -54,7 +54,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top px-4">
       <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="#">
+        <a class="navbar-brand fw-bold" href="/index.html">
           <i class="fas fa-graduation-cap me-2"></i>Edu Sindh
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
@@ -114,9 +114,9 @@
             <h1 class="fw-bold">Your Study Partner for Every Exam</h1>
             <p>Designed for Sindh Board students in all streams: Pre-Medical, Engineering, CS, Commerce, and
               Arts.</p>
-            <a href="#categories" id="learnMoreBtn" class="btn">Start Learning</a>
+            <a href="#categories" id="learnMoreBtn" class="btn mb-5">Start Learning</a>
           </div>
-          <div class="col-md-6 image">
+          <div class="col-md-6 image ">
             <img src="/assests/hero.svg" alt="" class="img-fluid">
           </div>
         </div>
@@ -124,7 +124,7 @@
       <img src="/assests/wave1.png" alt="" class="bottom-img">
     </section>
     <!-- What We Provide Section -->
-    <section class="services py-5 text-center bg-light">
+    <section class="services py-5 text-center" style="background-color: rgb(228, 226, 226);">
       <div class="container">
         <h2 class="py-5 fw-bold fs-1">What We Provide?</h2>
         <div class="row g-4">
@@ -203,7 +203,7 @@
     </section>
     <section class="group pb-5" id="categories">
       <div class="container">
-        <h2 class="pt-5 fw-bold fs-1 text-center">Academic Categories</h2>
+        <h2 class="pt-5 fw-bold fs-1 text-center text-light">Academic Categories</h2>
         <div class="card-grid">
 
           <!-- Card 1 -->
@@ -278,7 +278,7 @@
               <div class="carousel-caption top-0 mt-4">
 
 
-                <p class="mt-5  display-1 text-uppercase">Smart Summarizing</p>
+                <p class="mt-5  display-3 text-uppercase">Smart Summarizing</p>
                 <p class="fs-3 fw-bolder text-capitalize">Note key points in your own words to boost understanding and
                   memory.</p>
               </div>
@@ -303,6 +303,68 @@
         </div>
       </div>
     </section>
+<!-- Testimonials Section -->
+<section class="testimonials-section">
+  <h2 class="fs-1">What Our Students Say</h2>
+  <div class="testimonials-container">
+
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p>"EduSindh really helped me understand complex topics easily. The notes are concise and very useful!"</p>
+      <h5>- Sarah Khan</h5>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p>"The coding tutorials are perfect for beginners. I built my first project confidently!"</p>
+      <h5>- Ali Raza</h5>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p>"Motivational tips kept me focused during exams. Highly recommend this platform!"</p>
+      <h5>- Fatima Noor</h5>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p>"The step-by-step approach makes learning easy. I improved my grades significantly."</p>
+      <h5>- Usman Qureshi</h5>
+    </div>
+
+    <button class="btn feedback  btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#feedbackModal" >Give Feedback</button>
+  </div>
+<div class="modal fade" id="feedbackModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header  text-white" style="background: #00baff;
+  color: var(--secondary);">
+          <h5 class="modal-title">Student Feedback Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form id="feedbackForm">
+            <div class="mb-3">
+              <label for="name" class="form-label text-dark">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label text-dark">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="feedback" class="form-label text-dark">Feedback</label>
+              <textarea id="feedback" class="form-control" rows="3" placeholder="Write your feedback"></textarea>
+            </div>
+            <button type="submit" class="btn w-100" style="background: #00baff;
+  color: var(--secondary);">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
 
   </main>
   <footer class="text-light"
@@ -354,6 +416,7 @@
 
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
   <!-- bootstrap js bundle -->
@@ -361,6 +424,27 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
+
+      <script>
+    $(document).ready(function() {
+      $("#feedbackForm").submit(function(e) {
+        e.preventDefault();
+
+        let name = $("#name").val().trim();
+        let email = $("#email").val().trim();
+        let feedback = $("#feedback").val().trim();
+
+        if (name === "" || email === "" || feedback === "") {
+          alert("⚠ Please fill all fields before submitting.");
+          return;
+        }
+
+        alert("✅ Thank you " + name + "! Your feedback has been submitted.");
+        $("#feedbackForm")[0].reset();
+        $("#feedbackModal").modal("hide");
+      });
+    });
+  </script>
 
  
 </body>
