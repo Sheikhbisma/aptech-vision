@@ -3,210 +3,274 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- bootstrap5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- css -->
   <title>EduSindh Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f7fb;
-      color: #072b4f;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
-   
-    /* Sidebar */
-    .sidebar {
-      width: 250px;
-      background: #072b4f;
-      color: #fff;
-      padding: 20px;
-      box-shadow: 2px 0 8px rgba(0,0,0,0.2);
-    }
-    .sidebar h2 {
-      font-size: 1.5rem;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #00eaff;
-      padding-bottom: 10px;
-    }
-    .filter-btns {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .filter-btns button {
-      background: #072b4f;
-      border: 1px solid #00eaff;
-      color: #fff;
-      padding: 10px;
-      border-radius: 8px;
-      cursor: pointer;
-      text-align: left;
-    }
-    .filter-btns button:hover,
-    .filter-btns button.active {
-      background: #00eaff;
-      color: #000;
+    :root {
+      --primary: #0a2a43;     /* Navbar/Footer Navy */
+      --secondary: #ffffff;   /* White */
+      --accent: #00c2ff;      /* Cyan highlight */
+      --light-bg: #f8f9fa;    /* Section background */
+      --text-dark: #212529;   /* Text */
     }
 
-    /* Main content */
-    .main-content {
-      flex: 1;
-      padding: 20px;
+    body {
+      background: var(--secondary);
+      color: var(--text-dark);
+      font-family: 'Poppins', sans-serif;
     }
-    h1 {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #072b4f;
+
+    /* Navbar */
+    .navbar {
+      background: var(--primary) !important;
     }
-    .card-container {
-      display: grid;
-       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
-      gap: 50px;
+    .navbar-brand {
+      color: var(--accent) !important;
+      font-weight: 700;
+      letter-spacing: 1px;
     }
+    .navbar .nav-link {
+      color: var(--secondary) !important;
+      transition: color .3s;
+    }
+    .navbar .nav-link:hover {
+      color: var(--accent) !important;
+    }
+
+    /* Sidebar */
+    .list-group-item.active {
+      background-color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    /* Blog Cards */
     .card {
-      background: #fff;
-      border: 2px solid #00eaff;
-      color: #072b4f;
-      border-radius: 15px;
-      padding: 20px;
-      cursor: pointer;
-      box-shadow: 0 0 15px rgba(0, 234, 255, 0.2);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      width: 100%;        /* full width of grid column */
-  max-width: 100%;
+      border: none;
+      border-radius: 12px;
+      transition: transform .2s ease, box-shadow .2s ease;
     }
     .card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 0 25px rgba(0, 234, 255, 0.5);
+      box-shadow: 0 6px 20px rgba(0,0,0,.1);
+    }
+    .card-title {
+      color: var(--primary);
+      font-weight: 600;
     }
 
-    /* Modal */
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.7);
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
+    /* Footer */
+    .footer {
+      background: var(--primary);
+      color: var(--secondary);
+      padding: 2rem 0;
+      margin-top: 3rem;
     }
-    .modal-content {
-      background: #fff;
-      padding: 30px;
-      max-width: 600px;
-      border-radius: 12px;
-      color: #072b4f;
-      text-align: left;
+    .footer a {
+      color: var(--secondary);
+      text-decoration: none;
     }
-    .modal-content h2 {
-      margin-top: 0;
-    }
-    .close {
-      float: right;
-      cursor: pointer;
-      font-size: 1.5rem;
+    .footer a:hover {
+      color: var(--accent);
     }
   </style>
 </head>
 <body>
 
-  <!-- Sidebar -->
-  <div class="sidebar">
-    <h2>Categories</h2>
-    <div class="filter-btns" id="filterBtns"></div>
-  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">EduSindh</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Notes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Coding Help</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Main -->
-  <div class="main-content">
-    <h1>EduSindh Blog</h1>
-    <div class="card-container" id="cardContainer"></div>
-  </div>
+  <!-- Blog Layout -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 mb-4">
+        <div class="list-group">
+          <button class="list-group-item list-group-item-action active" onclick="filterPosts('all', event)">All</button>
+          <button class="list-group-item list-group-item-action" onclick="filterPosts('study', event)">Study Tips</button>
+          <button class="list-group-item list-group-item-action" onclick="filterPosts('coding', event)">Coding for Beginners</button>
+          <button class="list-group-item list-group-item-action" onclick="filterPosts('exam', event)">Board Exam Preparation</button>
+          <button class="list-group-item list-group-item-action" onclick="filterPosts('career', event)">Career Guidance</button>
+          <button class="list-group-item list-group-item-action" onclick="filterPosts('motivation', event)">Motivation & Productivity</button>
+        </div>
+      </div>
 
-  <!-- Modal -->
-  <div class="modal" id="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModal">&times;</span>
-      <h2 id="modalTitle"></h2>
-      <p id="modalDetails"></p>
+      <!-- Blog Posts -->
+      <div class="col-md-9">
+        <div class="row" id="blogPosts">
+
+          <!-- Study Tips (5) -->
+          <div class="col-md-6 mb-4 post study">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">Top 5 Study Hacks</h5>
+              <p class="card-text">Learn smart ways to revise faster.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+          <div class="col-md-6 mb-4 post study">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">Time Management for Students</h5>
+              <p class="card-text">Balance study and free time wisely.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+          <div class="col-md-6 mb-4 post study">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">Note Taking Strategies</h5>
+              <p class="card-text">Cornell, Mind Maps, Flow notes explained.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+          <div class="col-md-6 mb-4 post study">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">Effective Group Study</h5>
+              <p class="card-text">How to study with friends productively.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+          <div class="col-md-6 mb-4 post study">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">Avoiding Procrastination</h5>
+              <p class="card-text">Beat laziness and get work done.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+
+          <!-- Coding for Beginners (5) -->
+          <div class="col-md-6 mb-4 post coding">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">HTML Basics</h5>
+              <p class="card-text">Start coding with simple tags.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+          <div class="col-md-6 mb-4 post coding">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">CSS Styling</h5>
+              <p class="card-text">Make your website look beautiful.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+          <div class="col-md-6 mb-4 post coding">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">JavaScript Intro</h5>
+              <p class="card-text">Learn how to add interactivity.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+          <div class="col-md-6 mb-4 post coding">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">Mini Project: Calculator</h5>
+              <p class="card-text">Step by step coding guide.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+          <div class="col-md-6 mb-4 post coding">
+            <div class="card h-100"><div class="card-body">
+              <h5 class="card-title">Debugging Tips</h5>
+              <p class="card-text">How to fix code errors easily.</p>
+              <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            </div></div>
+          </div>
+
+          <!-- Board Exam Preparation (5) -->
+          <div class="col-md-6 mb-4 post exam"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Past Papers Guide</h5><p class="card-text">Why solving past papers is key.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post exam"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Important Questions</h5><p class="card-text">Focus areas for Sindh Board exams.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post exam"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">How to Attempt Paper</h5><p class="card-text">Answer writing skills explained.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post exam"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Revision Timetable</h5><p class="card-text">Plan your 30 days before exams.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post exam"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Exam Day Tips</h5><p class="card-text">Stay calm and attempt smartly.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+
+          <!-- Career Guidance (5) -->
+          <div class="col-md-6 mb-4 post career"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Career in Medicine</h5><p class="card-text">Path after Pre-Medical group.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post career"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Engineering Fields</h5><p class="card-text">Future after Pre-Engineering.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post career"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Commerce Scope</h5><p class="card-text">B.Com, CA, ACCA explained.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post career"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Arts & Humanities</h5><p class="card-text">Creative careers after Arts.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post career"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Computer Science Future</h5><p class="card-text">Why CS is booming field.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+
+          <!-- Motivation & Productivity (5) -->
+          <div class="col-md-6 mb-4 post motivation"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Stay Motivated Daily</h5><p class="card-text">Simple routines to stay focused.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post motivation"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Beating Stress</h5><p class="card-text">Mind tricks for calmness.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post motivation"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Goal Setting 101</h5><p class="card-text">SMART goals method explained.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post motivation"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Morning Routines</h5><p class="card-text">Start your day productively.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+          <div class="col-md-6 mb-4 post motivation"><div class="card h-100"><div class="card-body">
+            <h5 class="card-title">Self Discipline</h5><p class="card-text">How to build habits that last.</p><a href="#" class="btn btn-primary btn-sm">Read More</a>
+          </div></div></div>
+
+        </div>
+      </div>
     </div>
   </div>
 
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2025 EduSindh. All rights reserved.</p>
+      <p>
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Terms</a>
+      </p>
+    </div>
+  </footer>
+
   <script>
-    let blogData = [];
-    let currentCategory = '';
-
-    async function loadData() {
-      const res = await fetch('blog.json');
-      const data = await res.json();
-      blogData = data.categories;
-      renderFilters();
-      renderCards(blogData[0].name); // default first category
-    }
-
-    function renderFilters() {
-      const filterBtns = document.getElementById('filterBtns');
-      filterBtns.innerHTML = '';
-      blogData.forEach((cat, index) => {
-        const btn = document.createElement('button');
-        btn.textContent = cat.name;
-        if(index === 0) btn.classList.add("active");
-        btn.onclick = () => {
-          document.querySelectorAll(".filter-btns button").forEach(b => b.classList.remove("active"));
-          btn.classList.add("active");
-          renderCards(cat.name);
-        };
-        filterBtns.appendChild(btn);
+    function filterPosts(category, event) {
+      let posts = document.querySelectorAll('.post');
+      posts.forEach(post => {
+        if (category === 'all' || post.classList.contains(category)) {
+          post.style.display = 'block';
+        } else {
+          post.style.display = 'none';
+        }
       });
+
+      // Active button styling
+      document.querySelectorAll('.list-group-item').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
     }
-
-    function renderCards(categoryName) {
-      currentCategory = categoryName;
-      const cardContainer = document.getElementById('cardContainer');
-      cardContainer.innerHTML = '';
-      const category = blogData.find(c => c.name === categoryName);
-      category.posts.forEach(post => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-          <h3>${post.title}</h3>
-          <p>${post.description}</p>
-        `;
-        card.onclick = () => openModal(post);
-        cardContainer.appendChild(card);
-      });
-    }
-
-    function openModal(post) {
-      document.getElementById('modalTitle').textContent = post.title;
-      document.getElementById('modalDetails').textContent = post.details;
-      document.getElementById('modal').style.display = 'flex';
-    }
-
-    document.getElementById('closeModal').onclick = () => {
-      document.getElementById('modal').style.display = 'none';
-    };
-
-    window.onclick = (e) => {
-      if (e.target === document.getElementById('modal')) {
-        document.getElementById('modal').style.display = 'none';
-      }
-    };
-
-    loadData();
   </script>
-
-
-<!-- bootstrap js bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
