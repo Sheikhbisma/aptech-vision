@@ -926,7 +926,7 @@ body {
 }
 
 #blogModal .modal-header {
-  background-color: var(--primary);  /* Navbar/Footer navy */
+  background-color: #00baff;  /* Navbar/Footer navy */
   color: var(--secondary);           /* White text */
   border-bottom: 2px solid var(--accent);
 }
