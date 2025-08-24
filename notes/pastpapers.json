@@ -55,19 +55,19 @@
     "Commerce": [
       {
         "name": "Accounting",
-        "url": "pastpapers/1styear-Accounting-pastpapers.pdf"
+        "url": "pdfpastpapers/1styear-Accounting-pastpapers.pdf"
       },
       {
         "name": "Economics",
-        "url": "pastpapers/1styear-Economics-pastpapers.pdf"
+        "url": "pdfpastpapers/1styear-Economics-pastpapers.pdf"
       },
       {
-        "name": "Business Mathematics",
-        "url": "pastpapers/Businessmathematics-pastpapers.pdf"
+        "name": "Businessmathematics",
+        "url": "pdfpastpapers/1styear-Businessmathematics-pastpapers.pdf"
       },
       {
-        "name": "Principles of Commerce",
-        "url": "pastpapers/Principlesofcommerce-pastpapers.pdf"
+        "name": "Principlesofcommerce",
+        "url": "pdfpastpapers/1styear-Principlesofcommerce-pastpapers.pdf"
       },
       {
         "name": "Urdu",
@@ -155,7 +155,7 @@
       },
       {
         "name": "English",
-        "url": "pdfpastpapers/2nd-year-English-pastpapers.pdf"
+        "url": "pdfpastpapers/2ndyear-English-pastpapers.pdf"
       },
       {
         "name": "Pakistan Studies",
@@ -165,7 +165,7 @@
     "Commerce": [
       {
         "name": "Accounting",
-        "url": "pastpapers/2ndyear-Accounting-pastpapers.pdf"
+        "url": "pdfpastpapers/2ndyear-Accounting-pastpapers.pdf"
       },
       {
         "name": "English",
@@ -203,7 +203,7 @@
       },
       {
         "name": "Physics",
-        "url": "pdfpastpapers/2nd year-physics-pastpapers.pdf"
+        "url": "pdfpastpapers/2ndyear-physics-pastpapers.pdf"
       },
       {
         "name": "English",
