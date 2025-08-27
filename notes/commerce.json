@@ -139,7 +139,7 @@
     "subject": "اُردو",
     "chapter": "Full Notes",
     "title":"Full Notes",
-    "link": "pdfs/nasar_nigar"
+    "link": "pdfs/full-notes.pdf"
   }
   ,
   {
@@ -155,7 +155,7 @@
     "subject": "Economics",
     "chapter": "Short Q/A",
     "title":"Full Notes",
-    "link": "pdfs/Economics_long.pdf"
+    "link": "pdfs/Economics_short.pdf"
   }
   ,
   {
@@ -184,9 +184,9 @@
   ,
   {
     "class": "2nd Year",
-    "subject": "P.O.C",
+    "subject": "Banking",
     "chapter": "Full Notes",
     "title":"Full Notes",
-    "link": "pdfs/POC-fullnotes.pdf"
+    "link": "pdfs/notesbankingfinal.pdf"
   }
 ]
