@@ -140,7 +140,7 @@ function showCards(subjects, group, className) {
                 Class: <strong>${className}</strong><br/>
                 Group: <strong>${group}</strong>
               </p>
-              <a href="${subject.url}" class="btn btn-primary mt-auto w-100" download>
+              <a href="${subject.url}" class="btn btn-primary mt-auto w-100" download onclick="alert('your file is downloading...')">
                 <i class="fa-solid fa-download"></i> Download
               </a>
             </div>

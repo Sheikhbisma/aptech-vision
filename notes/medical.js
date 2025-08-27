@@ -47,9 +47,9 @@ function renderNotes(data) {
     </div>
 
     <!-- Footer -->
-    <div class="card-footer text-center">
-      <a href="${note.link}" target="_blank" class="btn view-btn mt-2" download>📄 View PDF</a>
-    </div>
+   <div class="card-footer text-center">
+  <a href="${note.link}" target="_blank" class="btn view-btn mt-2" download onclick="alert('your file is downloading...')">📄 View PDF</a>
+</div>
   </div>
 </div>
 
