@@ -18,6 +18,8 @@ html {
 }
 
 body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
   position: relative;
   background-color: #ffffff;
   overflow-x: hidden;
