@@ -12,47 +12,47 @@
   <link rel="stylesheet" href="/style.css">
 
   <style>
-    body {
-     background-image: url(/assests/blog-pic.jpg);
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-      color: var(--text-dark);
-      height: 100vh;
-
-    }
-
-    /* Navbar */
+    
 
 
-    .list-group-item.active {
-      background-color: #00baff !important;
-      border-color: #00baff !important;
-      color: white !important;
-      font-weight: bold;
-      box-shadow: 0 4px 12px rgba(0, 186, 255, 0.5);
-    }
+.list-group-item {
+  background: rgba(255, 255, 255, 0.85); /* same as card */
+  backdrop-filter: blur(6px);            /* glass effect */
+  /* border-radius: 12px; */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  color: #000; /* black text like card */
+  border: 2px solid black;
+  
 
-    .list-group-item {
-      border: 2px solid #00baff !important;
-      color: #00baff;
-      font-weight: 500;
-      transition: all 0.3s ease;
-    }
+  transition: all 0.3s ease-in-out;
+}
 
-    .list-group-item:hover {
-      background-color: #00baff;
-      color: white;
-    }
+.list-group-item:hover {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.list-group-item.active {
+  background: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); */
+  color: #000;
+}
+
+
+
+
 
     /* Blog Cards */
     .card {
-      border: 2px solid #00baff !important;
-      border-radius: 12px;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      box-shadow: 0 4px 15px rgba(0, 186, 255, 0.2);
-      background-color: white;
-    }
+  background: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+  backdrop-filter: blur(6px);            /* Extra glass effect */
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  /* padding: 20px; */
+  color: #000; /* text readable */
+}
+
 
     .card:hover {
       transform: translateY(-6px);
@@ -60,25 +60,39 @@
     }
 
     .card-title {
-      color: #00baff;
       font-weight: 600;
+      color: black !important;
+font-size: 1.5rem !important;
     }
 
     .card .btn-primary {
-      background-color: #00baff;
-      border-color: #00baff;
+      background-color: #0088cc;
       color: white;
       font-weight: 500;
+      font-size: 1rem;
       transition: background-color 0.3s ease;
+      padding: 8px;
+      display: block;
+      margin: auto;
     }
 
     .card .btn-primary:hover {
-      background-color: #0096cc;
-      border-color: #0096cc;
+      background-color: #0088cc;
     }
 
     .card-body {
-      color: #00baff;
+      color: black;
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 10%;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover !important;
+      z-index: -1;
+      opacity: 0.8;
     }
 
     /* Footer */
@@ -143,7 +157,7 @@
                 Papers</a>
             </li>
 
-            
+
 
             <li class="nav-item">
               <a class="nav-link" href="/codinghelp.html"><i class="fas fa-code d-block text-center"></i>Coding Help</a>
@@ -165,14 +179,16 @@
       </div>
     </nav>
   </header>
-
+  <video autoplay muted loop class="video-bg">
+    <source src="/assests/8061031-hd_1920_1080_25fps.mp4" type="video/mp4">
+  </video>
   <!-- Blog Layout -->
-   
+
   <div class="container " style="margin-top: 120px;">
     <div class="row">
       <!-- Sidebar -->
-      <div class="col-md-3 mb-4">
-        <div class="list-group">
+      <div class="col-md-3 mb-4 ">
+        <div class="list-group " >
           <button class="list-group-item list-group-item-action active" onclick="filterPosts('all', event)">All</button>
           <button class="list-group-item list-group-item-action" onclick="filterPosts('study', event)">Study
             Tips</button>
@@ -193,12 +209,12 @@
 
           <div class="col-md-6 mb-4 post study">
             <div class="card h-100">
-              <div class="card-body">
+              <div class="card-body ">
                 <h5 class="card-title">Top 5 Study Hacks</h5>
                 <p class="card-text">Studying smart is more effective than studying hard. Use the Pomodoro technique to
                   stay focused with timed breaks. Break your syllabus into small, manageable chunks.
                 </p>
-                <button class="btn btn-primary btn-sm" data-id="1" data-bs-toggle="modal"
+                <button class="btn btn-primary btn-sm " data-id="1" data-bs-toggle="modal"
                   data-bs-target="#blogModal">Read More</button>
 
               </div>
@@ -589,17 +605,19 @@
   </div>
   <!-- modals -->
   <!-- Modal (one modal only, data will be inserted via JS) -->
-  <div class="modal fade " id="blogModal" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalTitle"></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-        <div class="modal-body" id="modalBody"></div>
+<div class="modal fade" id="blogModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg custom-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
+      <div class="modal-body" id="modalBody"></div>
     </div>
   </div>
+</div>
+
+
   <!-- Footer -->
   <footer class="text-light"
     style="background: linear-gradient(135deg, #000000, #1a1a1a); position: relative; z-index: 1;">
@@ -633,9 +651,12 @@
               class="text-decoration-none text-light">studenthelpsite@gmail.com</a></p>
           <hr>
           <div class="d-flex gap-3">
- <a href="https://www.facebook.com/profile.php?id=61557254610407&sk=friends" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/may_b.bisma/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="https://wa.me/+923702832123" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61557254610407&sk=friends" target="_blank"
+              class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/may_b.bisma/" target="_blank" class="social-icon"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/+923702832123" target="_blank" class="social-icon"><i
+                class="fab fa-whatsapp"></i></a>
           </div>
         </div>
       </div>

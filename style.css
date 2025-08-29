@@ -70,7 +70,7 @@ body {
 
 
 .navbar {
-  background-color: black !important;
+background: linear-gradient(90deg, #000000, #39393a);
   
   top: 30px;
 }
@@ -431,8 +431,7 @@ body {
     border-radius: 20px;
     background: white;
     color: black;
-    border: 4px solid transparent;
-    border: 3px solid #012f55;
+    
     backdrop-filter: blur(8px);
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
@@ -448,7 +447,19 @@ body {
     color: gold;
     font-size: 2rem;
 }
+.highlight-link {
+    color: #007bff; /* blue link */
+    font-weight: bold;
+    text-decoration: none; /* remove underline */
+    border-bottom: 2px solid #007bff; /* stylish underline */
+    padding-bottom: 2px;
+    transition: 0.3s;
+  }
 
+  .highlight-link:hover {
+    color: #0056b3; /* darker blue on hover */
+    border-bottom-color: #0056b3;
+  }
 .testimonial-card p {
     font-size: 0.95rem;
     line-height: 1.5;
@@ -928,7 +939,7 @@ body {
 }
 
 #blogModal .modal-header {
-  background-color: #00baff;  /* Navbar/Footer navy */
+      background-color: #0088cc;
   color: var(--secondary);           /* White text */
   border-bottom: 2px solid var(--accent);
 }
@@ -941,3 +952,9 @@ body {
   font-size: 1rem;
   line-height: 1.6;
 }
+.custom-modal {
+  max-width: 500px; /* width */
+}
+
+
+

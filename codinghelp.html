@@ -14,7 +14,7 @@
     body {
       background: rgba(0, 0, 0, 0.7);
       color: #fff;
-      
+
     }
 
     h1 {
@@ -75,6 +75,13 @@
     .lang-switch {
       margin: 10px 0;
       text-align: right;
+    }
+
+    .active-filter {
+      background: #00eaff !important;
+      /* active bg color */
+      color: black !important;
+      /* text white for contrast */
     }
 
     #bg-video {
@@ -140,7 +147,7 @@
               <a class="nav-link" href="/assignment.html"><i
                   class="fas fa-tasks d-block text-center"></i>Assignments</a>
             </li>
-                        <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="/blog.html"><i class="fas fa-blog d-block text-center"></i>Blog</a>
             </li>
             <li class="nav-item">
@@ -168,6 +175,12 @@
 
     <!-- HTML Example -->
     <div class="card concept html">
+      <strong class="text-center fs-3">
+        Learn Basic Coding here 👇. To access the full course,
+        <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4&t=7282s" target="_blank"
+          class="highlight-link fs-5 text-uppercase">Click Here</a>
+      </strong>
+      <hr>
       <h2>Parent And Child Element</h2>
       <p>Here, the <code>&lt;div&gt;</code> is the <strong>parent</strong> element.
         The two <code>&lt;p&gt;</code> tags inside it are <strong>child</strong> elements.
@@ -335,10 +348,12 @@
     Your browser does not support the video tag.
 &lt;/video&gt;
 </code></pre>
-<h2>Mini Project Html</h2>
-<p> This section contains the <b>HTML structure</b> of the mini project (To-Do List). It includes the input field, button, and task list elements. You can simply copy this code and run it directly in your browser.
-<i>Extra Note:</i> You can copy just this HTML part, or later download the full project as a ZIP file. </p>
-<pre><code>
+      <h2>Mini Project Html</h2>
+      <p> This section contains the <b>HTML structure</b> of the mini project (To-Do List). It includes the input field,
+        button, and task list elements. You can simply copy this code and run it directly in your browser.
+        <i>Extra Note:</i> You can copy just this HTML part, or later download the full project as a ZIP file.
+      </p>
+      <pre><code>
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;
@@ -363,6 +378,12 @@
 
     <!-- CSS Example -->
     <div class="card concept css">
+      <strong class="text-center fs-3">
+        Learn Basic Coding here 👇. To access the full course,
+        <a href="https://www.youtube.com/watch?v=ESnrn1kAD4E&t=21005s" target="_blank"
+          class="highlight-link fs-5 text-uppercase">Click Here</a>
+      </strong>
+      <hr>
       <h2>How To link CSS</h2>
       <h3>Internal Link</h3>
       <p>Internal CSS is written inside the <code>&lt;style&gt;</code> tag in the HTML <code>&lt;head&gt;</code>.
@@ -692,9 +713,12 @@ animation-timing-function → speed curve (linear, ease, ease-in-out)
 
 &lt;div class="box"&gt;Animated Box&lt;/div&gt;
 </code></pre>
-<h2>Mini Project CSS</h2>
-<p> Here you’ll find the <b>styling part</b> of the project. The CSS makes the layout clean and visually appealing by styling the container, buttons, and task list. This code is linked with HTML to enhance the overall design.
-<i>Extra Note:</i> You can try this CSS alone with the HTML above, or download the complete ZIP project for ready-to-use code. </p>
+      <h2>Mini Project CSS</h2>
+      <p> Here you’ll find the <b>styling part</b> of the project. The CSS makes the layout clean and visually appealing
+        by styling the container, buttons, and task list. This code is linked with HTML to enhance the overall design.
+        <i>Extra Note:</i> You can try this CSS alone with the HTML above, or download the complete ZIP project for
+        ready-to-use code.
+      </p>
       <pre><code>
 /* style.css */
 body {
@@ -767,10 +791,16 @@ li span {
     </div>
 
     <!-- Bootstrap Example -->
-    
+
 
     <!-- JavaScript Example -->
     <div class="card concept js">
+      <strong class="text-center fs-3">
+        Learn Basic Coding here 👇. To access the full course,
+        <a href="https://www.youtube.com/watch?v=ajdRvxDWH4w&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW" target="_blank"
+          class="highlight-link fs-5 text-uppercase">Click Here</a>
+      </strong>
+      <hr>
       <h2>JavaScript Variables</h2>
       <p>In JavaScript, variables are used to store data values. You can think of them as containers that hold
         information.
@@ -1244,47 +1274,52 @@ numbers.forEach(function(num) {
 - <code>forEach()</code> → Array method for looping.  
 </p>
 </code></pre>
-<h2>JavaScript Array Methods</h2>
-<p>
-Arrays are used to store multiple values in a single variable.  
-Some important methods to add or remove items in arrays are:
-</p>
-<h3>1. push()</h3>
-<pre><code><p>
+      <h2>JavaScript Array Methods</h2>
+      <p>
+        Arrays are used to store multiple values in a single variable.
+        Some important methods to add or remove items in arrays are:
+      </p>
+      <h3>1. push()</h3>
+      <pre><code><p>
 Adds an item at the <b>end</b> of the array.
 </p>let fruits = ["Apple", "Banana"];
 fruits.push("Mango");
 
 console.log(fruits); 
 // Output: ["Apple", "Banana", "Mango"]</code></pre>
-<h3>2. pop()</h3>
-<pre><code><p>
+      <h3>2. pop()</h3>
+      <pre><code><p>
 Removes the <b>last</b> item from the array.
 </p>let fruits = ["Apple", "Banana", "Mango"];
 fruits.pop();
 
 console.log(fruits); 
 // Output: ["Apple", "Banana"]</code></pre>
-<h3>3. shift()</h3>
-<pre><code><p>
+      <h3>3. shift()</h3>
+      <pre><code><p>
 Removes the <b>first</b> item from the array.
 </p>let fruits = ["Apple", "Banana", "Mango"];
 fruits.shift();
 
 console.log(fruits); 
 // Output: ["Banana", "Mango"]</code></pre>
-<h3>4. unshift()</h3>
-<pre><code><p>
+      <h3>4. unshift()</h3>
+      <pre><code><p>
 Adds an item at the <b>start</b> of the array.
 </p>let fruits = ["Banana", "Mango"];
 fruits.unshift("Apple");
 
 console.log(fruits); 
 // Output: ["Apple", "Banana", "Mango"]</code></pre>
-<h2>Mini Project JS</h2>
-<p> This section provides the <b>functionality</b> of the project. With JavaScript, the “Add Task” button works to insert new items into the task list, and the ❌ button removes tasks when clicked. This is what makes the project interactive.
-<i>Extra Note:</i> You can copy this JavaScript code separately or download the full project as a ZIP file and run it directly. </p> </p>
-<pre><code>&lt;script&gt;
+      <h2>Mini Project JS</h2>
+      <p> This section provides the <b>functionality</b> of the project. With JavaScript, the “Add Task” button works to
+        insert new items into the task list, and the ❌ button removes tasks when clicked. This is what makes the project
+        interactive.
+        <i>Extra Note:</i> You can copy this JavaScript code separately or download the full project as a ZIP file and
+        run it directly.
+      </p>
+      </p>
+      <pre><code>&lt;script&gt;
     function addTask() {
         
       let input = document.getElementById("taskInput");
@@ -1307,19 +1342,26 @@ console.log(fruits);
     }
   &lt;/script&gt;</code></pre>
       <div class="lang-switch">
-       <a href="/coding-help-practise.rar" download> <button class="btn btn-sm btn-outline-info toggle-lang px-3 py-2 rounded-4 fs-5">Download Full Project</button></a>
+        <a href="/coding-help-practise.rar" download> <button
+            class="btn btn-sm btn-outline-info toggle-lang px-3 py-2 rounded-4 fs-5">Download Full Project</button></a>
       </div>
-      
+
     </div>
-<div class="card concept bootstrap">
+    <div class="card concept bootstrap">
+      <strong class="text-center fs-3">
+        Learn Basic Coding here 👇. To access the full course,
+        <a href="https://www.youtube.com/watch?v=vpAJ0s5S2t0" target="_blank"
+          class="highlight-link fs-5 text-uppercase">Click Here</a>
+      </strong>
+      <hr>
       <h2>Introduction</h2>
       <pre><code><p>
 <b>Bootstrap</b> is a popular CSS framework that helps us create responsive and beautiful websites quickly.  
 It already provides ready-made classes for layout, colors, buttons, forms, and more 
  so we don’t need to write a lot of custom CSS.
 </p></code></pre>
-<h2>How To Use Bootstrap</h2>
-<pre><code><p>Bootstrap CDN method recommended</p>
+      <h2>How To Use Bootstrap</h2>
+      <pre><code><p>Bootstrap CDN method recommended</p>
 &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"&gt;<!-- Bootstrap JS (optional, for components like navbar, modal, carousel) -->
 &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
 
@@ -1328,11 +1370,11 @@ bootstrap.min.css and bootstrap.bundle.min.js in your project folder, and link t
 </pre>
       <h2>Bootstrap Grid System</h2>
       <p>
-The <b>Bootstrap Grid System</b> uses rows and columns to create responsive layouts. 
-Each row is divided into 12 equal columns, and you can decide how many columns each element should span. 
-This system ensures your design adjusts perfectly across different screen sizes.
-</p>
-<pre><code>&lt;div class="container"&gt;
+        The <b>Bootstrap Grid System</b> uses rows and columns to create responsive layouts.
+        Each row is divided into 12 equal columns, and you can decide how many columns each element should span.
+        This system ensures your design adjusts perfectly across different screen sizes.
+      </p>
+      <pre><code>&lt;div class="container"&gt;
   &lt;div class="row"&gt;
     &lt;div class="col" style="background:lightblue"&gt;Column 1&lt;/div&gt;
     &lt;div class="col" style="background:lightgreen"&gt;Column 2&lt;/div&gt;
@@ -1346,10 +1388,10 @@ This system ensures your design adjusts perfectly across different screen sizes.
     &lt;div class="col-8" style="background:lightgreen"&gt;Takes 8 columns&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-<h2>Bootstrap Breakpoints</h2>
-<p>Breakpoints are specific screen widths where Bootstrap changes the layout 
-to make websites responsive (mobile-friendly).</p>
-<pre><code><h4>Bootstrap Default Breakpoints</h4>- Extra Small (xs): &lt;576px  → class is just .col
+      <h2>Bootstrap Breakpoints</h2>
+      <p>Breakpoints are specific screen widths where Bootstrap changes the layout
+        to make websites responsive (mobile-friendly).</p>
+      <pre><code><h4>Bootstrap Default Breakpoints</h4>- Extra Small (xs): &lt;576px  → class is just .col
 - Small (sm): ≥576px → class is .col-sm
 - Medium (md): ≥768px → class is .col-md
 - Large (lg): ≥992px → class is .col-lg
@@ -1369,24 +1411,24 @@ to make websites responsive (mobile-friendly).</p>
 &lt;/div&gt;
 Breakpoints let you design layouts that look good on 
 MOBILE 📱, TABLET 💻, and DESKTOP 🖥️ devices.</code></pre>
-<h2> Container vs. Container-Fluid</h2>
-<p>✔ container
-- Fixed width (changes at breakpoints).
-- Content is centered with margins on left and right.
+      <h2> Container vs. Container-Fluid</h2>
+      <p>✔ container
+        - Fixed width (changes at breakpoints).
+        - Content is centered with margins on left and right.
 
-✔ container-fluid
-- Full width of the screen (always 100% width).
-- Used when you want your layout to span the entire page.</p>
-<pre><code>&lt;div class="container"&gt;
+        ✔ container-fluid
+        - Full width of the screen (always 100% width).
+        - Used when you want your layout to span the entire page.</p>
+      <pre><code>&lt;div class="container"&gt;
   &lt;p&gt;This is inside a fixed container.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class="container-fluid"&gt;
   &lt;p&gt;This is inside a full-width container.&lt;/p&gt;
 &lt;/div&gt;</code></pre>
-<h2>Bootstrap Typography & Text Utilities</h2>
-<p>Bootstrap provides built-in classes for headings, paragraphs, and text styling.</p>
-<pre><code><h4>Display Headings (larger font sizes)</h4>&lt;h1 class="display-1"&gt;Display 1&lt;/h1&gt;
+      <h2>Bootstrap Typography & Text Utilities</h2>
+      <p>Bootstrap provides built-in classes for headings, paragraphs, and text styling.</p>
+      <pre><code><h4>Display Headings (larger font sizes)</h4>&lt;h1 class="display-1"&gt;Display 1&lt;/h1&gt;
 &lt;h1 class="display-2"&gt;Display 2&lt;/h1&gt;
 &lt;h1 class="display-3"&gt;Display 3&lt;/h1&gt;<h4>Lead Paragraph</h4>&lt;p class="lead"&gt;
   This is a lead paragraph. It stands out from regular text.
@@ -1405,11 +1447,11 @@ MOBILE 📱, TABLET 💻, and DESKTOP 🖥️ devices.</code></pre>
 - .text-start, .text-center, .text-end → alignment
 - .text-* classes apply predefined Bootstrap colors
 - fw-* for font weight, fst-* for style</h5></code></pre>
-<h2>Bootstrap Buttons</h2>
-<p>Bootstrap provides pre-styled buttons with different colors, sizes, 
-and styles. Buttons are created using the &lt;button&gt; element or 
-an &lt;a&gt; (anchor) tag with class .btn.</p>
-<pre><code>&lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
+      <h2>Bootstrap Buttons</h2>
+      <p>Bootstrap provides pre-styled buttons with different colors, sizes,
+        and styles. Buttons are created using the &lt;button&gt; element or
+        an &lt;a&gt; (anchor) tag with class .btn.</p>
+      <pre><code>&lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
 &lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
 &lt;button class="btn btn-success"&gt;Success&lt;/button&gt;
 &lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;
@@ -1420,10 +1462,10 @@ an &lt;a&gt; (anchor) tag with class .btn.</p>
 button class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;
 &lt;button class="btn btn-outline-success"&gt;Success&lt;/button&gt;
 &lt;button class="btn btn-outline-danger"&gt;Danger&lt;/button&gt;</code></pre>
-<h2>Bootstrap Forms</h2>
-<p>Bootstrap provides ready-to-use styles for form elements like 
-input fields, labels, checkboxes, radios, and selects.</p>
-<pre><code><h4>Basic Form</h4>
+      <h2>Bootstrap Forms</h2>
+      <p>Bootstrap provides ready-to-use styles for form elements like
+        input fields, labels, checkboxes, radios, and selects.</p>
+      <pre><code><h4>Basic Form</h4>
   &lt;form&gt;
   &lt;div class="mb-3"&gt;
     &lt;label for="exampleInputEmail" class="form-label"&gt;Email address&lt;/label&gt;
@@ -1437,12 +1479,12 @@ input fields, labels, checkboxes, radios, and selects.</p>
 
   &lt;button type="submit" class="btn btn-primary"&gt;Submit&lt;/button&gt;
 &lt;/form&gt;</code></pre>
-<h3>Form Control Sizes</h3>
-<pre><code>&lt;input class="form-control form-control-lg" type="text" placeholder="Large input"&gt;
+      <h3>Form Control Sizes</h3>
+      <pre><code>&lt;input class="form-control form-control-lg" type="text" placeholder="Large input"&gt;
 &lt;input class="form-control" type="text" placeholder="Default input"&gt;
 &lt;input class="form-control form-control-sm" type="text" placeholder="Small input"&gt;</code></pre>
-<h3>Checkboxes &amp; Radio Buttons</h3>
-<pre><code>&lt;div class="form-check"&gt;
+      <h3>Checkboxes &amp; Radio Buttons</h3>
+      <pre><code>&lt;div class="form-check"&gt;
   &lt;input class="form-check-input" type="checkbox" id="check1"&gt;
   &lt;label class="form-check-label" for="check1"&gt;Remember Me&lt;/label&gt;
 &lt;/div&gt;
@@ -1451,8 +1493,8 @@ input fields, labels, checkboxes, radios, and selects.</p>
   &lt;input class="form-check-input" type="radio" name="options" id="radio1"&gt;
   &lt;label class="form-check-label" for="radio1"&gt;Option 1&lt;/label&gt;
 &lt;/div&gt;</code></pre>
-<h3>Select Dropdown</h3>
-<pre><code>&lt;select class="form-select"&gt;
+      <h3>Select Dropdown</h3>
+      <pre><code>&lt;select class="form-select"&gt;
   &lt;option selected&gt;Open this select menu&lt;/option&gt;
   &lt;option value="1"&gt;One&lt;/option&gt;
   &lt;option value="2"&gt;Two&lt;/option&gt;
@@ -1462,10 +1504,10 @@ input fields, labels, checkboxes, radios, and selects.</p>
 - .form-check for checkboxes &amp; radios
 - .form-select for dropdown menus
 - Use spacing classes like .mb-3 to separate fields</code></pre>
-<h2>Bootstrap Cards</h2>
-<p>Cards are flexible content containers with options for headers, 
-footers, images, and text.</p>
-<pre><code><h4>Basic Cards</h4>&lt;div class="card" style="width: 18rem;"&gt;
+      <h2>Bootstrap Cards</h2>
+      <p>Cards are flexible content containers with options for headers,
+        footers, images, and text.</p>
+      <pre><code><h4>Basic Cards</h4>&lt;div class="card" style="width: 18rem;"&gt;
   &lt;div class="card-body"&gt;
     &lt;h5 class="card-title"&gt;Card Title&lt;/h5&gt;
     &lt;p class="card-text"&gt;
@@ -1476,8 +1518,8 @@ footers, images, and text.</p>
 
 &lt;/div&gt;
 </code></pre>
-<h3>Card with Image</h3>
-<pre><code>lt;div class="card" style="width: 18rem;"&gt;
+      <h3>Card with Image</h3>
+      <pre><code>lt;div class="card" style="width: 18rem;"&gt;
   &lt;img src="https://via.placeholder.com/150" class="card-img-top" alt="..."/&gt;
   &lt;div class="card-body"&gt;
     &lt;h5 class="card-title"&gt;Card with Image&lt;/h5&gt;
@@ -1485,8 +1527,8 @@ footers, images, and text.</p>
     &lt;a href="#" class="btn btn-success"&gt;Read More&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-  <h3> Card with Header &amp; Footer</h3>
-  <pre><code>&lt;div class="card text-center"&gt;
+      <h3> Card with Header &amp; Footer</h3>
+      <pre><code>&lt;div class="card text-center"&gt;
   &lt;div class="card-header"&gt;
     Featured
   &lt;/div&gt;
@@ -1503,8 +1545,8 @@ footers, images, and text.</p>
 - .card-body holds text &amp; buttons
 - .card-img-top for images
 - .card-header and .card-footer for extra sections</code></pre>
-<h2>Important Bootstrap Components for Beginners</h2>
-<pre><code><h5>- Navbar
+      <h2>Important Bootstrap Components for Beginners</h2>
+      <pre><code><h5>- Navbar
 - Carousel
 - Modal
 - Dropdown
@@ -1512,32 +1554,44 @@ footers, images, and text.</p>
 <h4>By learning and practicing these components along with 
 the grid system and forms, you can easily build professional 
 responsive websites using Bootstrap.</h4></code></pre>
-<h2>Mini Project Bootstrap + jQuery</h2>
-<h4>Note</h4>
-<p>This project has been built using Bootstrap and jQuery together. To keep things simple, we are providing a single downloadable ZIP file that contains the complete mini project.</p>
-            <div class="lang-switch">
-       <a href="/coding-help-bootstrap.rar" download> <button class="btn btn-sm btn-outline-info toggle-lang px-3 py-2 rounded-4 fs-5">Download Full Project</button></a>
+      <h2>Mini Project Bootstrap + jQuery</h2>
+      <h4>Note</h4>
+      <p>This project has been built using Bootstrap and jQuery together. To keep things simple, we are providing a
+        single downloadable ZIP file that contains the complete mini project.</p>
+      <div class="lang-switch">
+        <a href="/coding-help-bootstrap.rar" download> <button
+            class="btn btn-sm btn-outline-info toggle-lang px-3 py-2 rounded-4 fs-5">Download Full Project</button></a>
       </div>
     </div>
     <!-- jQuery Example -->
     <div class="card concept jquery">
-<h2>Setup jQuery</h2>
-<p>Before you can use jQuery, you need to include its library in your project.
-You can do this easily using a CDN (Content Delivery Network).</p>
-<pre><code> Add inside <head> or just before closing </body>&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+      <strong class="text-center fs-3">
+        Learn Basic Coding here 👇. To access the full course,
+        <a href="https://www.youtube.com/watch?v=YFlx1C8XwR0" target="_blank"
+          class="highlight-link fs-5 text-uppercase">Click Here</a>
+      </strong>
+      <hr>
+      <h2>Setup jQuery</h2>
+      <p>Before you can use jQuery, you need to include its library in your project.
+        You can do this easily using a CDN (Content Delivery Network).</p>
+      <pre><code> Add inside <head> or just before closing </body>&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
 </code></pre>
-<h2>Document Ready</h2>
-<p>jQuery provides a special function $(document).ready() which ensures that your code runs only after the HTML page is fully loaded.
-  <b>Why Important?</b>
-If you try to run jQuery before the page is ready, it may not find the elements you are trying to manipulate.</p>
-<pre><code>&lt;script&gt;
+      <h2>Document Ready</h2>
+      <p>jQuery provides a special function $(document).ready() which ensures that your code runs only after the HTML
+        page is fully loaded.
+        <b>Why Important?</b>
+        If you try to run jQuery before the page is ready, it may not find the elements you are trying to manipulate.
+      </p>
+      <pre><code>&lt;script&gt;
   $(document).ready(function() {
     alert("Page is fully loaded and ready!");
   });&lt;/script&gt;
 </code></pre>
-<h2>Selectors & CSS Manipulation</h2>
-<p>jQuery selectors are very powerful. They allow you to pick elements just like CSS does:$("p") → selects all tags ,$("#id") → selects an element with a specific ID , $(".class") → selects all elements with a class.Once selected, you can change their style dynamically using .css().</p>
-<pre><code>&lt;p&gt;This is a paragraph&lt;/p&gt;
+      <h2>Selectors & CSS Manipulation</h2>
+      <p>jQuery selectors are very powerful. They allow you to pick elements just like CSS does:$("p") → selects all
+        tags ,$("#id") → selects an element with a specific ID , $(".class") → selects all elements with a class.Once
+        selected, you can change their style dynamically using .css().</p>
+      <pre><code>&lt;p&gt;This is a paragraph&lt;/p&gt;
 &lt;button id="styleBtn"&gt;Change Style&lt;button&gt;
 
 &lt;script&gt;
@@ -1547,10 +1601,10 @@ If you try to run jQuery before the page is ready, it may not find the elements 
     });
   });
 &lt;/script&gt;</code></pre>
-<h2>Hide and Show Elements</h2>
-<p>Sometimes you may want to temporarily hide an element and later show it again.
-jQuery provides .hide() and .show() methods for this.</p>
-<pre><code>&lt;p&gt;I can be hidden or shown!&lt;/p&gt;
+      <h2>Hide and Show Elements</h2>
+      <p>Sometimes you may want to temporarily hide an element and later show it again.
+        jQuery provides .hide() and .show() methods for this.</p>
+      <pre><code>&lt;p&gt;I can be hidden or shown!&lt;/p&gt;
 &lt;button id="hideBtn"&gt;Hide&lt;/button&gt;
 &lt;button id="showBtn"&gt;Show&lt;/button&gt;
 
@@ -1565,10 +1619,10 @@ jQuery provides .hide() and .show() methods for this.</p>
   });
 &lt;/script&gt;
 </code></pre>
-<h2>Toggle Elements</h2>
-<p>If you don't want two separate buttons (hide/show), you can use .toggle().
-It will automatically switch between visible and hidden.</p>
-<pre><code>&lt;p&gt;Click the button to toggle me!&lt;/p&gt;
+      <h2>Toggle Elements</h2>
+      <p>If you don't want two separate buttons (hide/show), you can use .toggle().
+        It will automatically switch between visible and hidden.</p>
+      <pre><code>&lt;p&gt;Click the button to toggle me!&lt;/p&gt;
 &lt;button id="toggleBtn"&gt;Toggle&lt;/button&gt;
 
 &lt;script&gt;
@@ -1581,10 +1635,13 @@ It will automatically switch between visible and hidden.</p>
 </code></pre>
       <h2>jQuery Events</h2>
       <p>Events are actions performed by the user (clicking, typing, hovering, etc.).
-In jQuery, you attach event handlers easily:
-<ul><li>.click() → runs when element is clicked</li>
-<li>.dblclick() → runs when element is double clicked</li>
-<li>.hover() → runs when mouse enters/leaves an element</li></ul></p>
+        In jQuery, you attach event handlers easily:
+      <ul>
+        <li>.click() → runs when element is clicked</li>
+        <li>.dblclick() → runs when element is double clicked</li>
+        <li>.hover() → runs when mouse enters/leaves an element</li>
+      </ul>
+      </p>
       <pre><code>&lt;script&gt;
   &lt;button id="clickMe"&gt;Click Me&lt;/button&gt;
 
@@ -1595,10 +1652,10 @@ In jQuery, you attach event handlers easily:
   });
 
 &lt;/script&gt;</code></pre>
-<h2>Animate Elements</h2>
-<p>jQuery can create simple animations with .animate().
-You can smoothly change CSS properties like size, position, or opacity over time.</p>
-<pre><code>&lt;div id="box" style="width:100px;height:100px;background:red;position:relative;"&gt;&lt;/div&gt;
+      <h2>Animate Elements</h2>
+      <p>jQuery can create simple animations with .animate().
+        You can smoothly change CSS properties like size, position, or opacity over time.</p>
+      <pre><code>&lt;div id="box" style="width:100px;height:100px;background:red;position:relative;"&gt;&lt;/div&gt;
 &lt;button id="moveBtn"&gt;Move Box&lt;/button&gt;
 
 &lt;script&gt;
@@ -1649,9 +1706,12 @@ You can smoothly change CSS properties like size, position, or opacity over time
               class="text-decoration-none text-light">studenthelpsite@gmail.com</a></p>
           <hr>
           <div class="d-flex gap-3">
-             <a href="https://www.facebook.com/profile.php?id=61557254610407&sk=friends" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/may_b.bisma/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="https://wa.me/+923702832123" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61557254610407&sk=friends" target="_blank"
+              class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/may_b.bisma/" target="_blank" class="social-icon"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/+923702832123" target="_blank" class="social-icon"><i
+                class="fab fa-whatsapp"></i></a>
           </div>
         </div>
       </div>
@@ -1662,24 +1722,25 @@ You can smoothly change CSS properties like size, position, or opacity over time
     </div>
   </footer>
   <script>
-    $(document).ready(function () {
-      $('.filter').click(function () {
-        var filterValue = $(this).data('filter');
-        $('.concept').hide();
-        $('.' + filterValue).show();
-      });
-      $('.filter').click(function () {
-        var filterValue = $(this).data('filter');
-        if (filterValue === "all") {
-          $('.concept').show();
-        } else {
-          $('.concept').hide();
-          $('.' + filterValue).show();
-        }
-      });
+$(document).ready(function () {
+  $('.filter').click(function () {
+    var filterValue = $(this).data('filter');
 
-      
-    });
+    // 🔹 active class set karna
+    $('.filter').removeClass('active-filter');
+    $(this).addClass('active-filter');
+
+    // filter logic
+    if (filterValue === "all") {
+      $('.concept').show();
+    } else {
+      $('.concept').hide();
+      $('.' + filterValue).show();
+    }
+  });
+});
+
+
   </script>
   <!-- bootstrap js bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
